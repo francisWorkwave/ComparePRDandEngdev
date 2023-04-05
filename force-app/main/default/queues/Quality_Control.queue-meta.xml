@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Quality Control</name>
+    <queueMembers>
+        <roles>
+            <role>Client_Operations_Manager</role>
+            <role>QC_TEI_Team_Lead</role>
+            <role>Quality_Control_Advocate</role>
+            <role>Quality_Control_Manager</role>
+        </roles>
+        <users>
+            <user>amy.ames@taskeasy.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>CaseRouting</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

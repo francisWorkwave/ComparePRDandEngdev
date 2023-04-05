@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use this when creating a second line of communication to a contractor regarding a bid originally requested by a client or consumer.</description>
+    <fieldOverrides>
+        <field>Address__c</field>
+        <formula>Case.Address__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Customer_Name__c</field>
+        <formula>Case.Customer_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>Case.Subject</formula>
+    </fieldOverrides>
+    <label>New Contractor Bid Case</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>AccountId</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ContactId</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Status</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Description</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <targetObject>Case</targetObject>
+    <targetParentField>Parent</targetParentField>
+    <targetRecordType>Case.Bid_Process_Details</targetRecordType>
+    <type>Create</type>
+</QuickAction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ready_to_Accept_Work__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field represents the contractors ability to take on work. If it is unchecked we will not assign work.</description>
+    <externalId>false</externalId>
+    <label>Active For Route Op Match</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

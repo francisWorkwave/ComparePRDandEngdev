@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ASP</fullName>
+        <default>false</default>
+        <label>ASP</label>
+    </customValue>
+    <customValue>
+        <fullName>On Demand</fullName>
+        <default>true</default>
+        <label>On Demand</label>
+    </customValue>
+    <masterLabel>Plan Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

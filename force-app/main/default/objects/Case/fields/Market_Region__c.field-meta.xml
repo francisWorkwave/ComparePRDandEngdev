@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Region__c</fullName>
+    <description>Identifies the region in which a specific case is worked, updated via process with State data as criteria.
+allows manual updating to un-routed cases</description>
+    <externalId>false</externalId>
+    <label>Market Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arizona and Colorado</fullName>
+                <default>false</default>
+                <label>Arizona and Colorado</label>
+            </value>
+            <value>
+                <fullName>Blue Ridge</fullName>
+                <default>false</default>
+                <label>Blue Ridge</label>
+            </value>
+            <value>
+                <fullName>Carolinas</fullName>
+                <default>false</default>
+                <label>Carolinas</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Florida</fullName>
+                <default>false</default>
+                <label>Florida</label>
+            </value>
+            <value>
+                <fullName>Georgia</fullName>
+                <default>false</default>
+                <label>Georgia</label>
+            </value>
+            <value>
+                <fullName>Great Lakes</fullName>
+                <default>false</default>
+                <label>Great Lakes</label>
+            </value>
+            <value>
+                <fullName>North East</fullName>
+                <default>false</default>
+                <label>North East</label>
+            </value>
+            <value>
+                <fullName>Texas</fullName>
+                <default>false</default>
+                <label>Texas</label>
+            </value>
+            <value>
+                <fullName>West Coast</fullName>
+                <default>false</default>
+                <label>West Coast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

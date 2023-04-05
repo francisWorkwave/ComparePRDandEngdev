@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>The specific client to whom this bundle/package is available.</inlineHelpText>
+    <label>Client</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Products</relationshipLabel>
+    <relationshipName>Client_Products</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

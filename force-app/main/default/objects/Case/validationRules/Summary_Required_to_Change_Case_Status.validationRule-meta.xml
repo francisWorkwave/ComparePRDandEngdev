@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summary_Required_to_Change_Case_Status</fullName>
+    <active>false</active>
+    <description>Requires the Case Change Summary Field to be populated when a case status is changed.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status),
+NOT(ISCHANGED( Status_Change_Summary__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Status_Change_Summary__c</errorDisplayField>
+    <errorMessage>Please provide a brief summary of the current case status and the reason for the status change.</errorMessage>
+</ValidationRule>

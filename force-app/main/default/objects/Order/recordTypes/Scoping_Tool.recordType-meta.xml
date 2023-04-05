@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoping_Tool</fullName>
+    <active>true</active>
+    <label>Scoping Tool Order</label>
+    <picklistValues>
+        <picklist>Billing_Type__c</picklist>
+        <values>
+            <fullName>Advance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arrears</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Even Pay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Schedule__c</picklist>
+        <values>
+            <fullName>As Incurred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Even Pay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Type__c</picklist>
+        <values>
+            <fullName>ASP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Demand</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ContractingMethod__c</picklist>
+        <values>
+            <fullName>By Subscription End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Contract</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__PaymentTerm__c</picklist>
+        <values>
+            <fullName>Net 30</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__PriceCalcStatus__c</picklist>
+        <values>
+            <fullName>Aborted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Queued</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Property Management</fullName>
+        <default>false</default>
+        <label>Property Management</label>
+    </customValue>
+    <customValue>
+        <fullName>SFR (Owners)</fullName>
+        <default>false</default>
+        <label>SFR (Owners)</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>iBuyer</fullName>
+        <default>false</default>
+        <label>iBuyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Prop Pres</fullName>
+        <default>false</default>
+        <label>Prop Pres</label>
+    </customValue>
+    <customValue>
+        <fullName>Build for Rent</fullName>
+        <default>false</default>
+        <label>Build for Rent</label>
+    </customValue>
+    <customValue>
+        <fullName>City/HOA</fullName>
+        <default>false</default>
+        <label>City/HOA</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Family</fullName>
+        <default>false</default>
+        <label>Multi Family</label>
+    </customValue>
+    <customValue>
+        <fullName>REO</fullName>
+        <default>false</default>
+        <label>REO</label>
+    </customValue>
+    <customValue>
+        <fullName>Short Term Rental</fullName>
+        <default>false</default>
+        <label>Short Term Rental</label>
+    </customValue>
+    <masterLabel>Vertical</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

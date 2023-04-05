@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Finance: Consumer Failed Payment</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Reason</fieldNames>
+        <info>&lt;p&gt;Please select a &amp;quot;&lt;b&gt;Case Reason&lt;/b&gt;&amp;quot; &lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Reason</fieldNames>
+        <fieldNames>Case_Resolution_Reason__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Please select a &lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&amp;quot;Case Reason&amp;quot;&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; and &amp;quot;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Case Resolution Reason&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;quot; before moving this Case to &amp;quot;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Closed&amp;quot;&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Waiting on Consumer Response</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Finance_Failed_Payment</recordTypeName>
+</PathAssistant>

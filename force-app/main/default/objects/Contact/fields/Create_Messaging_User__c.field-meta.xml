@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Messaging_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Manually creates a messaging user if the contact is eligible. This checkbox is only used to trigger a flow that creates a messaging user related to contact.</description>
+    <externalId>false</externalId>
+    <label>Create Messaging User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

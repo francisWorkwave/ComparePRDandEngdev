@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_ID_updated_before_client_is_activ</fullName>
+    <active>false</active>
+    <description>Before a client can be considered active, the client ID must be updated to the proper format.</description>
+    <errorConditionFormula>AND(
+TEXT(Customer_Type__c) = &apos;Client&apos;, 
+TEXT(Status__c) = &apos;Active&apos;,
+OR(
+LEN(TEXT(TE_User_Id__c)) &lt;= 7,
+LEFT(TEXT(TE_User_Id__c),7) &lt;&gt; &apos;1234567&apos;,
+ISBLANK(TE_User_Id__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Please verify the format of the TE User ID before activating this client.  It needs to be 1234567---, where the dashes are the Gil Client ID (1-3+ digits-no leading zeros)</errorMessage>
+</ValidationRule>

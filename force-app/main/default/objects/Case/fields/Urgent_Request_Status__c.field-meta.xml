@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Urgent_Request_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use Review client team if you opened a recruitment review EM or need more info from the client team</inlineHelpText>
+    <label>Urgent Request Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <label>Working</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Review Client Team</fullName>
+                <default>false</default>
+                <label>Review Client Team</label>
+            </value>
+            <value>
+                <fullName>Unable to Resolve</fullName>
+                <default>false</default>
+                <label>Unable to Resolve</label>
+            </value>
+            <value>
+                <fullName>Recruitment Needed</fullName>
+                <default>false</default>
+                <label>Recruitment Needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

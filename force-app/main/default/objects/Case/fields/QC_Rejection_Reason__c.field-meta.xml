@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QC_Rejection_Reason__c</fullName>
+    <description>Used in the QC Process</description>
+    <externalId>false</externalId>
+    <label>Rejection Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>QC_Responsible_Party__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Rejection_Reason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Blurry/unclear Photos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>String Trimming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Mowing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Grass Clippings (OG)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Blow Leaves/Grass Clippings/Incedental Debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Deep Edging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Bush Trimming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Spraying/Pulling Weeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Debris remains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Gravel Not Raked Evenly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Tree Trimming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Stump Not Ground</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Debris Not Removed from Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Debris left in Client&apos;s Garbage Can</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Old Mulch Not Removed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Wrong Color of Mulch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Not all Leaves removed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Deicer Not Applied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Snow Not Cleared</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Wrong Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Serviced Too Soon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Photos Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Duplicate Photos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>2nd chance not completed over 72 hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Appliances Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Mirrors Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Floors Not Vacuumed/Swept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Toilets Not Cleaned/Water Recycled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Counters Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Faucets Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Tub/Shower Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Skimmer Basket Not Cleaned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Gate Not Locked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Chemical Test Kit Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Pool Shows Debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Key Not Replaced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Not Enough Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>VM Full</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>VM Not Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Refused to Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Weather Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Can&apos;t Complete Until Next Week</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>No Work Marked Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Bid Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Scheduling Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Rep Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>TE System Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Tenant Refused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Occupied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Onsite Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Access Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Incorrect Property Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>No Mulch Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Fix It Client Issue</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

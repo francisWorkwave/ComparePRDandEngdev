@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Validation_Contractor_ID_Req</fullName>
+    <active>true</active>
+    <description>Contractor ID is required before updating Lead status to Nurturing.</description>
+    <errorConditionFormula>ISCHANGED( Lead_Stage__c) &amp;&amp; ISBLANK( Contractor_ID__c ) &amp;&amp; ISPICKVAL( Lead_Stage__c , &quot;Account Created - Nurturing&quot;)</errorConditionFormula>
+    <errorMessage>Please enter the Contractor ID before updating the Lead stage to  &quot;Account Created - Nurturing&quot;</errorMessage>
+</ValidationRule>

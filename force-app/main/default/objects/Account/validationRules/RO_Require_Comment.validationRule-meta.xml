@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RO_Require_Comment</fullName>
+    <active>false</active>
+    <description>Requires a comment when changes are made to Route Optimization Fields</description>
+    <errorConditionFormula>AND(
+ISBLANK(RO_Comments__c),
+$Profile.Id &lt;&gt; &apos;00e6g0000026NM7&apos;,
+OR(
+ISCHANGED(Sunday__c),
+ISCHANGED(Monday__c),
+ISCHANGED(Tuesday__c),
+ISCHANGED(Wednesday__c),
+ISCHANGED(Thursday__c),
+ISCHANGED(Friday__c),
+ISCHANGED(Saturday__c),
+ISCHANGED( RO_Sunday_Starting_Location__c ),
+ISCHANGED( RO_Monday_Starting_Location__c ),
+ISCHANGED( RO_Tuesday_Starting_Location__c ),
+ISCHANGED( RO_Wednesday_Starting_Location__c ),
+ISCHANGED( RO_Thursday_Starting_Location__c ),
+ISCHANGED( RO_Friday_Starting_Location__c ),
+ISCHANGED( RO_Saturday_Starting_Location__c ),
+ISCHANGED(Job_Minimum__c),
+ISCHANGED(RO_Market__c),
+ISCHANGED( Active_For_Route_Optimization__c )
+
+))</errorConditionFormula>
+    <errorDisplayField>RO_Comments__c</errorDisplayField>
+    <errorMessage>You must include a comment when changing RO data.</errorMessage>
+</ValidationRule>

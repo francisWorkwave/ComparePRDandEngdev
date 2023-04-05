@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Eligible_Req_for_SMS_Enabled</fullName>
+    <active>true</active>
+    <description>Requires &quot;SMS Eligible&quot; to be TRUE in order to make the &quot;SMS Enabled&quot; Checkbox TRUE</description>
+    <errorConditionFormula>IF(
+AND( SMS_Eligible__c = FALSE ,  SMS_Enabled__c = TRUE), 
+TRUE, FALSE
+)</errorConditionFormula>
+    <errorMessage>Contact has not opted in to receive text messages</errorMessage>
+</ValidationRule>

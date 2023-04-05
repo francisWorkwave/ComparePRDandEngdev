@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Date_Req_Status_Work_Pending</fullName>
+    <active>true</active>
+    <description>Requires a value for &quot;Scheduled Date&quot; when the status has value of &quot;Work Pending&quot;</description>
+    <errorConditionFormula>IF(
+AND(
+ISPICKVAL(Status, &quot;Work Pending&quot;), ISBLANK(Scheduled_Date__c)),
+True, False
+)</errorConditionFormula>
+    <errorMessage>Please enter a &quot;Scheduled Date&quot; Value when selecting the status of &quot;Work Pending&quot;</errorMessage>
+</ValidationRule>

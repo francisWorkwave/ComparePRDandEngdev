@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Date__c</fullName>
+    <description>Completion Date of this support request</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Completion Date of this support request</inlineHelpText>
+    <label>Completion Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

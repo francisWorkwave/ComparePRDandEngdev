@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excluded_From_Routing__c</fullName>
+    <description>Used to distinguish cases that should be excluded from Market Routing from within Process builder. --- used for criteria only</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISPICKVAL(Origin, &quot;Email: BPI Request&quot;) ||
+  ISPICKVAL( BPI_Service_Type__c , &quot;SALESCLEAN&quot;) &amp;&amp; ISPICKVAL(Origin, &apos;Contractor Reported a Problem&apos;) ||
+  ISPICKVAL( BPI_Service_Type__c , &quot;POOLCLEANING&quot;) &amp;&amp; ISPICKVAL(Origin, &apos;Contractor Reported a Problem&apos;) ||
+  ISPICKVAL( BPI_Service_Type__c , &quot;SALESCLEAN&quot;) &amp;&amp; ISPICKVAL(Origin, &quot;Reject&quot;) &amp;&amp; ISPICKVAL( Reason, &quot;Reject&quot; )||
+  ISPICKVAL( BPI_Service_Type__c , &quot;POOLCLEANING&quot;) &amp;&amp; ISPICKVAL(Origin, &quot;Reject&quot;) &amp;&amp; ISPICKVAL( Reason, &quot;Reject&quot; )|| 
+  ISPICKVAL(Origin, &quot;Email: Pools&quot;) || 
+  ISPICKVAL(Origin, &quot;Email: Cleans&quot;) || 
+  ISPICKVAL(Origin, &quot;Reject&quot;) || 
+  ISPICKVAL(Origin, &quot;Web&quot;) || 
+  ISPICKVAL( Reason, &quot;Reject&quot; ) ||
+  ISPICKVAL( Reason, &quot;Sales Pricing Request&quot; ) || 
+  ISPICKVAL( Reason, &quot;ANET Failed Payment&quot; ) || 
+  $UserRole.DeveloperName = &quot;Cleans&quot; || 
+  $UserRole.DeveloperName = &quot;New_Verticals_Manager&quot; ||
+  $UserRole.DeveloperName = &quot;New_Verticals_Market_Manager&quot; || 
+  RecordType.DeveloperName = &quot;BPI_Requests&quot; || 
+  Original_Queue__c = &quot;Violations&quot; ||
+  AND(ISPICKVAL(Origin, &quot;Email&quot;),  RecordType.DeveloperName = &quot;Bid_Process_Details&quot;,  ISPICKVAL(Priority, &quot;Medium&quot;)) ||
+  Account.RecordType.DeveloperName = &quot;Consumer_Account&quot; , 
+True, False
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Excluded From Routing</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

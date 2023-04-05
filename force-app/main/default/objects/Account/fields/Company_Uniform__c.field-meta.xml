@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Uniform__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does the contractor require their employees to adhere to a dress code or company branded uniform?</description>
+    <externalId>false</externalId>
+    <label>Company Uniform</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

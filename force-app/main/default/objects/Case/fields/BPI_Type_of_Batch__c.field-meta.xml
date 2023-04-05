@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPI_Type_of_Batch__c</fullName>
+    <description>This field is used for the BPI request process - replaces the depreciated Google form that was filled out by the Client team</description>
+    <externalId>false</externalId>
+    <label>Type of Batch</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BPI_All Batch - (All existing properties NOT on this list will be CANCELLED)</fullName>
+                <default>false</default>
+                <label>All Batch - (All existing properties NOT on this list will be CANCELLED)</label>
+            </value>
+            <value>
+                <fullName>All Batch - Only Customers in File - (All existing properties NOT on this list will be CANCELLED for the Gil Customers Included in file)</fullName>
+                <default>false</default>
+                <label>All Batch - Only Customers in File - (All existing properties NOT on this list will be CANCELLED for the Gil Customers Included in file)</label>
+            </value>
+            <value>
+                <fullName>BPI_Change Batch - (Just ADD these properties, leave everything else alone)</fullName>
+                <default>false</default>
+                <label>Change Batch - (Just ADD these properties, leave everything else alone)</label>
+            </value>
+            <value>
+                <fullName>BPI_Pricing Only</fullName>
+                <default>false</default>
+                <label>Pricing Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

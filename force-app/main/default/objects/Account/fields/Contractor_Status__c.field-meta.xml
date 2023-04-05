@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Contractor Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>true</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Deactivated User</fullName>
+                <default>false</default>
+                <label>Deactivated User</label>
+            </value>
+            <value>
+                <fullName>Inactive - Poor Quality</fullName>
+                <default>false</default>
+                <label>Inactive - Poor Quality</label>
+            </value>
+            <value>
+                <fullName>Inactive - No Communication</fullName>
+                <default>false</default>
+                <label>Inactive - No Communication</label>
+            </value>
+            <value>
+                <fullName>Inactive - No Longer in Business</fullName>
+                <default>false</default>
+                <label>Inactive - No Longer in Business</label>
+            </value>
+            <value>
+                <fullName>Inactive - Incomplete W9</fullName>
+                <default>false</default>
+                <label>Inactive - Incomplete W9</label>
+            </value>
+            <value>
+                <fullName>Inactive - No Longer Wants to Work With TaskEasy</fullName>
+                <default>false</default>
+                <label>Inactive - No Longer Wants to Work With TaskEasy</label>
+            </value>
+            <value>
+                <fullName>Inactive - Personal Emergency</fullName>
+                <default>false</default>
+                <label>Inactive - Personal Emergency</label>
+            </value>
+            <value>
+                <fullName>Inactive - T&amp;C&apos;s Not Signed</fullName>
+                <default>false</default>
+                <label>Inactive - T&amp;C&apos;s Not Signed</label>
+            </value>
+            <value>
+                <fullName>Inactive - Never Completed a Job</fullName>
+                <default>false</default>
+                <label>Inactive - Never Completed a Job</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

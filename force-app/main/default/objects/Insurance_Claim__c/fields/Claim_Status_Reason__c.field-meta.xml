@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Status_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Claim Status Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Claimant Did Not Proceed</fullName>
+                <default>false</default>
+                <label>Claimant Did Not Proceed</label>
+            </value>
+            <value>
+                <fullName>Contractor Filing w/ Own Insurance</fullName>
+                <default>false</default>
+                <label>Contractor Filing w/ Own Insurance</label>
+            </value>
+            <value>
+                <fullName>Claim Paid</fullName>
+                <default>false</default>
+                <label>Claim Paid</label>
+            </value>
+            <value>
+                <fullName>Contractor Repaired Out of Pocket</fullName>
+                <default>false</default>
+                <label>Contractor Repaired Out of Pocket</label>
+            </value>
+            <value>
+                <fullName>(Denied) Claimant Unresponsive</fullName>
+                <default>false</default>
+                <label>(Denied) Claimant Unresponsive</label>
+            </value>
+            <value>
+                <fullName>(Denied) Contractor Not At Fault</fullName>
+                <default>false</default>
+                <label>(Denied) Contractor Not At Fault</label>
+            </value>
+            <value>
+                <fullName>(Denied) Not Enough Evidence Provided</fullName>
+                <default>false</default>
+                <label>(Denied) Not Enough Evidence Provided</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

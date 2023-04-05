@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Reason_for_Adjustment__c</field>
+        <field>Adjustment_Explanation__c</field>
+        <field>Adjustment_Amount__c</field>
+        <field>Amount__c</field>
+        <field>Submission_Date__c</field>
+        <field>Submission_Notes__c</field>
+        <field>Contractor_Name__c</field>
+        <field>Client_Consumer_Name__c</field>
+        <field>Customer_Type__c</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <description>All consumer record type requests that meet or exceed $25 must be approved by manager of record
+ALL contractor record adjustment requests must be reviewed by manager of record regardless of amount</description>
+        <entryCriteria>
+            <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Funds_Adjustment_Request__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>25</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Funds_Adjustment_Request__c.RecordType</field>
+                <operation>equals</operation>
+                <value>Consumer Adjustment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Funds_Adjustment_Request__c.RecordType</field>
+                <operation>equals</operation>
+                <value>Contractor Adjustment</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Contractor or Consumer &gt; 25</label>
+        <name>Contractor_Consumer_25</name>
+    </approvalStep>
+    <description>Approval process for Funds Adjustment Requests</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Funds_Adjustment_Request__c.Operations_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Funds_Adjustment_Request__c.RecordType</field>
+            <operation>equals</operation>
+            <value>Contractor Adjustment</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Funds_Adjustment_Request__c.RecordType</field>
+            <operation>equals</operation>
+            <value>Consumer Adjustment</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Finance_Pending_Consumer</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Finance_Pending_Contractor</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Operation_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Operation_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Request_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Submitted_for_Approval_False</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Operation_Status_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Request_Status_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Submitted_for_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>FAR Contractor &amp; Consumer</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>true</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>2</processOrder>
+    <recallActions>
+        <action>
+            <name>Operation_Status_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Submitted_for_Approval_False</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

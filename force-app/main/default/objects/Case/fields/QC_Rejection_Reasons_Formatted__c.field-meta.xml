@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QC_Rejection_Reasons_Formatted__c</fullName>
+    <description>Comma separated values of the &apos;QC rejection Reasons&apos; Multi-select picklist field. Auto populated by apex trigger.</description>
+    <externalId>false</externalId>
+    <label>QC Rejection Reasons (Formatted)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

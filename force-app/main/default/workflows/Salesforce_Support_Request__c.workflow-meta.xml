@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_Request_Email_Notification</fullName>
+        <description>New Request Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jared.wangsgard@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jose.lucero@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Support_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Salesforce_Support_Request_Status_Update</fullName>
+        <description>Salesforce Support Request Status Update</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Assigned_to__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/Support_Request_Status_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>User_Story_Status_Update</fullName>
+        <description>User Story Status Update Email</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>jared.wangsgard@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Assigned_to__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/User_Story_Status_Update</template>
+    </alerts>
+    <rules>
+        <fullName>Notify on Record Create</fullName>
+        <actions>
+            <name>New_Request_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Title</field>
+            <operation>notContain</operation>
+            <value>Salesforce</value>
+        </criteriaItems>
+        <description>Notifies SF Team of new support request cases</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

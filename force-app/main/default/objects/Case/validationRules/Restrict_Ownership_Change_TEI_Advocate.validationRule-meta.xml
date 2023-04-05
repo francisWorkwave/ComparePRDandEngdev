@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Ownership_Change_TEI_Advocate</fullName>
+    <active>true</active>
+    <description>Restricts ownership changes by the TEI Advocate role to Queues and accepting cases only</description>
+    <errorConditionFormula>AND(
+$UserRole.DeveloperName = &apos;TEI_Market_Support_Advocate&apos;,
+ISCHANGED( OwnerId ),
+OR(
+LEFT((OwnerId ), 3) &lt;&gt; &apos;00G&apos;),
+$User.Id &lt;&gt; OwnerId
+)</errorConditionFormula>
+    <errorMessage>You may only change the ownership of a case to a queue</errorMessage>
+</ValidationRule>

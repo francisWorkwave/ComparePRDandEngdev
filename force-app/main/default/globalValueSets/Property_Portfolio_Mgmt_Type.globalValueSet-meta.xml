@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Single Family</fullName>
+        <default>false</default>
+        <label>Single Family</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Family</fullName>
+        <default>false</default>
+        <label>Multi Family</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>iBuyer</fullName>
+        <default>false</default>
+        <label>iBuyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Short Term Rental</fullName>
+        <default>false</default>
+        <label>Short Term Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>REO</fullName>
+        <default>false</default>
+        <label>REO</label>
+    </customValue>
+    <customValue>
+        <fullName>HOA</fullName>
+        <default>false</default>
+        <label>HOA</label>
+    </customValue>
+    <customValue>
+        <fullName>Build for Rent</fullName>
+        <default>false</default>
+        <label>Build for Rent</label>
+    </customValue>
+    <customValue>
+        <fullName>Senior Living</fullName>
+        <default>false</default>
+        <label>Senior Living</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Housing</fullName>
+        <default>false</default>
+        <label>Student Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>City/Government</fullName>
+        <default>false</default>
+        <label>City/Government</label>
+    </customValue>
+    <masterLabel>Property Portfolio / Mgmt Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Account_Deactivation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If an account is Active, check to request account deactivation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If an account is Active, check to request account deactivation.</inlineHelpText>
+    <label>Request Account Deactivation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

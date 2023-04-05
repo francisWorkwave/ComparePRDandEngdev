@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Moving</fullName>
+        <default>false</default>
+        <label>Moving</label>
+    </customValue>
+    <customValue>
+        <fullName>Dissatisfied with Quality</fullName>
+        <default>false</default>
+        <label>Dissatisfied with Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Dissatisfied with Timeliness</fullName>
+        <default>false</default>
+        <label>Dissatisfied with Timeliness</label>
+    </customValue>
+    <customValue>
+        <fullName>Self / Resident will Service</fullName>
+        <default>false</default>
+        <label>Self / Resident will Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Service was Temporary</fullName>
+        <default>false</default>
+        <label>Service was Temporary</label>
+    </customValue>
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound - No Contractor Available</fullName>
+        <default>false</default>
+        <label>Outbound - No Contractor Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Access Issue</fullName>
+        <default>false</default>
+        <label>Access Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant Refused Service</fullName>
+        <default>false</default>
+        <label>Tenant Refused Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Altercation</fullName>
+        <default>false</default>
+        <label>Onsite Altercation</label>
+    </customValue>
+    <customValue>
+        <fullName>Can&apos;t Find Property</fullName>
+        <default>false</default>
+        <label>Can&apos;t Find Property</label>
+    </customValue>
+    <customValue>
+        <fullName>No Work Needed</fullName>
+        <default>false</default>
+        <label>No Work Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Overgrowth Bid</fullName>
+        <default>false</default>
+        <label>Overgrowth Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Overgrowth Bid</fullName>
+        <default>false</default>
+        <label>Non-Overgrowth Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>Issues with Quality</fullName>
+        <default>false</default>
+        <label>Issues with Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Issues with Timeliness</fullName>
+        <default>false</default>
+        <label>Issues with Timeliness</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Issues</fullName>
+        <default>false</default>
+        <label>Onsite Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance Claim</fullName>
+        <default>false</default>
+        <label>Insurance Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Issue or Question</fullName>
+        <default>false</default>
+        <label>Payment Issue or Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Ordering New or Additional Service</fullName>
+        <default>false</default>
+        <label>Ordering New or Additional Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Setting Off-Season or On-Season</fullName>
+        <default>false</default>
+        <label>Setting Off-Season or On-Season</label>
+    </customValue>
+    <customValue>
+        <fullName>Website or App Issues</fullName>
+        <default>false</default>
+        <label>Website or App Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound - Other Project</fullName>
+        <default>false</default>
+        <label>Outbound - Other Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Instruction Questions</fullName>
+        <default>false</default>
+        <label>Job Instruction Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Update on Bid</fullName>
+        <default>false</default>
+        <label>Update on Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer Wants to Work with TaskEasy</fullName>
+        <default>false</default>
+        <label>No Longer Wants to Work with TaskEasy</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Routing Information</fullName>
+        <default>false</default>
+        <label>Updating Routing Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Account Information</fullName>
+        <default>false</default>
+        <label>Updating Account Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Task Instructions</fullName>
+        <default>false</default>
+        <label>Updating Task Instructions</label>
+    </customValue>
+    <customValue>
+        <fullName>Requesting More Work</fullName>
+        <default>false</default>
+        <label>Requesting More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Request to Skip a Job</fullName>
+        <default>false</default>
+        <label>Request to Skip a Job</label>
+    </customValue>
+    <customValue>
+        <fullName>Schedule Questions</fullName>
+        <default>false</default>
+        <label>Schedule Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Reassign a Single Job Request</fullName>
+        <default>false</default>
+        <label>Reassign a Single Job Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Reschedule Request</fullName>
+        <default>false</default>
+        <label>Reschedule Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejection Question/Discussion</fullName>
+        <default>false</default>
+        <label>Rejection Question/Discussion</label>
+    </customValue>
+    <customValue>
+        <fullName>Relationship Building</fullName>
+        <default>false</default>
+        <label>Relationship Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound  - Past Due or Job Reminder</fullName>
+        <default>false</default>
+        <label>Outbound  - Past Due or Job Reminder</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound - Future Job Count</fullName>
+        <default>false</default>
+        <label>Outbound - Future Job Count</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid Related</fullName>
+        <default>false</default>
+        <label>Bid Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant Issue/Concerns</fullName>
+        <default>false</default>
+        <label>Tenant Issue/Concerns</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactive Property</fullName>
+        <default>false</default>
+        <label>Inactive Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Concern with Property/Properties</fullName>
+        <default>false</default>
+        <label>Concern with Property/Properties</label>
+    </customValue>
+    <customValue>
+        <fullName>Seasonality / Frequency</fullName>
+        <default>false</default>
+        <label>Seasonality / Frequency</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance/Invoicing</fullName>
+        <default>false</default>
+        <label>Finance/Invoicing</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Portal Issue</fullName>
+        <default>false</default>
+        <label>Client Portal Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>General Questions</fullName>
+        <default>false</default>
+        <label>General Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalation</fullName>
+        <default>false</default>
+        <label>Escalation</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Task Earnings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Task Earnings</label>
+    </customValue>
+    <customValue>
+        <fullName>Dangerous/Unsafe Area</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dangerous/Unsafe Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Equipment Reasons</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Equipment Reasons</label>
+    </customValue>
+    <customValue>
+        <fullName>Earnings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Earnings</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer in Business</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Longer in Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Enough Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not Enough Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad CS Experience</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bad CS Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Temporary</label>
+    </customValue>
+    <customValue>
+        <fullName>Moved</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Moved</label>
+    </customValue>
+    <customValue>
+        <fullName>New Provider</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Provider</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Instructions</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Delays &amp; Reschedules</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delays &amp; Reschedules</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer Needed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Longer Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Checking on Bid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Checking on Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>No Contractor Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Contractor Available</label>
+    </customValue>
+    <customValue>
+        <fullName>More Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid Status</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bid Status</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Delays</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delays</label>
+    </customValue>
+    <customValue>
+        <fullName>Unhappy with TaskEasy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unhappy with TaskEasy</label>
+    </customValue>
+    <customValue>
+        <fullName>Unhappy with TE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unhappy with TE</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of Service Area</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Out of Service Area</label>
+    </customValue>
+    <masterLabel>Inquiry Sub Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

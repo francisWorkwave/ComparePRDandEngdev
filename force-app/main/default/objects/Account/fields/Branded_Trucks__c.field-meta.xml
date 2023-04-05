@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branded_Trucks__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does the company run or utilize trucks with the company branding on them?</description>
+    <externalId>false</externalId>
+    <label>Branded Trucks</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

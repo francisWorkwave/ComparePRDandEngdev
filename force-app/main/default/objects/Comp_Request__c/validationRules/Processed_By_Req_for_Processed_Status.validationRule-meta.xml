@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Processed_By_Req_for_Processed_Status</fullName>
+    <active>true</active>
+    <description>Requires &quot;Processed by&quot; to have a value if changing a record to the request status of &quot;Processed&quot;</description>
+    <errorConditionFormula>ISBLANK(Finance_Processed_By__c) &amp;&amp; ISPICKVAL(Request_Status__c, &quot;processed&quot;)</errorConditionFormula>
+    <errorMessage>Before saving this record as &quot;Processed&quot;, please enter your name in the &quot;Processed By&quot; field</errorMessage>
+</ValidationRule>

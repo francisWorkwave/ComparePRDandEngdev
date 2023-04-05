@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_services_are_you_interested_in__c</fullName>
+    <externalId>false</externalId>
+    <label>What services are you interested in?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lawn mowing</fullName>
+                <default>false</default>
+                <label>Lawn mowing</label>
+            </value>
+            <value>
+                <fullName>Aeration</fullName>
+                <default>false</default>
+                <label>Aeration</label>
+            </value>
+            <value>
+                <fullName>Fertilization</fullName>
+                <default>false</default>
+                <label>Fertilization</label>
+            </value>
+            <value>
+                <fullName>Fall/Spring Cleanup</fullName>
+                <default>false</default>
+                <label>Fall/Spring Cleanup</label>
+            </value>
+            <value>
+                <fullName>Gutter Cleaning</fullName>
+                <default>false</default>
+                <label>Gutter Cleaning</label>
+            </value>
+            <value>
+                <fullName>Shrub/Tree Trimming</fullName>
+                <default>false</default>
+                <label>Shrub/Tree Trimming</label>
+            </value>
+            <value>
+                <fullName>Property Condition Reports</fullName>
+                <default>false</default>
+                <label>Property Condition Reports</label>
+            </value>
+            <value>
+                <fullName>Snow Removal</fullName>
+                <default>false</default>
+                <label>Snow Removal</label>
+            </value>
+            <value>
+                <fullName>Desertscaping</fullName>
+                <default>false</default>
+                <label>Desertscaping</label>
+            </value>
+            <value>
+                <fullName>Sales Clean</fullName>
+                <default>false</default>
+                <label>Sales Clean</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Pool Cleaning</fullName>
+                <default>false</default>
+                <label>Pool Cleaning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

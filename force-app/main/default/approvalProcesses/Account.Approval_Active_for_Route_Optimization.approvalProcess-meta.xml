@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>RecordType</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>amber.sanchez@taskeasy.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>dayonna.hamilton@taskeasy.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>jessika.jentzsch@taskeasy.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Manager approval</label>
+        <name>Manager_approval</name>
+    </approvalStep>
+    <description>A member of the RO team must approve Contractor Account Changes that meet the following criteria:
+Account Record Type = Contractor or Workcrew
+Account “Status”  Is Changed to “Inactive”
+Field “Active for Route Optimization” was previously set to True within the past 14 days.
+Field Updates Upon Approval:  Active for Route Optimization = False</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(
+ Active_For_Route_Optimization__c = TRUE,
+ TEXT(Status__c) = &quot;Active&quot; ,
+ Request_Account_Deactivation__c = TRUE,
+ Active_Route_Optimization_date_change__c &gt;= NOW()-14
+)</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Request_Account_deactivation_to_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Set_RO_to_false</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Set_Status_to_Inactive</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Set_RO_to_true</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Approval - Active for Route Optimization</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_Ready</fullName>
+    <columns>NAME</columns>
+    <columns>Amount_of_Request__c</columns>
+    <columns>Comp_Request_Reason__c</columns>
+    <columns>Consumer_Account__c</columns>
+    <columns>Contractor_Account__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Request_Status__c</columns>
+    <columns>Job_ID__c</columns>
+    <columns>Task_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Request_Status__c</field>
+        <operation>equals</operation>
+        <value>Finance_Ready</value>
+    </filters>
+    <label>Finance Ready</label>
+</ListView>

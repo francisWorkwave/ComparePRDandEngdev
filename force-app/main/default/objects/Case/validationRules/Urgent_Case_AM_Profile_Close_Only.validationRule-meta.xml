@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Urgent_Case_AM_Profile_Close_Only</fullName>
+    <active>false</active>
+    <description>Prevents all but users with AM Standard user profile to close &quot;Urgent Client Request&quot; Cases.</description>
+    <errorConditionFormula>AND(RecordType.Name = &quot;Urgent Client Request&quot;, ISPICKVAL(Status, &quot;Closed&quot;),
+AND($Profile.Name &lt;&gt; &apos;System Administrator&apos;, $Profile.Name &lt;&gt; &apos;AM Standard User&apos;, $Profile.Name &lt;&gt; &apos;Sales System Administrator&apos;))</errorConditionFormula>
+    <errorMessage>Urgent Client Request cases may only be closed by Account Management</errorMessage>
+</ValidationRule>

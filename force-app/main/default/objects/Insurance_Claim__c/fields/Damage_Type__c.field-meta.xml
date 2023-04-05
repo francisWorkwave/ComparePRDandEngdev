@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Damage_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Damage Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shattered Window/Door</fullName>
+                <default>false</default>
+                <label>Shattered Window/Door</label>
+            </value>
+            <value>
+                <fullName>Structure Damage</fullName>
+                <default>false</default>
+                <label>Structure Damage</label>
+            </value>
+            <value>
+                <fullName>Electrical Damage</fullName>
+                <default>false</default>
+                <label>Electrical Damage</label>
+            </value>
+            <value>
+                <fullName>Fence Damage</fullName>
+                <default>false</default>
+                <label>Fence Damage</label>
+            </value>
+            <value>
+                <fullName>Irrigation Damage</fullName>
+                <default>false</default>
+                <label>Irrigation Damage</label>
+            </value>
+            <value>
+                <fullName>Landscaping Damage</fullName>
+                <default>false</default>
+                <label>Landscaping Damage</label>
+            </value>
+            <value>
+                <fullName>Vehicle Damage</fullName>
+                <default>false</default>
+                <label>Vehicle Damage</label>
+            </value>
+            <value>
+                <fullName>Theft</fullName>
+                <default>false</default>
+                <label>Theft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

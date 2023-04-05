@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RO_Wednesday_Starting_Location__c</fullName>
+    <description>Wednesday starting location for route optimization.</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <label>RO Wednesday Starting Location</label>
+    <required>false</required>
+    <scale>15</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Location</type>
+</CustomField>

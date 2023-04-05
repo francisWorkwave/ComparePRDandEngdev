@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_Contractors_Gil_Page__c</fullName>
+    <description>URL LInk to the related Contractors Gil page when the Contractors Account field is not null- otherwise displays &quot;Not Available&quot;</description>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(ISBLANK(Contractor_Account__c)),
+HYPERLINK(&quot;https://www.taskeasy.com/administration/showContractor/&quot; &amp; TEXT(Contractor_Account__r.Contractor_Id__c), &quot;View Gil Page&quot;),
+&quot;Not Available&quot;
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contractors Gil Page</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

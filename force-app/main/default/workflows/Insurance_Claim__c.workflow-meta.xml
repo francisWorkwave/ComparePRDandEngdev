@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>InsuranceClaimAssignmentNotification</fullName>
+        <description>Insurance Claim Assignment Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Claim_Handler__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Claim_Assignment_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Insurance_Claim_Assignment_Notification_Casey_Jones</fullName>
+        <description>Insurance Claim Assignment Notification - Casey Jones</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cjones@strongandhanni.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Claim_Assignment_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Insurance_Claim_Assignment_Notification_Corrine_Beccerra</fullName>
+        <description>Insurance Claim Assignment Notification - Corrine Becerra</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cbecerra@strongandhanni.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Claim_Assignment_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Insurance_Claim_Assignment_Notification_Hikmeta_Mulalic</fullName>
+        <description>Insurance Claim Assignment Notification - Hikmeta Mulalic</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hikmeta.mulalic@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Claim_Assignment_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Insurance_Claim_Assignment_Notification_William_Mejia</fullName>
+        <description>Insurance Claim Assignment Notification - William Mejia</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>william.mejia@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/New_Claim_Assignment_Notification</template>
+    </alerts>
+</Workflow>

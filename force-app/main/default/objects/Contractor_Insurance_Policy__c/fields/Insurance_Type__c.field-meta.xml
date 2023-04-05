@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Type__c</fullName>
+    <description>The Type of Insurance that the Contractor Carries</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Insurance that the Contractor Carries</inlineHelpText>
+    <label>Insurance Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Liability</fullName>
+                <default>false</default>
+                <label>General Liability</label>
+            </value>
+            <value>
+                <fullName>Occupational Accident</fullName>
+                <default>false</default>
+                <label>Occupational Accident</label>
+            </value>
+            <value>
+                <fullName>Workers Comp State Policy</fullName>
+                <default>false</default>
+                <label>Workers Comp State Policy</label>
+            </value>
+            <value>
+                <fullName>Automobile</fullName>
+                <default>false</default>
+                <label>Automobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

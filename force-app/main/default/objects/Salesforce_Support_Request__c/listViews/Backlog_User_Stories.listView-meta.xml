@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Backlog_User_Stories</fullName>
+    <columns>NAME</columns>
+    <columns>Requesting_Team__c</columns>
+    <columns>Actor__c</columns>
+    <columns>Story_Name__c</columns>
+    <columns>Acceptance_Criteria__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Backlog</value>
+    </filters>
+    <label>Backlog - User Stories</label>
+</ListView>

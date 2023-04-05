@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Shots_Unique</fullName>
+    <active>true</active>
+    <errorConditionFormula>Service_in_Action__c &amp;&amp; ( Before_Service__c ||  After_Service__c )</errorConditionFormula>
+    <errorMessage>Action shots must be built as a unique photo.</errorMessage>
+</ValidationRule>

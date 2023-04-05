@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details__c</fullName>
+    <description>Additional details about the prospective contractor which may be valuable to other members of the TE team.</description>
+    <externalId>false</externalId>
+    <label>Details</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

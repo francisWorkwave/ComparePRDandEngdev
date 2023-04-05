@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason__c</fullName>
+    <description>Reason for selecting status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Note the Reason for selecting the Status from the Available Values</inlineHelpText>
+    <label>Status Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Past Due Balance</fullName>
+                <default>false</default>
+                <label>Past Due Balance</label>
+            </value>
+            <value>
+                <fullName>Deceptive Photos</fullName>
+                <default>false</default>
+                <label>Deceptive Photos</label>
+            </value>
+            <value>
+                <fullName>Disintermediation</fullName>
+                <default>false</default>
+                <label>Disintermediation</label>
+            </value>
+            <value>
+                <fullName>Unprofessional</fullName>
+                <default>false</default>
+                <label>Unprofessional</label>
+            </value>
+            <value>
+                <fullName>Unresponsive &gt; 2 Years</fullName>
+                <default>false</default>
+                <label>Unresponsive &gt; 2 Years</label>
+            </value>
+            <value>
+                <fullName>Consistent Poor Quality</fullName>
+                <default>false</default>
+                <label>Consistent Poor Quality</label>
+            </value>
+            <value>
+                <fullName>No Longer in Business</fullName>
+                <default>false</default>
+                <label>No Longer in Business</label>
+            </value>
+            <value>
+                <fullName>No Communication</fullName>
+                <default>false</default>
+                <label>No Communication</label>
+            </value>
+            <value>
+                <fullName>Account Not Fully Set Up</fullName>
+                <default>false</default>
+                <label>Account Not Fully Set Up</label>
+            </value>
+            <value>
+                <fullName>Not Interested In Working With TaskEasy</fullName>
+                <default>false</default>
+                <label>Not Interested In Working With TaskEasy</label>
+            </value>
+            <value>
+                <fullName>No Availability</fullName>
+                <default>false</default>
+                <label>No Availability</label>
+            </value>
+            <value>
+                <fullName>Personal Emergency</fullName>
+                <default>false</default>
+                <label>Personal Emergency</label>
+            </value>
+            <value>
+                <fullName>No Work Available</fullName>
+                <default>false</default>
+                <label>No Work Available</label>
+            </value>
+            <value>
+                <fullName>Off-Season</fullName>
+                <default>false</default>
+                <label>Off-Season</label>
+            </value>
+            <value>
+                <fullName>Finance Implications (Lien)</fullName>
+                <default>false</default>
+                <label>Finance Implications (Lien)</label>
+            </value>
+            <value>
+                <fullName>Insurance Claim - Theft</fullName>
+                <default>false</default>
+                <label>Insurance Claim - Theft</label>
+            </value>
+            <value>
+                <fullName>Expired/Invalid Credit Card</fullName>
+                <default>false</default>
+                <label>Expired/Invalid Credit Card</label>
+            </value>
+            <value>
+                <fullName>Insurance Expired</fullName>
+                <default>false</default>
+                <label>Insurance Expired</label>
+            </value>
+            <value>
+                <fullName>Insurance Expiring</fullName>
+                <default>false</default>
+                <label>Insurance Expiring</label>
+            </value>
+            <value>
+                <fullName>Payment Issues</fullName>
+                <default>false</default>
+                <label>Payment Issues</label>
+            </value>
+            <value>
+                <fullName>Quality Concerns</fullName>
+                <default>false</default>
+                <label>Quality Concerns</label>
+            </value>
+            <value>
+                <fullName>Coverage Concerns</fullName>
+                <default>false</default>
+                <label>Coverage Concerns</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>New Name</fullName>
+                <default>false</default>
+                <label>New Name</label>
+            </value>
+            <value>
+                <fullName>Bought/Sold</fullName>
+                <default>false</default>
+                <label>Bought/Sold</label>
+            </value>
+            <value>
+                <fullName>No active properties</fullName>
+                <default>false</default>
+                <label>No active properties</label>
+            </value>
+            <value>
+                <fullName>Team Disabled</fullName>
+                <default>false</default>
+                <label>Team Disabled</label>
+            </value>
+            <value>
+                <fullName>Behavior</fullName>
+                <default>false</default>
+                <label>Behavior</label>
+            </value>
+            <value>
+                <fullName>Limited Capacity</fullName>
+                <default>false</default>
+                <label>Limited Capacity</label>
+            </value>
+            <value>
+                <fullName>Routing</fullName>
+                <default>false</default>
+                <label>Routing</label>
+            </value>
+            <value>
+                <fullName>Rejections</fullName>
+                <default>false</default>
+                <label>Rejections</label>
+            </value>
+            <value>
+                <fullName>Pay Duration</fullName>
+                <default>false</default>
+                <label>Pay Duration</label>
+            </value>
+            <value>
+                <fullName>Paused</fullName>
+                <default>false</default>
+                <label>Paused</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Deceptive Photos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Disintermediation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Unprofessional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Unresponsive &gt; 2 Years</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Consistent Poor Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No Longer in Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Finance Implications (Lien)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Insurance Claim - Theft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Account Not Fully Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Not Interested In Working With TaskEasy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Personal Emergency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No Work Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Off-Season</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Payment Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Quality Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Coverage Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>New Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Bought/Sold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No active properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Team Disabled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Limited Capacity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Routing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Rejections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Pay Duration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Paused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flagged</controllingFieldValue>
+            <valueName>Past Due Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flagged</controllingFieldValue>
+            <valueName>Expired/Invalid Credit Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flagged</controllingFieldValue>
+            <valueName>Insurance Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flagged</controllingFieldValue>
+            <valueName>Insurance Expiring</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

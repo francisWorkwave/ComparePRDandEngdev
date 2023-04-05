@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CaseUrgentClientRequests</fullName>
+        <description>Case Urgent Client Requests</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Account Manager</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Case/CaseUrgentClientRequests</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Access_Issue_Reminder_Email</fullName>
+        <description>Case - Access Issue Reminder Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Customer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@taskeasy.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Auto_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Pricing_Case_Closed</fullName>
+        <description>Client Pricing Case - Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Pricing_Case_New</fullName>
+        <description>Client Pricing Case - New</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>amy.ames@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Pricing_Case_in_progress</fullName>
+        <description>Client Pricing Case - In Progress</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_in_Progress_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Case_record_creator_on_Case_status_change</fullName>
+        <description>Notify Case record creator on Case status change</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Case_Status_Change_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Pricing_Request_Needs_Sales_Attention</fullName>
+        <description>Pricing Request Needs Sales Attention</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/TE_Additional_Info_Needed_to_Complete_Pricing_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Urgent_Client_Request_Notify_Account_Director_Creator_when_assigned_to_Recruitme</fullName>
+        <description>Urgent Client Request Notify Account Director / Creator when assigned to Recruitment</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Urgent_Client_Requests_Case_Ownership_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>BPI_Case_Reason_Update</fullName>
+        <description>Updates the Case reason to &quot;BPI Request&quot; when meets criteria for BPI Team</description>
+        <field>Reason</field>
+        <literalValue>BPI Request</literalValue>
+        <name>BPI Case Reason Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BPI_Req_Assign_Ownership_Action</fullName>
+        <description>Used with the BPI request process, assigns case to the BPI Queue when Client Team updates stage to &quot;Batch File Ready&quot; Stage - Hand off</description>
+        <field>OwnerId</field>
+        <lookupValue>BPI_Team</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>BPI Req: Assign Ownership Action</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BPI_Req_Close_Case_Action</fullName>
+        <description>Used for the BPI Request process, this action closes the case and updates the status to &quot;Closed&quot;  when the BPI team updates the stage to &quot;Batch Complete&quot; or &quot;Closed - Batch Not Needed&quot;</description>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>BPI Req: Close Case Action</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BPI_Req_Update_Status_Action</fullName>
+        <description>Updates Status to &quot;In Progress&quot; when Stage is set to &quot;Preparing File&quot; by the Client Team.</description>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>BPI Req: Update Status Action</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <description>Updates the status of Urgent Client Requests to &quot;In Progress&quot; on creation</description>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Urgent_Owner_Recruitment</fullName>
+        <field>OwnerId</field>
+        <lookupValue>adrian.raso@taskeasy.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Urgent Owner Recruitment</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>BPI Req%3A Assign Ownership</fullName>
+        <actions>
+            <name>BPI_Case_Reason_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BPI_Req_Assign_Ownership_Action</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Batch File Ready</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BPI Requests</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Original_Queue__c</field>
+            <operation>notEqual</operation>
+            <value>BPI Team</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>notEqual</operation>
+            <value>BPI Advocate</value>
+        </criteriaItems>
+        <description>Used with the BPI request process, assigns case to the BPI Queue when Client Team updates stage to &quot;Batch File Ready&quot; Stage - Hand off</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BPI Req%3A Close Case Status Update</fullName>
+        <actions>
+            <name>BPI_Req_Close_Case_Action</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 4 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BPI Requests</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Batch Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Closed - Batch not needed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>BPI Advocate</value>
+        </criteriaItems>
+        <description>Used for the BPI Request process, this action updates the status to &quot;Closed&quot;  when the BPI team updates the stage to &quot;Batch Complete&quot; or &quot;Closed - Batch Not Needed&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BPI Req%3A Status Update</fullName>
+        <actions>
+            <name>BPI_Req_Update_Status_Action</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BPI Requests</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Original_Queue__c</field>
+            <operation>notEqual</operation>
+            <value>BPI Team</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Preparing File</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Batch File Ready</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BPI_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Processing Batch</value>
+        </criteriaItems>
+        <description>Updates the Status of BPI requests to &quot;In Progress&quot; when the Client team moves stage to &quot;Preparing File&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Pricing Request Case Status Change Notification</fullName>
+        <actions>
+            <name>Notify_Case_record_creator_on_Case_status_change</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Reason</field>
+            <operation>equals</operation>
+            <value>Sales Pricing Request</value>
+        </criteriaItems>
+        <description>Notifies case record creator when status of Pricing Request case changes</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Urgent Owner Assign</fullName>
+        <actions>
+            <name>Update_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Urgent Client Request</value>
+        </criteriaItems>
+        <description>This workflow assigns new Urgent Client requests to the Elite Contractor Queue for working.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Urgent Recruiting Team Assign</fullName>
+        <actions>
+            <name>Urgent_Client_Request_Notify_Account_Director_Creator_when_assigned_to_Recruitme</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_Urgent_Owner_Recruitment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Urgent_Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Recruitment Needed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Urgent Client Request</value>
+        </criteriaItems>
+        <description>Assigns ownership to the Recruiting team when a member of the Elite Team updates the urgent case status to &quot;Recruitment Needed&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

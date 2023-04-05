@@ -1,0 +1,26 @@
+<apex:page standardcontroller="Account">
+<style>
+    body {
+          border-style:solid;
+          border-width:6px;
+          border-color: #F0EEE9;
+          background: linear-gradient(120deg,#9bb969,#F0EEE9)!important; 
+          background-repeat: no-repeat !important;
+          background-position: center center !important;
+          background-size: contain !important;              
+         }
+</style>
+<body>
+<b><p style="color:#C21807; 
+             font-size:21px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">
+     CONSUMER HAS A PAST DUE BALANCE</p></b>
+</body>
+<body>
+<b><p style="color:#5d5d5d; 
+             font-size:18px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">Please do not proceed with any service until you’ve reached out to Finance to ensure the past due balance is paid in full</p></b>
+</body>
+ </apex:page>

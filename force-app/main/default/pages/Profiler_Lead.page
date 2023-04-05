@@ -1,0 +1,5 @@
+<apex:page standardController="Lead">
+    
+    <apex:iframe scrolling="true" src="https://login.eloqua.com/apps/embed/salesTools/profiler?emailAddress={!lead.email}"/> 
+
+</apex:page>

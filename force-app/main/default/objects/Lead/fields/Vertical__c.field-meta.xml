@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vertical__c</fullName>
+    <externalId>false</externalId>
+    <label>Vertical</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Property Management</fullName>
+                <default>false</default>
+                <label>Property Management</label>
+            </value>
+            <value>
+                <fullName>SFR (Owners)</fullName>
+                <default>false</default>
+                <label>SFR (Owners)</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>iBuyer</fullName>
+                <default>false</default>
+                <label>iBuyer</label>
+            </value>
+            <value>
+                <fullName>Prop Pres</fullName>
+                <default>false</default>
+                <label>Prop Pres</label>
+            </value>
+            <value>
+                <fullName>Build for Rent</fullName>
+                <default>false</default>
+                <label>Build for Rent</label>
+            </value>
+            <value>
+                <fullName>City/HOA</fullName>
+                <default>false</default>
+                <label>City/HOA</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Multi Family</fullName>
+                <default>false</default>
+                <label>Multi Family</label>
+            </value>
+            <value>
+                <fullName>REO</fullName>
+                <default>false</default>
+                <label>REO</label>
+            </value>
+            <value>
+                <fullName>Short Term Rental</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Short Term Rental</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

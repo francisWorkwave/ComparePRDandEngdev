@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_for_Jenny</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Debt_Status__c</columns>
+    <columns>Finance_Contacts__c</columns>
+    <columns>Finance_contact_address__c</columns>
+    <columns>Transferred_to_Atradius__c</columns>
+    <columns>Finance_Note__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Client_Id__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Client_Account</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>boomi</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Archived</value>
+    </filters>
+    <filters>
+        <field>IS_PERSON_ACCOUNT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>List for Jenny</label>
+    <sharedTo>
+        <role>SF_Admin</role>
+    </sharedTo>
+</ListView>

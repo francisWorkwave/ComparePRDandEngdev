@@ -1,0 +1,25 @@
+<apex:page standardcontroller="Account">
+<style>
+    body {
+          border-style:solid;
+          border-width:1px;
+          border-color: #ffffff;
+          background: linear-gradient(45deg,#ffffff,#ffffff)!important; 
+          background-repeat: no-repeat !important;
+          background-position: center center !important;
+          background-size: contain !important;              
+         }
+</style>
+
+
+
+
+<body>
+<b><p style="color:#000000; 
+             font-size:18px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">
+             {!Account.Account_Notes__c}
+             </p></b>
+</body>
+ </apex:page>

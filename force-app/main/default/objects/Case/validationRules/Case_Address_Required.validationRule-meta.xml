@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Address_Required</fullName>
+    <active>true</active>
+    <description>Property Address field is required based on case status and case reason</description>
+    <errorConditionFormula>AND(
+ISBLANK(Address__c ),
+ISPICKVAL(Reason, &quot;Access Issue&quot;),
+OR(
+ISPICKVAL(Status, &quot;Waiting on Client Response&quot;),
+ISPICKVAL(Status, &quot;Waiting on Contractor Response&quot;)
+
+))</errorConditionFormula>
+    <errorMessage>Property Address is required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Adjustment__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Adjustment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bid Task</fullName>
+                <default>false</default>
+                <label>Bid Task</label>
+            </value>
+            <value>
+                <fullName>BPI Error</fullName>
+                <default>false</default>
+                <label>BPI Error</label>
+            </value>
+            <value>
+                <fullName>Duplicate Charge</fullName>
+                <default>false</default>
+                <label>Duplicate Charge</label>
+            </value>
+            <value>
+                <fullName>Duplicate Service</fullName>
+                <default>false</default>
+                <label>Duplicate Service</label>
+            </value>
+            <value>
+                <fullName>Fix it Task</fullName>
+                <default>false</default>
+                <label>Fix it Task</label>
+            </value>
+            <value>
+                <fullName>Incorrect Pricing/Incorrect Tracing</fullName>
+                <default>false</default>
+                <label>Incorrect Pricing/Incorrect Tracing</label>
+            </value>
+            <value>
+                <fullName>Incorrect Snow Depth</fullName>
+                <default>false</default>
+                <label>Incorrect Snow Depth</label>
+            </value>
+            <value>
+                <fullName>Insurance Claim</fullName>
+                <default>false</default>
+                <label>Insurance Claim</label>
+            </value>
+            <value>
+                <fullName>No Work Done/ Partial Work Completed</fullName>
+                <default>false</default>
+                <label>No Work Done/ Partial Work Completed</label>
+            </value>
+            <value>
+                <fullName>OGF</fullName>
+                <default>false</default>
+                <label>OGF</label>
+            </value>
+            <value>
+                <fullName>Retention Effort</fullName>
+                <default>false</default>
+                <label>Retention Effort</label>
+            </value>
+            <value>
+                <fullName>RO Error</fullName>
+                <default>false</default>
+                <label>RO Error</label>
+            </value>
+            <value>
+                <fullName>Seasonality Error</fullName>
+                <default>false</default>
+                <label>Seasonality Error</label>
+            </value>
+            <value>
+                <fullName>Serviced After Stop Request</fullName>
+                <default>false</default>
+                <label>Serviced After Stop Request</label>
+            </value>
+            <value>
+                <fullName>Serviced Too Soon</fullName>
+                <default>false</default>
+                <label>Serviced Too Soon</label>
+            </value>
+            <value>
+                <fullName>TE Error - Client Comp</fullName>
+                <default>false</default>
+                <label>TE Error - Client Comp</label>
+            </value>
+            <value>
+                <fullName>TE Good Faith Discount</fullName>
+                <default>false</default>
+                <label>TE Good Faith Discount - (TE Not at Fault)</label>
+            </value>
+            <value>
+                <fullName>Wrong Property Serviced</fullName>
+                <default>false</default>
+                <label>Wrong Property Serviced</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

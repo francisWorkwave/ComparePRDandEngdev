@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Complete__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+NOT ISBLANK(Latitude),
+NOT ISBLANK(Longitude),
+NOT ISBLANK(cbsaZoneCode__c),
+NOT ISBLANK(Application_Submission_Date__c )
+)</formula>
+    <label>Application Complete</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

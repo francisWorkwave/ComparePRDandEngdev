@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>Response Received Case Escalations</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHours>TaskEasy Ops Business Hours</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Customer_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Client</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Response Received</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>CCS Advocate</value>
+            </criteriaItems>
+            <escalationAction>
+                <assignedTo>market_support</assignedTo>
+                <assignedToType>Queue</assignedToType>
+                <minutesToEscalation>30</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+            </escalationAction>
+            <escalationStartTime>CaseLastModified</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>TEI Client Business Hours</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Customer_Type__c</field>
+                <operation>equals</operation>
+                <value>Client</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>equals</operation>
+                <value>Reject</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>notEqual</operation>
+                <value>Closed</value>
+            </criteriaItems>
+            <escalationAction>
+                <minutesToEscalation>720</minutesToEscalation>
+                <notifyCaseOwner>true</notifyCaseOwner>
+                <notifyTo>patty.cazer@taskeasy.com</notifyTo>
+                <notifyToTemplate>Ops_Internal_Email_Templates/QC_Reject_Ticket_Open_Escalation</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseLastModified</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>TEI Client Business Hours</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Customer_Type__c</field>
+                <operation>equals</operation>
+                <value>Client</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Response Received</value>
+            </criteriaItems>
+            <escalationStartTime>CaseLastModified</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>SLC Client Business Hours</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Customer_Type__c</field>
+                <operation>equals</operation>
+                <value>Client</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>notEqual</operation>
+                <value>Response Received,Closed,Work Pending</value>
+            </criteriaItems>
+            <escalationAction>
+                <minutesToEscalation>1440</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+                <notifyTo>jessika.jentzsch@taskeasy.com</notifyTo>
+                <notifyToTemplate>Ops_Internal_Email_Templates/Ops_Client_Escalation_Notification</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseLastModified</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

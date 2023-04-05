@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Category of options in this feature. Allows for another level of grouping.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assign this feature to a category such that multiple features with related options are grouped together.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sprinklers</fullName>
+                <default>false</default>
+                <label>Sprinklers</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Seasonal Cleanup</fullName>
+                <default>false</default>
+                <label>Seasonal Cleanup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

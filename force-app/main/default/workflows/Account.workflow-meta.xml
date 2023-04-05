@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Account_Update_Status_Change_Date_Field</fullName>
+        <field>Status_Change_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Account: Update Status Change Date Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Active_Route_Optimization_date_change</fullName>
+        <description>Updates timestamp for Active Route Optimization date on change</description>
+        <field>Active_Route_Optimization_date_change__c</field>
+        <formula>now()</formula>
+        <name>Account: Active Route Optimization date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Request_Account_deactivation_to_False</fullName>
+        <field>Request_Account_Deactivation__c</field>
+        <literalValue>0</literalValue>
+        <name>Request Account deactivation to False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_RO_to_false</fullName>
+        <description>&quot;Active for Route Optimization” set to false</description>
+        <field>Active_For_Route_Optimization__c</field>
+        <literalValue>0</literalValue>
+        <name>Set RO to false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_RO_to_true</fullName>
+        <description>If approval is rejected, Active for Route Optimization is set back to true</description>
+        <field>Active_For_Route_Optimization__c</field>
+        <literalValue>1</literalValue>
+        <name>Set RO to true</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Status_to_Inactive</fullName>
+        <description>Set status to inactive</description>
+        <field>Status__c</field>
+        <literalValue>Inactive</literalValue>
+        <name>Set Status to Inactive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account%3A Active for Route Optimization Change Date%2FTime</fullName>
+        <actions>
+            <name>Active_Route_Optimization_date_change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Auto timestamp the date and time the Account Active for Route Optimization field was changed.</description>
+        <formula>or(ischanged( Active_For_Route_Optimization__c  ), and(isnew(),  Active_For_Route_Optimization__c = True))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account%3A Status Change Date%2FTime</fullName>
+        <actions>
+            <name>Account_Update_Status_Change_Date_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Auto timestamp the date and time the Account Status field was changed.</description>
+        <formula>ischanged( Status__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

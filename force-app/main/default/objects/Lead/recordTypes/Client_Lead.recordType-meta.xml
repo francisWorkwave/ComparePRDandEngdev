@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Lead</fullName>
+    <active>true</active>
+    <businessProcess>Client Lead Process</businessProcess>
+    <label>Client Lead</label>
+    <picklistValues>
+        <picklist>Capabilities__c</picklist>
+        <values>
+            <fullName>Interior House Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawn Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow Removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tree Trimming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hear_About_TaskEasy__c</picklist>
+        <values>
+            <fullName>Billboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend%2FColleague</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newsletter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade show</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interested_Services__c</picklist>
+        <values>
+            <fullName>Bush trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desertscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disinfection and Sanitation %28COVID-19%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall cleanup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gutter Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawn aeration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawn fertilization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawn mowing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Move-In%2FMove-Out Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure washing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales cleans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring cleanup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cub Cadet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gary List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Navigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Page Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Origination__c</picklist>
+        <values>
+            <fullName>5 Star Nat%2E Conf and Expo 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asked for Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN Res Prop Mgmt 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN SFR East 2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN SFR East 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN SFR West 2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMN SFR West 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ken Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBA National Conference 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NARPM Annual 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NARPM Broker%2FOwner 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NRHC Presentation 1-14-21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM Landing Page Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Squeeze Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Page Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority_Status__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Sure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Management_Software__c</picklist>
+        <values>
+            <fullName>Appfollio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buildium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PropertyMeld</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RealPage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RentManager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ResMan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yardi</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Portfolio_Mgmt_Type__c</picklist>
+        <values>
+            <fullName>Build for Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%2FGovernment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Term Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iBuyer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Asset Manager%2C Facility Manager%2C Government Agency%2C Homeowner%2C Investor%2C Landlord%2C Property Manager%2C Vendor%2C Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role_at_Company__c</picklist>
+        <values>
+            <fullName>Asset Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homeowner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor %28Contractor%2C Landscaper%2C Cleaner%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_Reason__c</picklist>
+        <values>
+            <fullName>Bad Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%27t Manage Properties%2FLawns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response - Try again later</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Small</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_work__c</picklist>
+        <values>
+            <fullName>A combination of both options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Jobs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Schedule</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vertical__c</picklist>
+        <values>
+            <fullName>Build for Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%2FHOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prop Pres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFR %28Owners%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iBuyer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_types_of_property_need_service__c</picklist>
+        <values>
+            <fullName>Commercial %28Multi-Family%2C Retail%2C Office%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Space %28Local%2C State%2C or Federal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential %28Single-Family Home%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_Best_Describes_You__c</picklist>
+        <values>
+            <fullName>Homeowner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor %28 Contractor%2C Landscaper%2C Cleaner%2C etc%2E %29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

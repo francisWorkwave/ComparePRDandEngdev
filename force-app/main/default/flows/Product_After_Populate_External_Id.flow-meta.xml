@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <formulas>
+        <name>forRecordId</name>
+        <dataType>String</dataType>
+        <expression>CASESAFEID({!$Record.Id})</expression>
+    </formulas>
+    <interviewLabel>Product - After - Populate External Id {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Product - After - Populate External Id</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Update external id field with current record casesafe id</description>
+        <name>Update_External_Id</name>
+        <label>Update External Id</label>
+        <locationX>532</locationX>
+        <locationY>476</locationY>
+        <inputAssignments>
+            <field>External_ID__c</field>
+            <value>
+                <elementReference>forRecordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_Update__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>406</locationX>
+        <locationY>104</locationY>
+        <connector>
+            <targetReference>Update_External_Id</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>External_ID__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Product2</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>API_ExceptionDefault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API ExceptionDefault</shortDescription>
+        <value>An error has occurred within the platform such that the request could not be completed. Please contact the System Administrator for assistance in debugging.</value>
+    </labels>
+    <labels>
+        <fullName>DuplicateFundsAdjustmentRequest</fullName>
+        <categories>Funds_Adjustment_Request__c</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate Funds Adjustment Request</shortDescription>
+        <value>A pending or processed Funds Adjustment Request already exists for job id {Job_Id__c}. please refer to {Name} or reach out to the finance team for more information.</value>
+    </labels>
+    <labels>
+        <fullName>DuplicateRegionAssignment</fullName>
+        <categories>Region Assignment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate &quot;Region Assignment&quot;</shortDescription>
+        <value>Region Assignment: {RegionName} already exists for this account.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateBody_04I6g000000YLGP_5633703</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateBody_04I6g000000YLGP_5633703</shortDescription>
+        <value>To end the chat now, click &quot;Confirm End Chat&quot; below.</value>
+    </labels>
+    <labels>
+        <fullName>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogBo_04I6g000000YLGP_5795021</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogBo_04I6g000000YLGP_5795021</shortDescription>
+        <value>We are reviewing your inquiry and will get back to you as soon as we can, usually within the day.</value>
+    </labels>
+    <labels>
+        <fullName>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogTi_04I6g000000YLGP_1086954</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogTi_04I6g000000YLGP_1086954</shortDescription>
+        <value>Thank you for reaching out.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a cross-object fieldsset is not allowed and attempted.</shortDescription>
+        <value>Cross-object fields not allowed and field &quot;{0}&quot; is a cross-object field.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_fieldset_wrong_sobject_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a field set for a different sobject type.</shortDescription>
+        <value>Field set &quot;{0}&quot; is not for SObject type &quot;{1}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_recursive_subquery_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to nest subqueries.</shortDescription>
+        <value>Invalid call to subselectQuery.  You may not add a subselect query to a subselect query.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_subquery_invalid_relationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to create a subquery from an invalid relationship.</shortDescription>
+        <value>Invalid call to subselectQuery.  Invalid relationship for table.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Urgent_Client_Request__c</fullName>
+    <description>Used to distinguish Urgent Client Request cases from within Process builder.  ---  used for criteria only</description>
+    <externalId>false</externalId>
+    <formula>RecordType.DeveloperName = &quot;Urgent_Client_Request&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Urgent Client Request</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

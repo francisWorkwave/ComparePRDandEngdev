@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form_Source__c</fullName>
+    <description>Specific location from where the web form was submitted.  This should only be filled out if the Case Origin equals &quot;Web.&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specific location of the web form submission.</inlineHelpText>
+    <label>Form Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origin</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consumer App</fullName>
+                <default>false</default>
+                <label>Consumer App</label>
+            </value>
+            <value>
+                <fullName>Consumer Portal</fullName>
+                <default>false</default>
+                <label>Consumer Portal</label>
+            </value>
+            <value>
+                <fullName>Contractor App</fullName>
+                <default>false</default>
+                <label>Contractor App</label>
+            </value>
+            <value>
+                <fullName>Contractor Portal</fullName>
+                <default>false</default>
+                <label>Contractor Portal</label>
+            </value>
+            <value>
+                <fullName>Storefront</fullName>
+                <default>false</default>
+                <label>Storefront</label>
+            </value>
+            <value>
+                <fullName>Home Depot</fullName>
+                <default>false</default>
+                <label>Home Depot</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Home Depot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Consumer App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Consumer Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Contractor App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Contractor Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Storefront</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

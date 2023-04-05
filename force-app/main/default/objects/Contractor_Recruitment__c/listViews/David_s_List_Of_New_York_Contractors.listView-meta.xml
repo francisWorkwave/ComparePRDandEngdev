@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>David_s_List_Of_New_York_Contractors</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Address_State__c</field>
+        <operation>equals</operation>
+        <value>NY</value>
+    </filters>
+    <filters>
+        <field>Lead_Stage__c</field>
+        <operation>equals</operation>
+        <value>New Lead,Working,Onboarding,CBSA at Capacity</value>
+    </filters>
+    <label>David&apos;s List Of New York Contractors</label>
+    <sharedTo>
+        <roleAndSubordinates>Contractor_Recruitment</roleAndSubordinates>
+    </sharedTo>
+</ListView>

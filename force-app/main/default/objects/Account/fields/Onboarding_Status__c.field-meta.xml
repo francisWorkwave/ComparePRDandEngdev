@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Fully_Verified_Date__c), &quot;Recruitment&quot;,
+IF(TODAY() - Fully_Verified_Date__c &lt;= 7, &quot;Week 1&quot;,
+IF(TODAY() - Fully_Verified_Date__c &lt;= 14, &quot;Week 2&quot;,
+IF(TODAY() - Fully_Verified_Date__c &lt;= 21, &quot;Week 3&quot;,
+IF(TODAY()- Fully_Verified_Date__c &lt;= 28, &quot;Week 4&quot;, &quot;Active&quot;
+)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Onboarding Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

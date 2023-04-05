@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPI_Request_REQ_For_BPI_Status_Change</fullName>
+    <active>true</active>
+    <description>Fields: &quot;BPI Data Entered in Client Raw File&quot;, &quot;What Client is this for&quot;, &quot;Pricing Template Hyperlink&quot;,
+&quot;Type of Batch&quot;, &quot;Service Type&quot; and &quot;File Type&quot; Must have values in order to update BPI Status to &quot;Batch File Ready&quot;</description>
+    <errorConditionFormula>AND(
+RecordType.Name  = &apos;BPI Requests&apos; &amp;&amp; ( BPI_Data_Entered_in_Client_Raw_File__c  = False &amp;&amp;
+ISBLANK( BPI_What_Client_is_this_for__c) &amp;&amp;
+BEGINS( BPI_Pricing_Template_Hyperlink__c,&apos;&apos;) &amp;&amp;
+ISPICKVAL( BPI_Type_of_Batch__c,&apos;&apos; ) &amp;&amp;
+ISPICKVAL( BPI_Service_Type__c, &apos;&apos;) &amp;&amp;
+ISPICKVAL( BPI_File_Type__c,&apos;&apos;) &amp;&amp;
+CASE( BPI_Request_Status__c,
+&quot;Batch File Ready&quot;,1,
+&quot;Processing Batch&quot;,1,
+&quot;Batch Completed&quot;,1,
+0) = 1))</errorConditionFormula>
+    <errorMessage>Fields: &quot;BPI Data Entered in Client Raw File&quot;,   &quot;What Client is this for&quot;,   &quot;Pricing Template Hyperlink&quot;, 
+  &quot;Type of Batch&quot;,   &quot;Service Type&quot;  and  &quot;File Type&quot;   Must have values in order to update BPI Status to   &quot;Batch File Ready&quot;</errorMessage>
+</ValidationRule>

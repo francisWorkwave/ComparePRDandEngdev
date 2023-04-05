@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Property_Management_Software_Req</fullName>
+    <active>true</active>
+    <description>Requires the &quot;Other Property Management Software&quot; field to be filled out if &quot;Other&quot; Is selected from &quot;Property Management Software&quot; Pick-list field. Lives on the Lead and Account Objects</description>
+    <errorConditionFormula>INCLUDES(Property_Management_Software__c,&apos;Other&apos;)
+&amp;&amp;
+ISBLANK(Other_Property_Management_Software__c)</errorConditionFormula>
+    <errorMessage>Please enter a value within &quot;Other Property Management Software&quot; if selecting the value &quot;Other&quot; in the &quot;Property Management Software&quot; field</errorMessage>
+</ValidationRule>

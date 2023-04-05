@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Management_Clients</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Conrex,Pathlight,Invitation Homes,Circle K,HMC,BLM,Great Jones,Streetlane,Redfin,Offerpad,Zillow,GOAL,Gorelick,Second Ave,Mainstreet Renewal,FirstKey,Tricon</value>
+    </filters>
+    <label>Account Management Clients</label>
+</ListView>

@@ -1,0 +1,22 @@
+<apex:page standardController="Task"
+    action="
+     {!
+        IF(OR(
+            ( $Profile.Name == 'TEI Advocate'),
+            ( $Profile.Name == 'SLC Advocate'),
+            ( $Profile.Name == 'BPI Advocate')),
+           NULL,
+           URLFOR(
+                $Action.Task.Delete,
+                Task.Id,
+                [retURL='/007'],
+                TRUE
+          )
+        )
+      }" >
+    <apex:pageMessage severity="ERROR" 
+        strength="3" 
+        title="Task Delete" 
+        summary="You are not allowed to Delete Task records.">
+    </apex:pageMessage>
+</apex:page>

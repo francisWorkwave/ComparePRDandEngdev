@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Client_Type__c</fullName>
+    <description>The type of properties for which the pricing request is being generated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What type of client property are we requesting pricing?</inlineHelpText>
+    <label>Pricing Client Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BTR</fullName>
+                <default>false</default>
+                <label>BTR</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>HOA</fullName>
+                <default>false</default>
+                <label>HOA</label>
+            </value>
+            <value>
+                <fullName>SFR</fullName>
+                <default>false</default>
+                <label>SFR</label>
+            </value>
+            <value>
+                <fullName>Property Preservation</fullName>
+                <default>false</default>
+                <label>Property Preservation</label>
+            </value>
+            <value>
+                <fullName>Multi-Family</fullName>
+                <default>false</default>
+                <label>Multi-Family</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

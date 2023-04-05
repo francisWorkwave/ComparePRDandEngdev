@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_types_of_property_need_service__c</fullName>
+    <externalId>false</externalId>
+    <label>What types of property need service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Residential (Single-Family Home)</fullName>
+                <default>false</default>
+                <label>Residential (Single-Family Home)</label>
+            </value>
+            <value>
+                <fullName>Commercial (Multi-Family, Retail, Office)</fullName>
+                <default>false</default>
+                <label>Commercial (Multi-Family, Retail, Office)</label>
+            </value>
+            <value>
+                <fullName>Public Space (Local, State, or Federal)</fullName>
+                <default>false</default>
+                <label>Public Space (Local, State, or Federal)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

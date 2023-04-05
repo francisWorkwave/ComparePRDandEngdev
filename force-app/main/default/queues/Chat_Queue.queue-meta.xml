@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Chat Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Chat_Advocates</publicGroup>
+        </publicGroups>
+        <users>
+            <user>ana.maldonado@taskeasy.com</user>
+            <user>angela.dean@taskeasy.com</user>
+            <user>brandon.castaneda@taskeasy.com</user>
+            <user>efren.vides@taskeasy.com</user>
+            <user>fernando.benitez@taskeasy.com</user>
+            <user>hector.serrano@taskeasy.com</user>
+            <user>jared.wangsgard@taskeasy.com</user>
+            <user>javier.chavez@taskeasy.com</user>
+            <user>jose.serrano@taskeasy.com</user>
+            <user>mario.quinteros@taskeasy.com</user>
+            <user>dev@taskeasy.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Chat_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

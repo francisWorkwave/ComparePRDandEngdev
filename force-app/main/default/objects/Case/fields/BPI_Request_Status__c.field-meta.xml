@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPI_Request_Status__c</fullName>
+    <description>This is the BPI status field for used for the BPI request process. This picklist is used with the BPI request path bar.</description>
+    <externalId>false</externalId>
+    <label>BPI Request Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Request</fullName>
+                <default>true</default>
+                <label>New Request</label>
+            </value>
+            <value>
+                <fullName>Preparing File</fullName>
+                <default>false</default>
+                <label>Preparing File</label>
+            </value>
+            <value>
+                <fullName>Batch File Ready</fullName>
+                <default>false</default>
+                <label>Batch File Ready</label>
+            </value>
+            <value>
+                <fullName>Processing Batch</fullName>
+                <default>false</default>
+                <label>Processing Batch</label>
+            </value>
+            <value>
+                <fullName>Batch Completed</fullName>
+                <default>false</default>
+                <label>Batch Completed</label>
+            </value>
+            <value>
+                <fullName>Closed - Batch not needed</fullName>
+                <default>false</default>
+                <label>Closed - Batch not needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

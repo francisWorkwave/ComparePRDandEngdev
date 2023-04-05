@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPI_Service_Type__c</fullName>
+    <description>This field is used for the BPI request process - replaces the depreciated Google form that was filled out by the Client team</description>
+    <externalId>false</externalId>
+    <label>Task Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BPI_Custom</fullName>
+                <default>false</default>
+                <label>Blue Man Custom Task</label>
+            </value>
+            <value>
+                <fullName>Current Pricing</fullName>
+                <default>false</default>
+                <label>Current Pricing</label>
+            </value>
+            <value>
+                <fullName>Green Man Custom Task</fullName>
+                <default>false</default>
+                <label>Green Man Custom Task</label>
+            </value>
+            <value>
+                <fullName>BPI_Lawn</fullName>
+                <default>false</default>
+                <label>Lawn</label>
+            </value>
+            <value>
+                <fullName>BPI_Mulch</fullName>
+                <default>false</default>
+                <label>Mulch</label>
+            </value>
+            <value>
+                <fullName>BPI_Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>POOLCLEANING</fullName>
+                <default>false</default>
+                <label>POOLCLEANING</label>
+            </value>
+            <value>
+                <fullName>Rate Card</fullName>
+                <default>false</default>
+                <label>Rate Card</label>
+            </value>
+            <value>
+                <fullName>SALESCLEAN</fullName>
+                <default>false</default>
+                <label>SALESCLEAN</label>
+            </value>
+            <value>
+                <fullName>BPI_Snow</fullName>
+                <default>false</default>
+                <label>Snow</label>
+            </value>
+            <value>
+                <fullName>BPI_Sprinkler</fullName>
+                <default>false</default>
+                <label>Sprinkler</label>
+            </value>
+            <value>
+                <fullName>Trash Out</fullName>
+                <default>false</default>
+                <label>Trash Out</label>
+            </value>
+            <value>
+                <fullName>Trees</fullName>
+                <default>false</default>
+                <label>Trees</label>
+            </value>
+            <value>
+                <fullName>Turn</fullName>
+                <default>false</default>
+                <label>Turn</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

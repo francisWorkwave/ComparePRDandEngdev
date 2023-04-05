@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Status_Change_at_Finance_Ready</fullName>
+    <active>true</active>
+    <description>Prevents the Request Status from being changed to &quot;New&quot; or &quot;Pending&quot; once in the &quot;Finance Ready&quot; status</description>
+    <errorConditionFormula>OR(
+AND(
+ISPICKVAL(PRIORVALUE( Request_Status__c), &quot;Finance_Ready&quot;), ISPICKVAL( Request_Status__c , &quot;Pending&quot;), $Profile.Name &lt;&gt; &quot;System Administrator&quot;),
+
+AND(
+ISPICKVAL(PRIORVALUE( Request_Status__c), &quot;Finance_Ready&quot;), ISPICKVAL( Request_Status__c , &quot;New&quot;), $Profile.Name &lt;&gt; &quot;System Administrator&quot;)
+)</errorConditionFormula>
+    <errorMessage>You cannot move the &quot;Request Status&quot; field value back to &quot;Pending&quot; or &quot;New&quot; once it is in the &quot;Finance Ready&quot; status</errorMessage>
+</ValidationRule>

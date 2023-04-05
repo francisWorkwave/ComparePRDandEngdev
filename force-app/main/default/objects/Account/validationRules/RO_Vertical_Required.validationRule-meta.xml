@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RO_Vertical_Required</fullName>
+    <active>false</active>
+    <description>Require &quot;Vertical&quot; when changing active for route optimization to True.</description>
+    <errorConditionFormula>AND(ISCHANGED(Active_For_Route_Optimization__c), Active_For_Route_Optimization__c = TRUE, ISPICKVAL(Vertical__c,&quot;&quot;))</errorConditionFormula>
+    <errorMessage>You must select a Vertical when activating route optimization.</errorMessage>
+</ValidationRule>

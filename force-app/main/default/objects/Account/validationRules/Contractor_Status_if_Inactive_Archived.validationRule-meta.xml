@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Status_if_Inactive_Archived</fullName>
+    <active>false</active>
+    <description>Requires an Inactive Contractor Reason in the &quot;Contractor Status&quot; field when updating the &quot;Status&quot; field from &quot;Active&quot; to &quot;Inactive&quot; or &quot;Archived&quot;</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Customer_Type__c, &quot;Contractor&quot;),
+ISPICKVAL( Contractor_Status__c, &apos;Active&apos;),
+ISPICKVAL( Status__c, &quot;Inactive&quot;) || ISPICKVAL( Status__c, &quot;Archived&quot;)
+)</errorConditionFormula>
+    <errorMessage>You must choose an Inactive Contractor Reason from the &quot;Contractor Status&quot; Field when updating a Contractors &quot;Status&quot; from &quot;Active&quot; to &quot;Inactive&quot; or &quot;Archived&quot;</errorMessage>
+</ValidationRule>

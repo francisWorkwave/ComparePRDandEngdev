@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Req_Display_Name_On_Create</fullName>
+    <active>true</active>
+    <description>Requires the Display Name to not be NULL when a new Product Record is created.</description>
+    <errorConditionFormula>AND(
+ ISNEW( ),
+ ISBLANK(Display_Name__c)
+)</errorConditionFormula>
+    <errorMessage>You must enter a &quot;Display Name&quot; when creating a new Product</errorMessage>
+</ValidationRule>

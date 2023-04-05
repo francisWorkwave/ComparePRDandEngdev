@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>These permissions allow the Elite Contractor Team to support Urgent Cases that are created by Account Management - This could be depreciated in the future with org wide Profile Cleanup.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Urgent_Request_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Elite Contractor Team Permissions</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Case</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Case.Urgent_Client_Request</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Duplicate_Asset</fullName>
+    <active>true</active>
+    <description>Works in conjunction with Asset Trigger to detect whether an existing asset record tied to the same account and with the same property id already exists.</description>
+    <errorConditionFormula>CONTAINS(TE_Property_Id__c, &quot;Duplicate&quot;)</errorConditionFormula>
+    <errorMessage>Asset already exists for this account.</errorMessage>
+</ValidationRule>

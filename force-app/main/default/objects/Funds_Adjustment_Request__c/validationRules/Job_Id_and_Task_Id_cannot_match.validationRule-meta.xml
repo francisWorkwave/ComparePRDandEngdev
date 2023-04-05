@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Id_and_Task_Id_cannot_match</fullName>
+    <active>true</active>
+    <description>Prevents an advocate from entering the same id number in both job id and task id fields</description>
+    <errorConditionFormula>Job_Id__c = Task_Id__c</errorConditionFormula>
+    <errorMessage>Please verify that you have entered a valid Job Id or Task Id</errorMessage>
+</ValidationRule>

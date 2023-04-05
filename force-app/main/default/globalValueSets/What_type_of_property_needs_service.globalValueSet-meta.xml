@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Residential (Single-Family Home)</fullName>
+        <default>false</default>
+        <label>Residential (Single-Family Home)</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial (Multi-Family, Retail, Office)</fullName>
+        <default>false</default>
+        <label>Commercial (Multi-Family, Retail, Office)</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Space (Local, State, or Federal)</fullName>
+        <default>false</default>
+        <label>Public Space (Local, State, or Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>What type of property needs service</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

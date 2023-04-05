@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Change_Stage</fullName>
+    <active>true</active>
+    <description>Only recruitment managers can use the Change Status custom list view button to update bulk records. Workaround as a result of list view button limitations.</description>
+    <errorConditionFormula>AND(
+$Profile.Id &lt;&gt; &quot;00e6g000000Nqu6&quot;,
+ISCHANGED(Bulk_Record_Change_Date__c))</errorConditionFormula>
+    <errorMessage>You are not authorized to complete this change.</errorMessage>
+</ValidationRule>

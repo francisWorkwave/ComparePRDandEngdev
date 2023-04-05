@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_quote_line_net_total_and_qty</fullName>
+    <active>false</active>
+    <description>Requires a Quote line net total greater than $0 if quantity on Quote Line is also greater than 0</description>
+    <errorConditionFormula>AND(
+ ISNEW(),
+   SBQQ__QuoteLine__r.SBQQ__Quantity__c &gt; 0,
+   SBQQ__QuoteLine__r.SBQQ__NetTotal__c = 0
+ )</errorConditionFormula>
+    <errorMessage>You must enter a net total greater than zero if total quantity is 1 or more</errorMessage>
+</ValidationRule>

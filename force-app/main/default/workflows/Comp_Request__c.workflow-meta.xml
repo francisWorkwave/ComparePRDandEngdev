@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Comp_Request_48_Hour_approval_Escalation_Less_than_300</fullName>
+        <description>Comp Request 48 Hour approval Escalation Less than 300</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jesse.harward@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>matt.cazer@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Request_Action_Required_48_Hr_Escalation_less_than_300</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_48_Hour_approval_Escalation_greater_than_300</fullName>
+        <description>Comp Request 48 Hour approval Escalation greater than 300</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jesse.harward@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>matt.cazer@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Request_Action_Required_48_Hr_Escalation_greater_than_300</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Action_Required_24_Hour_less_than_300</fullName>
+        <description>Comp Request Action Required 24 Hour less than 300</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aaron.lewis@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jessika.jentzsch@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>john.haddon@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>patty.cazer@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>yoed.santana@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Request_Action_Required_for_Approver</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Action_Required_24_hours_greater_than_300</fullName>
+        <description>Comp Request Action Required 24 hours greater than 300</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jesse.harward@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>matt.cazer@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Request_Action_Required_for_Approver</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Approval_Notification</fullName>
+        <description>Comp Request Approval Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Approval_Request_Acceptance_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Approval_Notification_x1</fullName>
+        <description>Comp Request Approval Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Approval_Request_Acceptance_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Needs_Attention_Email_Alert</fullName>
+        <description>Comp Request Needs Attention Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Request_Needs_Attention</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Needs_Attention_Reminder_Alert</fullName>
+        <description>Comp Request Needs Attention Reminder Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sample_Email_Templates/Comp_Request_Needs_Attention_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Not_Submitted_Reminder</fullName>
+        <description>Comp Request Not Submitted Reminder</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sample_Email_Templates/Comp_Request_Not_Submitted_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Comp_Request_Rejection_Notification</fullName>
+        <description>Comp Request Rejection Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ops_Internal_Email_Templates/Comp_Approval_Request_Rejections_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approved_Amount</fullName>
+        <field>Approved_Amount__c</field>
+        <formula>Amount_of_Request__c</formula>
+        <name>Approved Amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Update</fullName>
+        <field>Finance_Date_Processed__c</field>
+        <formula>TODAY()</formula>
+        <name>Date Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Processed_By_Update</fullName>
+        <field>Finance_Processed_By__c</field>
+        <formula>IF(
+ LastModifiedBy.Profile.Name = &quot;Finance&quot;, 
+  LastModifiedBy.FirstName + &quot;&quot; + LastModifiedBy.LastName,
+  NULL
+)</formula>
+        <name>Processed By Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Needs_Attention</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Needs Attention</literalValue>
+        <name>Status Needs Attention</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Reason_Approved</fullName>
+        <field>Status_Reason__c</field>
+        <literalValue>Processed - Approved</literalValue>
+        <name>Status Reason Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Finance_Ready</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Finance_Ready</literalValue>
+        <name>Status Update Finance Ready</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Needs_Attention</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Needs Attention</literalValue>
+        <name>Status Update Needs Attention</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Ops_Rejected</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Ops Rejected</literalValue>
+        <name>Status Update Ops Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Pending</fullName>
+        <description>Updates the Status of Comp Request to &quot;Pending&quot; with initial submission action</description>
+        <field>Request_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Status Update Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Pending_x1</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Status Update Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Pending_x2</fullName>
+        <field>Request_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Status Update Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Processed</fullName>
+        <description>Updates Comp Request Status to &quot;Processed&quot; when initial approval action is triggered</description>
+        <field>Request_Status__c</field>
+        <literalValue>Processed</literalValue>
+        <name>Status Update Processed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Submission_Type</fullName>
+        <description>Updates the submission type field to &quot;Initial Submission&quot;</description>
+        <field>Submission_Type__c</field>
+        <literalValue>Initial Submission</literalValue>
+        <name>Update Submission Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

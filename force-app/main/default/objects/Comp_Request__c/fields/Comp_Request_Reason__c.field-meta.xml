@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comp_Request_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Comp Request Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gil Error</fullName>
+                <default>false</default>
+                <label>Gil Error</label>
+            </value>
+            <value>
+                <fullName>New Contractor Education</fullName>
+                <default>false</default>
+                <label>New Contractor Education</label>
+            </value>
+            <value>
+                <fullName>Trip Charge</fullName>
+                <default>false</default>
+                <label>Trip Charge</label>
+            </value>
+            <value>
+                <fullName>Team Error</fullName>
+                <default>false</default>
+                <label>Team Error</label>
+            </value>
+            <value>
+                <fullName>Overgrowth - Placement Issue</fullName>
+                <default>false</default>
+                <label>Overgrowth - Placement Issue</label>
+            </value>
+            <value>
+                <fullName>Overgrowth - Incorrect Tracing</fullName>
+                <default>false</default>
+                <label>Overgrowth - Incorrect Tracing</label>
+            </value>
+            <value>
+                <fullName>$10.00 Bonus- 1st Job</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>$10.00 Bonus- 1st Job</label>
+            </value>
+            <value>
+                <fullName>BBB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BBB</label>
+            </value>
+            <value>
+                <fullName>BBB Complaint</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BBB Complaint</label>
+            </value>
+            <value>
+                <fullName>Bid Miscommunication</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bid Miscommunication</label>
+            </value>
+            <value>
+                <fullName>Bush Trimming</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bush Trimming</label>
+            </value>
+            <value>
+                <fullName>Client Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Team Error</label>
+            </value>
+            <value>
+                <fullName>Consumer Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consumer Team Error</label>
+            </value>
+            <value>
+                <fullName>Contractor Insurance Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor Insurance Fees</label>
+            </value>
+            <value>
+                <fullName>Contractor Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor Team Error</label>
+            </value>
+            <value>
+                <fullName>Debris Removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Debris Removal</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>LeafCleanup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LeafCleanup</label>
+            </value>
+            <value>
+                <fullName>Mulch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mulch</label>
+            </value>
+            <value>
+                <fullName>Overgrowth Fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Overgrowth Fee</label>
+            </value>
+            <value>
+                <fullName>Overgrowth- Incorrect Tracing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Overgrowth- Incorrect Tracing</label>
+            </value>
+            <value>
+                <fullName>Pet Waste</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pet Waste</label>
+            </value>
+            <value>
+                <fullName>Placement Issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Placement Issue</label>
+            </value>
+            <value>
+                <fullName>QC Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>QC Team Error</label>
+            </value>
+            <value>
+                <fullName>Remainder of what NTE does not cover</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remainder of what NTE does not cover</label>
+            </value>
+            <value>
+                <fullName>Save- a- relationship (Client)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Save- a- relationship (Client)</label>
+            </value>
+            <value>
+                <fullName>Save- a- relationship (Consumer)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Save- a- relationship (Consumer)</label>
+            </value>
+            <value>
+                <fullName>Save- a- relationship (Contractor)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Save- a- relationship (Contractor)</label>
+            </value>
+            <value>
+                <fullName>SeasonalCleanUp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SeasonalCleanUp</label>
+            </value>
+            <value>
+                <fullName>TreeTrimming</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TreeTrimming</label>
+            </value>
+            <value>
+                <fullName>TripCharge</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TripCharge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

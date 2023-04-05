@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Exception__c</fullName>
+    <description>true if direct manager of advocate is part of leadership in a director or vp role.   used for criteria from within the approval process</description>
+    <externalId>false</externalId>
+    <formula>IF(
+OR( 
+CreatedBy.Manager.UserRole.Name = &quot;VP of Operations&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;Account Director&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;Director Of Account Management&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;Director of Market Operations&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;Training Manager&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;COO&quot;,
+CreatedBy.Manager.UserRole.Name = &quot;Director of Contractor Success&quot;,
+CreatedBy.Manager.Profile.Name = &quot;Ops Director&quot;
+), True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Approval Exception</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

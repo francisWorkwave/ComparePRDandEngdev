@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AFM Weekly Lawncare</fullName>
+        <default>false</default>
+        <label>AFM Weekly Lawncare</label>
+    </customValue>
+    <customValue>
+        <fullName>AFM Bi-weekly Lawncare</fullName>
+        <default>false</default>
+        <label>AFM Bi-weekly Landscaping</label>
+    </customValue>
+    <customValue>
+        <fullName>AFM Monthly Lawncare</fullName>
+        <default>false</default>
+        <label>AFM Monthly Lawncare</label>
+    </customValue>
+    <customValue>
+        <fullName>AFM Weekly Cleaning</fullName>
+        <default>false</default>
+        <label>AFM Weekly Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>AFM Bi-weekly Cleaning</fullName>
+        <default>false</default>
+        <label>AFM Bi-weekly Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>AFM Monthly Cleaning</fullName>
+        <default>false</default>
+        <label>AFM Monthly Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>One-Time</fullName>
+        <default>false</default>
+        <label>One-Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>MSR Premium Refresh</fullName>
+        <default>false</default>
+        <label>MSR Premium Refresh</label>
+    </customValue>
+    <masterLabel>Service Template Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

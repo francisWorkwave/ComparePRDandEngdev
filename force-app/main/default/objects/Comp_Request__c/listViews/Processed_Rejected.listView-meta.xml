@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Processed_Rejected</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Status_Reason__c</columns>
+    <columns>Amount_of_Request__c</columns>
+    <columns>Comp_Request_Reason__c</columns>
+    <columns>Comp_Description__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Request_Status__c</field>
+        <operation>equals</operation>
+        <value>Processed</value>
+    </filters>
+    <filters>
+        <field>Status_Reason__c</field>
+        <operation>equals</operation>
+        <value>Processed - Rejected</value>
+    </filters>
+    <label>Processed - Rejected</label>
+</ListView>

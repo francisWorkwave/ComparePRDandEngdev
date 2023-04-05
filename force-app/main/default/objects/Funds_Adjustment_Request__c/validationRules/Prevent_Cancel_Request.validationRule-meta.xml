@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Cancel_Request</fullName>
+    <active>true</active>
+    <description>Prevents the &quot;Cancel Request&quot; from being selectable if any status equals &quot;Processed&quot;</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL( Operations_Status__c , &quot;Request Cancelled&quot;),
+
+OR(
+  ISPICKVAL( Finance_Contractor_Adjustment_Status__c, 
+  &quot;Processed&quot;),
+  ISPICKVAL( Finance_Client_Consumer_ADJ_Status__c, &quot;Processed&quot;))
+)</errorConditionFormula>
+    <errorMessage>You cannot cancel a request which has been processed</errorMessage>
+</ValidationRule>

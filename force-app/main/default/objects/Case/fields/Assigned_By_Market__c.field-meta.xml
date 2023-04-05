@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_By_Market__c</fullName>
+    <description>NOT IN USE, DEPRECIATED - DO NOT USE</description>
+    <externalId>false</externalId>
+    <formula>OR(
+Region_ID__c = &quot;wa&quot;, Region_ID__c = &quot;WA&quot;, Region_ID__c = &quot;or&quot;, Region_ID__c = &quot;OR&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Assigned By Market</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

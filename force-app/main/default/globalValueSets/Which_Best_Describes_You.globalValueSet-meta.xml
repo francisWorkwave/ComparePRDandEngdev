@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Homeowner</fullName>
+        <default>false</default>
+        <label>Homeowner</label>
+    </customValue>
+    <customValue>
+        <fullName>Renter</fullName>
+        <default>false</default>
+        <label>Renter</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Manager</fullName>
+        <default>false</default>
+        <label>Property Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Vendor ( Contractor, Landscaper, Cleaner, etc. )</fullName>
+        <default>false</default>
+        <label>Vendor ( Contractor, Landscaper, Cleaner, etc. )</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset Manager</fullName>
+        <default>false</default>
+        <label>Asset Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Facility Manager</fullName>
+        <default>false</default>
+        <label>Facility Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Government Agency</fullName>
+        <default>false</default>
+        <label>Government Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>Landlord</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <masterLabel>Which Best Describes You?</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

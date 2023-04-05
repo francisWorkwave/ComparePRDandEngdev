@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status_Active_Read_Only</fullName>
+    <active>true</active>
+    <description>When status = Active, read Only for all profiles &lt;&gt; Admin, Secondary Admin</description>
+    <errorConditionFormula>AND(
+ISCHANGED(  Status__c  ), text(Status__c)= &quot;Inactive&quot;,
+Request_Account_Deactivation__c = TRUE,
+OR(
+NOT($Profile.Name = &quot;System Administrator&quot;)), 
+NOT($Profile.Name = &quot;Secondary Administrator&quot;)
+)</errorConditionFormula>
+    <errorMessage>Active account status cannot be changed. Check “Request Account Deactivation” to inactivate this account.</errorMessage>
+</ValidationRule>

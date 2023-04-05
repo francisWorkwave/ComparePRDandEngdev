@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>SMS - Contractor Recruiting</name>
+    <queueMembers>
+        <roles>
+            <role>Contractor_Recruitment</role>
+            <role>Contractor_Recruitment_Manager</role>
+            <role>SLC_Contractor_Recruitment_Advocate</role>
+            <role>TEI_Contractor_Recruitment_Advocate</role>
+            <role>TEI_Contractor_Recruitment_Team_Lead</role>
+        </roles>
+        <users>
+            <user>adrian.raso@taskeasy.com</user>
+            <user>jared.wangsgard@taskeasy.com</user>
+            <user>jose.perez@taskeasy.com</user>
+            <user>monica.hamrick@taskeasy.com</user>
+            <user>spencer.imboden@taskeasy.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>SMS_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

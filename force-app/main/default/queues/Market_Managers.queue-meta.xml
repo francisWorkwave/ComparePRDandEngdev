@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Market Managers</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Org_Leadership</publicGroup>
+            <publicGroup>Salesforce_Team</publicGroup>
+        </publicGroups>
+        <roles>
+            <role>Client_Operations_Manager</role>
+            <role>Market_Support_Manager</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

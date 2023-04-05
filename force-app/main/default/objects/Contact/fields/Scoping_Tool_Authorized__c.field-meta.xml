@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoping_Tool_Authorized__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Signifies users who clients have authorized to use the Scoping Tool for ordering.</description>
+    <externalId>false</externalId>
+    <label>Scoping Tool Authorized</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

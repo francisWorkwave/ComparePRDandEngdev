@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_or_Client_Lookup_Required</fullName>
+    <active>true</active>
+    <description>Requires EITHER the Contractor OR Client/Customer Field to be populated</description>
+    <errorConditionFormula>Contractor_Account__c = NULL &amp;&amp; Customer_Client_Account_Lookup__c = NULL</errorConditionFormula>
+    <errorMessage>A Contractor or Customer/Client Account must be specified</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>As Incurred</fullName>
+        <default>false</default>
+        <label>As Incurred</label>
+    </customValue>
+    <customValue>
+        <fullName>As Scheduled</fullName>
+        <default>false</default>
+        <label>As Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>Even Pay</fullName>
+        <default>false</default>
+        <label>Even Pay</label>
+    </customValue>
+    <masterLabel>Payment Schedule</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

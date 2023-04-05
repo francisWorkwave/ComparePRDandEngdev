@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Market Support</name>
+    <queueMembers>
+        <roles>
+            <role>CCS_Advocate</role>
+            <role>CCS_Manager</role>
+            <role>TEI_Market_Support_Advocate</role>
+            <role>TEI_Market_Support_Lead</role>
+        </roles>
+        <users>
+            <user>eb@taskeasy.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Single_Assignment</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Assignment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+CONTAINS(&quot;AL:AR:GA:LA:MS:NC:OK:SC:TN:TX&quot;,   Region_ID__c  ),&quot;South Market&quot;,
+IF(
+CONTAINS( &quot;AK:AZ:CA:CO:HI:ID:MT:NM:NV:OR:UT:WA:WY&quot;,  Region_ID__c ),&quot;West Market&quot;,
+IF(
+CONTAINS(&quot;CT:DC:DE:IA:IL:IN:KS:KY:MA:MA:MD:ME:MI:MN:MO:ND:NE:NH:NJ:NY:OH:PA:RI:SD:VA:VT:WI:WV&quot;,  Region_ID__c  ),&quot;Northeast Market&quot;,
+IF(
+CONTAINS(&quot;FL&quot;,  Region_ID__c ),&quot;Florida Market&quot;,
+IF(
+CONTAINS(&quot;Billing State Missing&quot;, Region_ID__c ), &quot;Acc Billing State Missing&quot;, 
+&quot;Not Market Assigned&quot;
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Market Assignment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

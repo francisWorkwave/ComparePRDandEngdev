@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Reason_Req_when_Other_val_selected</fullName>
+    <active>false</active>
+    <description>Requires that an &quot;Other Reason&quot; be stated when selecting &quot;Other&quot; as a Cancel Reason</description>
+    <errorConditionFormula>ISBLANK( Other_Reason__c ) &amp;&amp; 
+ISPICKVAL( Case_Resolution_Reason__c, &quot;Other&quot; )&amp;&amp;
+ISPICKVAL(  Reason, &quot;Cancel Service&quot; )</errorConditionFormula>
+    <errorMessage>You must state the &quot;Other Reason&quot; when selecting &quot;Other&quot; as a Cancel Reason</errorMessage>
+</ValidationRule>

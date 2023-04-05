@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Case Auto Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Bid Process Details</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>mailer-daemon@salesforce.com</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>bids@taskeasy.com</replyToEmail>
+            <senderEmail>notification@taskeasy.com</senderEmail>
+            <senderName>TaskEasy</senderName>
+            <template>Auto_Email_Templates/Case_Bid_Auto_Reply</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

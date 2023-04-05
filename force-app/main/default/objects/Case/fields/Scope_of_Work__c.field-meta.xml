@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope_of_Work__c</fullName>
+    <description>Scope of work to be completed for this case or the scope of work in question.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the scope of work to be completed or in question? Select all that apply.</inlineHelpText>
+    <label>Scope of Work</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aeration</fullName>
+                <default>false</default>
+                <label>Aeration</label>
+            </value>
+            <value>
+                <fullName>Bush Removal</fullName>
+                <default>false</default>
+                <label>Bush Removal</label>
+            </value>
+            <value>
+                <fullName>Bush Trimming</fullName>
+                <default>false</default>
+                <label>Bush Trimming</label>
+            </value>
+            <value>
+                <fullName>Custom Task</fullName>
+                <default>false</default>
+                <label>Custom Task</label>
+            </value>
+            <value>
+                <fullName>Debris Removal</fullName>
+                <default>false</default>
+                <label>Debris Removal</label>
+            </value>
+            <value>
+                <fullName>Dethatching</fullName>
+                <default>false</default>
+                <label>Dethatching</label>
+            </value>
+            <value>
+                <fullName>Edging</fullName>
+                <default>false</default>
+                <label>Edging</label>
+            </value>
+            <value>
+                <fullName>Fall Cleanup</fullName>
+                <default>false</default>
+                <label>Fall Cleanup</label>
+            </value>
+            <value>
+                <fullName>Fertilization</fullName>
+                <default>false</default>
+                <label>Fertilization</label>
+            </value>
+            <value>
+                <fullName>Gutter Clearing</fullName>
+                <default>false</default>
+                <label>Gutter Clearing</label>
+            </value>
+            <value>
+                <fullName>Irrigation Inspection</fullName>
+                <default>false</default>
+                <label>Irrigation Inspection</label>
+            </value>
+            <value>
+                <fullName>Lawn Overgrowth</fullName>
+                <default>false</default>
+                <label>Lawn Overgrowth</label>
+            </value>
+            <value>
+                <fullName>Leaf Cleanup</fullName>
+                <default>false</default>
+                <label>Leaf Cleanup</label>
+            </value>
+            <value>
+                <fullName>Mulch Installation</fullName>
+                <default>false</default>
+                <label>Mulch Installation</label>
+            </value>
+            <value>
+                <fullName>Mulch Refresh</fullName>
+                <default>false</default>
+                <label>Mulch Refresh</label>
+            </value>
+            <value>
+                <fullName>One time Economy Lawn Service</fullName>
+                <default>false</default>
+                <label>One time Economy Lawn Service</label>
+            </value>
+            <value>
+                <fullName>One Time Premium Lawn Service</fullName>
+                <default>false</default>
+                <label>One Time Premium Lawn Service</label>
+            </value>
+            <value>
+                <fullName>Palm Trimming</fullName>
+                <default>false</default>
+                <label>Palm Trimming</label>
+            </value>
+            <value>
+                <fullName>Pet Waste Cleanup</fullName>
+                <default>false</default>
+                <label>Pet Waste Cleanup</label>
+            </value>
+            <value>
+                <fullName>Planting</fullName>
+                <default>false</default>
+                <label>Planting</label>
+            </value>
+            <value>
+                <fullName>Pressure Washing</fullName>
+                <default>false</default>
+                <label>Pressure Washing</label>
+            </value>
+            <value>
+                <fullName>Recurring Budget/Economy Service</fullName>
+                <default>false</default>
+                <label>Recurring Budget/Economy Service</label>
+            </value>
+            <value>
+                <fullName>Recurring Premium Service</fullName>
+                <default>false</default>
+                <label>Recurring Premium Service</label>
+            </value>
+            <value>
+                <fullName>Rock Installation</fullName>
+                <default>false</default>
+                <label>Rock Installation</label>
+            </value>
+            <value>
+                <fullName>Rock Refresh</fullName>
+                <default>false</default>
+                <label>Rock Refresh</label>
+            </value>
+            <value>
+                <fullName>Sale Clean</fullName>
+                <default>false</default>
+                <label>Sales Clean</label>
+            </value>
+            <value>
+                <fullName>Pool Cleaning</fullName>
+                <default>false</default>
+                <label>Pool Cleaning</label>
+            </value>
+            <value>
+                <fullName>Seeding</fullName>
+                <default>false</default>
+                <label>Seeding</label>
+            </value>
+            <value>
+                <fullName>Spring Cleanup</fullName>
+                <default>false</default>
+                <label>Spring Cleanup</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Off</fullName>
+                <default>false</default>
+                <label>Sprinkler Off</label>
+            </value>
+            <value>
+                <fullName>Sprinkler On</fullName>
+                <default>false</default>
+                <label>Sprinkler On</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Repair</fullName>
+                <default>false</default>
+                <label>Sprinkler Repair</label>
+            </value>
+            <value>
+                <fullName>Stump Removal</fullName>
+                <default>false</default>
+                <label>Stump Removal</label>
+            </value>
+            <value>
+                <fullName>Topsoil Install</fullName>
+                <default>false</default>
+                <label>Topsoil Install</label>
+            </value>
+            <value>
+                <fullName>Trash Removal</fullName>
+                <default>false</default>
+                <label>Trash Removal</label>
+            </value>
+            <value>
+                <fullName>Tree Removal</fullName>
+                <default>false</default>
+                <label>Tree Removal</label>
+            </value>
+            <value>
+                <fullName>Tree Trimming</fullName>
+                <default>false</default>
+                <label>Tree Trimming</label>
+            </value>
+            <value>
+                <fullName>Vine Removal</fullName>
+                <default>false</default>
+                <label>Vine Removal</label>
+            </value>
+            <value>
+                <fullName>Vine Trimming</fullName>
+                <default>false</default>
+                <label>Vine Trimming</label>
+            </value>
+            <value>
+                <fullName>Watering</fullName>
+                <default>false</default>
+                <label>Watering</label>
+            </value>
+            <value>
+                <fullName>Weeding</fullName>
+                <default>false</default>
+                <label>Weeding</label>
+            </value>
+            <value>
+                <fullName>Yard Cleanup</fullName>
+                <default>false</default>
+                <label>Yard Cleanup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

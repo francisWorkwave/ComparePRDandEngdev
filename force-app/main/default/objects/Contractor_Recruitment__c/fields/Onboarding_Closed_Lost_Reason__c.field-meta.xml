@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Closed_Lost_Reason__c</fullName>
+    <description>Reasons why the contractor did not successfully pass the on-boarding process to become an active member of our network.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Why did the contractor not pass the on-boarding process?</inlineHelpText>
+    <label>Onboarding Closed Lost Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lead_Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPB</fullName>
+                <default>false</default>
+                <label>CPB</label>
+            </value>
+            <value>
+                <fullName>Doesn&apos;t meet legal requirements</fullName>
+                <default>false</default>
+                <label>Doesn&apos;t meet legal requirements</label>
+            </value>
+            <value>
+                <fullName>Job offered is too far</fullName>
+                <default>false</default>
+                <label>Job offered is too far</label>
+            </value>
+            <value>
+                <fullName>No Communication</fullName>
+                <default>false</default>
+                <label>No Communication</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Pay is too low</fullName>
+                <default>false</default>
+                <label>Pay is too low</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>CPB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Doesn&apos;t meet legal requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Job offered is too far</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>No Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Pay is too low</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

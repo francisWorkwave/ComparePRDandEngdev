@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Portfolio_Mgmt_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Property Portfolio/Mgmt Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single Family</fullName>
+                <default>false</default>
+                <label>Single Family</label>
+            </value>
+            <value>
+                <fullName>Multi Family</fullName>
+                <default>false</default>
+                <label>Multi Family</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>iBuyer</fullName>
+                <default>false</default>
+                <label>iBuyer</label>
+            </value>
+            <value>
+                <fullName>Short Term Rental</fullName>
+                <default>false</default>
+                <label>Short Term Rental</label>
+            </value>
+            <value>
+                <fullName>REO</fullName>
+                <default>false</default>
+                <label>REO</label>
+            </value>
+            <value>
+                <fullName>HOA</fullName>
+                <default>false</default>
+                <label>HOA</label>
+            </value>
+            <value>
+                <fullName>Build for Rent</fullName>
+                <default>false</default>
+                <label>Build for Rent</label>
+            </value>
+            <value>
+                <fullName>Senior Living</fullName>
+                <default>false</default>
+                <label>Senior Living</label>
+            </value>
+            <value>
+                <fullName>Student Housing</fullName>
+                <default>false</default>
+                <label>Student Housing</label>
+            </value>
+            <value>
+                <fullName>City/Government</fullName>
+                <default>false</default>
+                <label>City/Government</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

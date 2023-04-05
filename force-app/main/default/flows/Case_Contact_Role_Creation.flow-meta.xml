@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <name>Does_Contact_Role_Already_Exist</name>
+        <label>Does Contact Role Already Exist?</label>
+        <locationX>950</locationX>
+        <locationY>281</locationY>
+        <defaultConnectorLabel>Default</defaultConnectorLabel>
+        <rules>
+            <name>Contact_Does_not_Exist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact_Role_Records</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Contact_Role</targetReference>
+            </connector>
+            <label>Contact Role Does not Exist</label>
+        </rules>
+    </decisions>
+    <description>Creates a contact role based on the related contact id of the case.</description>
+    <formulas>
+        <name>forRole</name>
+        <dataType>String</dataType>
+        <expression>CASE( {!$Record.Contact.RecordType.DeveloperName},
+    &apos;Consumer_Contact&apos;, &apos;Consumer&apos;,
+    &apos;Client_Contact&apos;, &apos;Client&apos;,
+    &apos;Contractor_Owner&apos;, &apos;Contractor&apos;,
+    &apos;Contractor_Team_Member&apos;, &apos;Contractor&apos;, &apos;&apos;)</expression>
+    </formulas>
+    <interviewLabel>Case Contact Role Creation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Contact Role Creation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Contact_Role</name>
+        <label>Create Contact Role</label>
+        <locationX>958</locationX>
+        <locationY>511</locationY>
+        <inputAssignments>
+            <field>CasesId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Role</field>
+            <value>
+                <elementReference>forRole</elementReference>
+            </value>
+        </inputAssignments>
+        <object>CaseContactRole</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Contact_Role_Records</name>
+        <label>Get Contact Role Records</label>
+        <locationX>953</locationX>
+        <locationY>119</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Does_Contact_Role_Already_Exist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CasesId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contact.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>CaseContactRole</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>ContactId</queriedFields>
+        <queriedFields>Role</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>483</locationX>
+        <locationY>32</locationY>
+        <connector>
+            <targetReference>Get_Contact_Role_Records</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0126g0000010fdOAAQ</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>varNewContactRole</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>CaseContactRole</objectType>
+    </variables>
+</Flow>

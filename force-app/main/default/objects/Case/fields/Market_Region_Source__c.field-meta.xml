@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Region_Source__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+CONTAINS(&quot;WA:MT:OR:ID:WY:NV:UT:CA:AK:HI&quot;, Region_ID__c),&quot;West Coast&quot;,
+IF(
+CONTAINS( &quot;ND:SD:NE:KS:OK:NM&quot;, Region_ID__c),&quot;Central&quot;,
+IF(
+CONTAINS(&quot;MN:WI:IA:IL:IN:MI:KY&quot;, Region_ID__c),&quot;Great Lakes&quot;,
+IF(
+CONTAINS(&quot;VA:WV:MD:DE:NJ:PA:NY:OH:NH:ME:MA:RI:PA:CT:DC&quot;, Region_ID__c),&quot;North East&quot;,
+IF(
+CONTAINS(&quot;NC:SC&quot;, Region_ID__c), &quot;Carolinas&quot;,
+IF(
+CONTAINS(&quot;GA&quot;, Region_ID__c), &quot;GA&quot;,
+IF(
+CONTAINS(&quot;FL&quot;, Region_ID__c), &quot;FL&quot;,
+IF(
+CONTAINS(&quot;TN:AL:MS:LA:AR&quot;, Region_ID__c), &quot;Blue Ridge&quot;,
+IF(
+CONTAINS(&quot;AZ:CO&quot;, Region_ID__c), &quot;AZ/CO&quot;,
+IF(
+CONTAINS(&quot;TX&quot;, Region_ID__c), &quot;TX&quot;,
+
+&quot;&quot;
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Market Region Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

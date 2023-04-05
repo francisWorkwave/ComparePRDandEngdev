@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Website or App Issue</fullName>
+        <default>false</default>
+        <label>Website or App Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancel</fullName>
+        <default>false</default>
+        <label>Cancel</label>
+    </customValue>
+    <customValue>
+        <fullName>Returning Recruiter Call</fullName>
+        <default>false</default>
+        <label>Returning Recruiter Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Issue</fullName>
+        <default>false</default>
+        <label>Onsite Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid Related</fullName>
+        <default>false</default>
+        <label>Bid Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Active Service Related</fullName>
+        <default>false</default>
+        <label>Active Service Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Related</fullName>
+        <default>false</default>
+        <label>Account Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Specific Outbound Calls</fullName>
+        <default>false</default>
+        <label>Specific Outbound Calls</label>
+    </customValue>
+    <customValue>
+        <fullName>Schedule/Routing Related</fullName>
+        <default>false</default>
+        <label>Schedule/Routing Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejection Related</fullName>
+        <default>false</default>
+        <label>Rejection Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Related</fullName>
+        <default>false</default>
+        <label>Property Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Future Consumer Contact</fullName>
+        <default>false</default>
+        <label>Future Consumer Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Future Contractor Contact</fullName>
+        <default>false</default>
+        <label>Future Contractor Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Returning a Recruiter Call</fullName>
+        <default>false</default>
+        <label>Returning a Recruiter Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Non CS Contact</fullName>
+        <default>false</default>
+        <label>Non CS Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Request for Additional Funds</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Request for Additional Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>Reschedule - Other Reasons</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reschedule - Other Reasons</label>
+    </customValue>
+    <customValue>
+        <fullName>Reschedule - Route Optimization</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reschedule - Route Optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>Task Instruction Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Task Instruction Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancel - Save Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cancel - Save Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Claim</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>Dead Air</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dead Air</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Late</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Job Late</label>
+    </customValue>
+    <customValue>
+        <fullName>New Order</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Related</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Related</label>
+    </customValue>
+    <customValue>
+        <fullName>Reprice Follow Up</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reprice Follow Up</label>
+    </customValue>
+    <customValue>
+        <fullName>On-boarding Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>On-boarding Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>How TaskEasy Works</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>How TaskEasy Works</label>
+    </customValue>
+    <customValue>
+        <fullName>No Answer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Answer</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone Sale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Phone Sale</label>
+    </customValue>
+    <customValue>
+        <fullName>Scope of Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Scope of Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Services Offered</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Services Offered</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Customer Service Request or Inquiry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Non-Customer Service Request or Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Relationship Building</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Relationship Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Intro</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Intro</label>
+    </customValue>
+    <customValue>
+        <fullName>Follow Up</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Follow Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Upsell</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Upsell</label>
+    </customValue>
+    <customValue>
+        <fullName>Ops Coordination</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ops Coordination</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance Details</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finance Details</label>
+    </customValue>
+    <customValue>
+        <fullName>Placement: A-Script Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Placement: A-Script Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Placement: Task Placement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Placement: Task Placement</label>
+    </customValue>
+    <customValue>
+        <fullName>Placement: Consumer Reprice</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Placement: Consumer Reprice</label>
+    </customValue>
+    <customValue>
+        <fullName>Placement: Contractor Follow Up</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Placement: Contractor Follow Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Discovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Validation Call</label>
+    </customValue>
+    <customValue>
+        <fullName>No Contractor Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Contractor Available</label>
+    </customValue>
+    <customValue>
+        <fullName>More Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Seasonality / Frequency</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Seasonality / Frequency</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance Claim</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Insurance Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>Order New / Additional Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Order New / Additional Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Portal Issue</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Client Portal Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Bids</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bids</label>
+    </customValue>
+    <customValue>
+        <fullName>General Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant Issue / Concerns</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tenant Issue / Concerns</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance / Invoicing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finance / Invoicing</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Escalation</label>
+    </customValue>
+    <customValue>
+        <fullName>Concern with Property/Properties</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Concern with Property/Properties</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactive Property</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Inactive Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Issue with Job Quality</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Issue with Job Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Issue / Question</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Issue / Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Specific Service Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Specific Service Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Justify Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Justify Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Operations Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Check In</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Check In</label>
+    </customValue>
+    <customValue>
+        <fullName>Off Season / On Season</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Off Season / On Season</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound - Other Project</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outbound - Other Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejection Question / Discussion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rejection Question / Discussion</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Job Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Schedule Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Schedule Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Account Information</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Updating Account Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Routing Information</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Updating Routing Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Requesting More Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Requesting More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Reschedule Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reschedule Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Reassign a Job Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reassign a Job Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound  - Past Due or Job Reminder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outbound  - Past Due or Job Reminder</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound - Future Job Count</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outbound - Future Job Count</label>
+    </customValue>
+    <customValue>
+        <fullName>Non CS Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Non CS Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Future Contractor Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Future Contractor Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Future Consumer Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Future Consumer Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Doesn&apos;t Want to Work with TaskEasy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Doesn&apos;t Want to Work with TaskEasy</label>
+    </customValue>
+    <customValue>
+        <fullName>Access Issue</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Access Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid Status</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bid Status</label>
+    </customValue>
+    <customValue>
+        <fullName>Contractor Wants More Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contractor Wants More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Change Question</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frequency Change Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Hazardous Property</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hazardous Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Initial Service - Overgrowth</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Initial Service - Overgrowth</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>New Payment Schedule Change</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Payment Schedule Change</label>
+    </customValue>
+    <customValue>
+        <fullName>No Work Needed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Work Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Status</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Status</label>
+    </customValue>
+    <customValue>
+        <fullName>Reassignment - Not in Service Area</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reassignment - Not in Service Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejection</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rejection</label>
+    </customValue>
+    <customValue>
+        <fullName>Ancillary Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ancillary Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Complement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Complement</label>
+    </customValue>
+    <customValue>
+        <fullName>Contractor Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contractor Request</label>
+    </customValue>
+    <customValue>
+        <fullName>General Service Questions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General Service Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>New Service / Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Service / Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Off Season</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Off Season</label>
+    </customValue>
+    <customValue>
+        <fullName>Reschedule</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reschedule</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Delay / Late Task</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delay / Late Task</label>
+    </customValue>
+    <customValue>
+        <fullName>Specific Task Question</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Specific Task Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Specific Task Instructions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Specific Task Instructions</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Instructions</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Delays &amp; Reschedules</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delays &amp; Reschedules</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer Needed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Longer Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Unhappy with TE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unhappy with TE</label>
+    </customValue>
+    <customValue>
+        <fullName>Updating Information / Instructions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Updating Information / Instructions</label>
+    </customValue>
+    <masterLabel>Inquiry Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

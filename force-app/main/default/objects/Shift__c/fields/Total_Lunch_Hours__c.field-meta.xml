@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Lunch_Hours__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Lunch Hours</label>
+    <summarizedField>Time_Entry__c.Duration__c</summarizedField>
+    <summaryFilterItems>
+        <field>Time_Entry__c.Entry_Type__c</field>
+        <operation>equals</operation>
+        <value>Lunch</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Time_Entry__c.Shift__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

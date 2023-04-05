@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PastDue_PastDueReasonRequired</fullName>
+    <active>true</active>
+    <description>Users other than Boomi must specify a past due reason add a Status Change Summary
+specifying the reason.</description>
+    <errorConditionFormula>AND(ISCHANGED(PastDueReason__c), ISBLANK(Status_Change_Summary__c), NOT(ISCHANGED( OwnerId )), NOT(CONTAINS($User.Username,&apos;boomi@taskeasy.com&apos;)), RecordType.DeveloperName = &apos;PastDueCase&apos;,
+CreatedDate &lt;&gt; LastModifiedDate)</errorConditionFormula>
+    <errorMessage>You must specify a Past Due Reason and add a Status Change Summary
+specifying the reason.</errorMessage>
+</ValidationRule>

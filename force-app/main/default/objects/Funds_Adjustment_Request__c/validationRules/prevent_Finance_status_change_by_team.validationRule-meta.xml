@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prevent_Finance_status_change_by_team</fullName>
+    <active>false</active>
+    <description>Prevents the finance contractor team from updating the status on the client or consumer finance status and vise versa</description>
+    <errorConditionFormula>AND(
+ISCHANGED( Finance_Contractor_Adjustment_Status__c ),  
+OR(
+$User.Alias = &quot;smuno&quot;,  $User.Alias = &quot;AJaco&quot;)) ||
+
+AND(
+ISCHANGED(  Finance_Client_Consumer_ADJ_Status__c ),
+OR(
+RecordType.DeveloperName &lt;&gt; &apos;Consumer Adjustment&apos;,
+RecordType.DeveloperName = &apos;Client Adjustment&apos;),
+OR(
+$User.Alias = &quot;hmula&quot;,  $User.Alias = &quot;jorel&quot;,  $User.Alias = &quot;vtorr&quot;))</errorConditionFormula>
+    <errorMessage>Please verify that you are changing the correct Status field in relation to your department function</errorMessage>
+</ValidationRule>

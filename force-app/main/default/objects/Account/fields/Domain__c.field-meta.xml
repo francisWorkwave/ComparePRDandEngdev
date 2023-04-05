@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domain__c</fullName>
+    <description>The email domain to be used for clients needing domain-based routing.  This should only be filled in for clients on Client Teams 1-3.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email domain for domain-based routing to Client Teams 1-3.  Do not fill in if the client ops is not managed by one of those three teams.</inlineHelpText>
+    <label>Email Domain</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<apex:page standardcontroller="Contractor_Recruitment__c">
+<style>
+    body {
+          border-style:solid;
+          border-width:1px;
+          border-color: #FFFFFF;
+          background: linear-gradient(120deg,#FFFFFF,#FFFFFF)!important; 
+          background-repeat: no-repeat !important;
+          background-position: center center !important;
+          background-size: contain !important;              
+         }
+</style>
+<body>
+<b><p style="color:#000000; 
+             font-size:25px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">
+     {!Contractor_Recruitment__c.Account_Onboarding_Status__c}</p></b>
+</body>
+ </apex:page>

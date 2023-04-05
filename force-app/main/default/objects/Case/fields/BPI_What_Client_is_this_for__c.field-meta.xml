@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPI_What_Client_is_this_for__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field is used for the BPI request process - replaces the depreciated Google form that was filled out by the Client team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please search for the Client that is associated with this BPI request, if one does not exist, you will need to create a new Account.</inlineHelpText>
+    <label>What Client is this for?</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

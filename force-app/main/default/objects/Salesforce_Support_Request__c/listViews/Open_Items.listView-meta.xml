@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Items</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>Status_Reason__c</columns>
+    <columns>Request_Description__c</columns>
+    <columns>Requesting_Team__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Won&apos;t Do,Deployed</value>
+    </filters>
+    <label>Open Items</label>
+</ListView>

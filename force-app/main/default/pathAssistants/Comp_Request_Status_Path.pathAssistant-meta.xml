@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Comp_Request__c</entityName>
+    <fieldName>Request_Status__c</fieldName>
+    <masterLabel>Comp Request Status Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status_Reason__c</fieldNames>
+        <fieldNames>Finance_Notes__c</fieldNames>
+        <fieldNames>Cancel_Request__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;The submitter has been notified that Action needs to be taken on this request.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;If you have rejected this Comp Request pending more information, verify that the appropriate value has been selected in the &amp;quot;Status Reason&amp;quot; field so that action can be taken by the submitter.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Add any Notes that will assist the submitter in Actioning or Canceling this request&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Submitter:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Helvetica, sans-serif; font-size: 10pt;&quot;&gt;Once the required information has been updated, Select &amp;quot;Submit for Approval&amp;quot; &lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: Helvetica, sans-serif; font-size: 10pt;&quot;&gt;To Cancel the Request, please select &amp;quot;Cancel Request&amp;quot; checkbox and Save&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Needs Attention</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status_Reason__c</fieldNames>
+        <fieldNames>Comp_Request_Reason__c</fieldNames>
+        <fieldNames>Amount_of_Request__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;If Rejecting this Comp Request for any reason please process the rejection in the following order:&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Select the &amp;quot;Reject&amp;quot; button &lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Navigate back to this request record and update the &amp;quot;Status Reason&amp;quot; field with the Rejection Reason.&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Pending</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status_Reason__c</fieldNames>
+        <fieldNames>Approved_Amount__c</fieldNames>
+        <fieldNames>Finance_Job__c</fieldNames>
+        <fieldNames>Finance_Task__c</fieldNames>
+        <fieldNames>Finance_Notes__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;Finance: Please verify that the appropriate value has been selected in the &amp;quot;Status Reason&amp;quot; field to close this request.&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Processed - Rejected&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Processed - Approved&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Processed</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

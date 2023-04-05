@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Email__c</fullName>
+    <description>The Email for the Agent who services the Contractors Insurance Policy</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email for the Agent who services the Contractors Insurance Policy</inlineHelpText>
+    <label>Agent Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the field you want updated when the conditions are met.</inlineHelpText>
+    <label>Target Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__TargetObject__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit Price</fullName>
+                <default>false</default>
+                <label>Unit Price</label>
+            </value>
+            <value>
+                <fullName>Discount (%)</fullName>
+                <default>false</default>
+                <label>Discount (%)</label>
+            </value>
+            <value>
+                <fullName>Discount (Amt)</fullName>
+                <default>false</default>
+                <label>Discount (Amt)</label>
+            </value>
+            <value>
+                <fullName>Markup (%)</fullName>
+                <default>false</default>
+                <label>Markup (%)</label>
+            </value>
+            <value>
+                <fullName>Markup (Amt)</fullName>
+                <default>false</default>
+                <label>Markup (Amt)</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target (%)</label>
+            </value>
+            <value>
+                <fullName>Norm</fullName>
+                <default>false</default>
+                <label>Norm (%)</label>
+            </value>
+            <value>
+                <fullName>Floor</fullName>
+                <default>false</default>
+                <label>Floor (%)</label>
+            </value>
+            <value>
+                <fullName>Explanation</fullName>
+                <default>false</default>
+                <label>Explanation</label>
+            </value>
+            <value>
+                <fullName>Payment_Frequency__c</fullName>
+                <default>false</default>
+                <label>Payment_Frequency__c</label>
+            </value>
+            <value>
+                <fullName>Market_Coefficient__c</fullName>
+                <default>false</default>
+                <label>Market_Coefficient__c</label>
+            </value>
+            <value>
+                <fullName>Fulfillment_Tier__c</fullName>
+                <default>false</default>
+                <label>Fulfillment_Tier__c</label>
+            </value>
+            <value>
+                <fullName>Frequency_Factor__c</fullName>
+                <default>false</default>
+                <label>Frequency_Factor__c</label>
+            </value>
+            <value>
+                <fullName>Estimated_Effort__c</fullName>
+                <default>false</default>
+                <label>Estimated_Effort__c</label>
+            </value>
+            <value>
+                <fullName>Sq_Ft_Qty__c</fullName>
+                <default>false</default>
+                <label>Sq_Ft_Qty__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ListPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ListPrice__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__CustomerPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__CustomerPrice__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__NetPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__NetPrice__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__UnitCost__c</fullName>
+                <default>false</default>
+                <label>SBQQ__UnitCost__c</label>
+            </value>
+            <value>
+                <fullName>Take_Rate__c</fullName>
+                <default>false</default>
+                <label>Take_Rate__c</label>
+            </value>
+            <value>
+                <fullName>Take_Rate_Minimum__c</fullName>
+                <default>false</default>
+                <label>Take_Rate_Minimum__c</label>
+            </value>
+            <value>
+                <fullName>Route_Optimized_Zip__c</fullName>
+                <default>false</default>
+                <label>Route_Optimized_Zip__c</label>
+            </value>
+            <value>
+                <fullName>GL_Insurance_Cost__c</fullName>
+                <default>false</default>
+                <label>GL_Insurance_Cost__c</label>
+            </value>
+            <value>
+                <fullName>OA_Insurance_Cost__c</fullName>
+                <default>false</default>
+                <label>OA_Insurance_Cost__c</label>
+            </value>
+            <value>
+                <fullName>Service_Template__c</fullName>
+                <default>false</default>
+                <label>Service_Template__c</label>
+            </value>
+            <value>
+                <fullName>Service_Template_Id__c</fullName>
+                <default>false</default>
+                <label>Service_Template_Id__c</label>
+            </value>
+            <value>
+                <fullName>Service_Template_Type__c</fullName>
+                <default>false</default>
+                <label>Service_Template_Type__c</label>
+            </value>
+            <value>
+                <fullName>Number_of_Services__c</fullName>
+                <default>false</default>
+                <label>Number_of_Services__c</label>
+            </value>
+            <value>
+                <fullName>ASP_Total__c</fullName>
+                <default>false</default>
+                <label>ASP_Total__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SpecialPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SpecialPrice__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SpecialPriceType__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SpecialPriceType__c</label>
+            </value>
+            <value>
+                <fullName>Price_Fixed_Uplift__c</fullName>
+                <default>false</default>
+                <label>Price_Fixed_Uplift__c</label>
+            </value>
+            <value>
+                <fullName>Price_Fixed_Component__c</fullName>
+                <default>false</default>
+                <label>Price_Fixed_Component__c</label>
+            </value>
+            <value>
+                <fullName>Price_Variable_Component__c</fullName>
+                <default>false</default>
+                <label>Price_Variable_Component__c</label>
+            </value>
+            <value>
+                <fullName>Contractor_Price__c</fullName>
+                <default>false</default>
+                <label>Contractor_Price__c</label>
+            </value>
+            <value>
+                <fullName>Contractor_Price_Fixed_Uplift__c</fullName>
+                <default>false</default>
+                <label>Contractor_Price_Fixed_Uplift__c</label>
+            </value>
+            <value>
+                <fullName>Contractor_Price_Fixed_Component__c</fullName>
+                <default>false</default>
+                <label>Contractor_Price_Fixed_Component__c</label>
+            </value>
+            <value>
+                <fullName>Contractor_Price_Variable_Component__c</fullName>
+                <default>false</default>
+                <label>Contractor_Price_Variable_Component__c</label>
+            </value>
+            <value>
+                <fullName>Contractor_Earnings__c</fullName>
+                <default>false</default>
+                <label>Contractor_Earnings__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_1__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_1__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_2__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_2__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_3__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_3__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_4__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_4__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_5__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_5__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_6__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_6__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_7__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_7__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_8__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_8__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_9__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_9__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_10__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_10__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_11__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_11__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_12__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_12__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_13__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_13__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_14__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_14__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_15__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_15__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_16__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_16__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_17__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_17__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_18__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_18__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_19__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_19__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Label_20__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Label_20__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_1__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_1__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_2__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_2__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_3__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_3__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_4__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_4__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_5__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_5__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_6__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_6__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_7__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_7__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_8__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_8__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_9__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_9__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_10__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_10__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_11__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_11__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_12__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_12__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_13__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_13__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_14__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_14__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_15__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_15__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_16__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_16__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_17__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_17__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_18__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_18__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_19__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_19__c</label>
+            </value>
+            <value>
+                <fullName>Additional_Field_Value_20__c</fullName>
+                <default>false</default>
+                <label>Additional_Field_Value_20__c</label>
+            </value>
+            <value>
+                <fullName>Contracted_Price_Key__c</fullName>
+                <default>false</default>
+                <label>Contracted_Price_Key__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__DiscountSchedule__c</fullName>
+                <default>false</default>
+                <label>SBQQ__DiscountSchedule__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Unit Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Discount (%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Discount (Amt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Markup (%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Markup (Amt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Payment_Frequency__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Market_Coefficient__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Fulfillment_Tier__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Frequency_Factor__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Estimated_Effort__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Sq_Ft_Qty__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__ListPrice__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__CustomerPrice__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__NetPrice__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__UnitCost__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Take_Rate__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Take_Rate_Minimum__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Route_Optimized_Zip__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>GL_Insurance_Cost__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>OA_Insurance_Cost__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Service_Template__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Service_Template_Id__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Service_Template_Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Number_of_Services__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>ASP_Total__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__SpecialPrice__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__SpecialPriceType__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Price_Fixed_Uplift__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Price_Fixed_Component__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Price_Variable_Component__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contractor_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contractor_Price_Fixed_Uplift__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contractor_Price_Fixed_Component__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contractor_Price_Variable_Component__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contractor_Earnings__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_1__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_2__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_3__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_4__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_5__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_6__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_7__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_8__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_9__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_10__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_11__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_12__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_13__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_14__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_15__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_16__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_17__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_18__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_19__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Label_20__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_1__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_2__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_3__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_4__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_5__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_6__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_7__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_8__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_9__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_10__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_11__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_12__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_13__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_14__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_15__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_16__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_17__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_18__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_19__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Additional_Field_Value_20__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Contracted_Price_Key__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__DiscountSchedule__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Target</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Norm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Floor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Explanation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Req_Licenses_or_Certification</fullName>
+    <active>true</active>
+    <description>Requires a value in &quot;Licenses or Certification&quot; or &quot;Tree Trimming / Arborist Certification&quot; field on the Account must be TRUE if state equals, CA, RI, HI, LA, MA,CT, MD.</description>
+    <errorConditionFormula>AND(
+CONTAINS( &quot;CA:RI:HI:LA:MA:CT:MD&quot; , Account__r.BillingState ), 
+RecordType.DeveloperName = &quot;Tree_Service&quot;, 
+ISBLANK( PS_Licenses_or_Certifications__c ) ||
+Account__r.Tree_Trimming_Arborist_Certification_Lic__c = FALSE
+)</errorConditionFormula>
+    <errorMessage>Contractor must have a valid License or Certification to Operate within the Current State.</errorMessage>
+</ValidationRule>

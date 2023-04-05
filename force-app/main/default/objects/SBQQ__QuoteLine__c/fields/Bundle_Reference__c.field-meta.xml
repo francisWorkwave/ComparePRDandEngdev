@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bundle_Reference__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(SBQQ__OptionType__c,&apos;Component&apos;),&apos;&apos;,
+IF(
+
+
+
+
+OR(SBQQ__Product__r.RecordType.DeveloperName = &apos;Bundle Set&apos;, ISBLANK(SBQQ__RequiredBy__c )),
+Name,
+IF( 
+ISBLANK(SBQQ__RequiredBy__r.SBQQ__RequiredBy__r.SBQQ__RequiredBy__c),
+IF(
+ISBLANK(SBQQ__RequiredBy__r.SBQQ__RequiredBy__c ),
+SBQQ__RequiredBy__r.Name,
+SBQQ__RequiredBy__r.SBQQ__RequiredBy__r.Name
+),
+SBQQ__RequiredBy__r.SBQQ__RequiredBy__r.SBQQ__RequiredBy__r.Name
+)
+)
+
++
+
+IF( ISPICKVAL(Recurrence_Type__c,&apos;One-Time&apos;), &apos;OT&apos;, &apos;R&apos;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bundle Reference</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

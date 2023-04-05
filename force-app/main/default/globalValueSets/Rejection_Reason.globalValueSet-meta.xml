@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Blurry/unclear Photos</fullName>
+        <default>false</default>
+        <label>Blurry/unclear Photos</label>
+    </customValue>
+    <customValue>
+        <fullName>String Trimming</fullName>
+        <default>false</default>
+        <label>String Trimming</label>
+    </customValue>
+    <customValue>
+        <fullName>Mowing</fullName>
+        <default>false</default>
+        <label>Mowing</label>
+    </customValue>
+    <customValue>
+        <fullName>Grass Clippings (OG)</fullName>
+        <default>false</default>
+        <label>Grass Clippings (OG)</label>
+    </customValue>
+    <customValue>
+        <fullName>Blow Leaves/Grass Clippings/Incedental Debris</fullName>
+        <default>false</default>
+        <label>Blow Leaves/Grass Clippings/Incedental Debris</label>
+    </customValue>
+    <customValue>
+        <fullName>Deep Edging</fullName>
+        <default>false</default>
+        <label>Deep Edging</label>
+    </customValue>
+    <customValue>
+        <fullName>Bush Trimming</fullName>
+        <default>false</default>
+        <label>Bush Trimming</label>
+    </customValue>
+    <customValue>
+        <fullName>Spraying/Pulling Weeds</fullName>
+        <default>false</default>
+        <label>Spraying/Pulling Weeds</label>
+    </customValue>
+    <customValue>
+        <fullName>Debris remains</fullName>
+        <default>false</default>
+        <label>Debris remains</label>
+    </customValue>
+    <customValue>
+        <fullName>Gravel Not Raked Evenly</fullName>
+        <default>false</default>
+        <label>Gravel Not Raked Evenly</label>
+    </customValue>
+    <customValue>
+        <fullName>Tree Trimming</fullName>
+        <default>false</default>
+        <label>Tree Trimming</label>
+    </customValue>
+    <customValue>
+        <fullName>Stump Not Ground</fullName>
+        <default>false</default>
+        <label>Stump Not Ground</label>
+    </customValue>
+    <customValue>
+        <fullName>Debris Not Removed from Property</fullName>
+        <default>false</default>
+        <label>Debris Not Removed from Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Debris left in Client&apos;s Garbage Can</fullName>
+        <default>false</default>
+        <label>Debris left in Client&apos;s Garbage Can</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Mulch Not Removed</fullName>
+        <default>false</default>
+        <label>Old Mulch Not Removed</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrong Color of Mulch</fullName>
+        <default>false</default>
+        <label>Wrong Color of Mulch</label>
+    </customValue>
+    <customValue>
+        <fullName>Not all Leaves removed</fullName>
+        <default>false</default>
+        <label>Not all Leaves removed</label>
+    </customValue>
+    <customValue>
+        <fullName>Deicer Not Applied</fullName>
+        <default>false</default>
+        <label>Deicer Not Applied</label>
+    </customValue>
+    <customValue>
+        <fullName>Snow Not Cleared</fullName>
+        <default>false</default>
+        <label>Snow Not Cleared</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrong Property</fullName>
+        <default>false</default>
+        <label>Wrong Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Serviced Too Soon</fullName>
+        <default>false</default>
+        <label>Serviced Too Soon</label>
+    </customValue>
+    <customValue>
+        <fullName>Photos Missing</fullName>
+        <default>false</default>
+        <label>Photos Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Photos</fullName>
+        <default>false</default>
+        <label>Duplicate Photos</label>
+    </customValue>
+    <customValue>
+        <fullName>Bid Only</fullName>
+        <default>false</default>
+        <label>Bid Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Scheduling Error</fullName>
+        <default>false</default>
+        <label>Scheduling Error</label>
+    </customValue>
+    <customValue>
+        <fullName>2nd chance not completed over 72 hours</fullName>
+        <default>false</default>
+        <label>2nd chance not completed over 72 hours</label>
+    </customValue>
+    <customValue>
+        <fullName>Rep Error</fullName>
+        <default>false</default>
+        <label>Rep Error</label>
+    </customValue>
+    <customValue>
+        <fullName>TE System Error</fullName>
+        <default>false</default>
+        <label>TE System Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant Refused</fullName>
+        <default>false</default>
+        <label>Tenant Refused</label>
+    </customValue>
+    <customValue>
+        <fullName>Occupied</fullName>
+        <default>false</default>
+        <label>Occupied</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Construction</fullName>
+        <default>false</default>
+        <label>Onsite Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Access Issue</fullName>
+        <default>false</default>
+        <label>Access Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Property Data</fullName>
+        <default>false</default>
+        <label>Incorrect Property Data</label>
+    </customValue>
+    <customValue>
+        <fullName>No Mulch Needed</fullName>
+        <default>false</default>
+        <label>No Mulch Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Fix It Client Issue</fullName>
+        <default>false</default>
+        <label>Fix It Client Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliances Not Cleaned</fullName>
+        <default>false</default>
+        <label>Appliances Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirrors Not Cleaned</fullName>
+        <default>false</default>
+        <label>Mirrors Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Floors Not Vacuumed/Swept</fullName>
+        <default>false</default>
+        <label>Floors Not Vacuumed/Swept</label>
+    </customValue>
+    <customValue>
+        <fullName>Toilets Not Cleaned/Water Recycled</fullName>
+        <default>false</default>
+        <label>Toilets Not Cleaned/Water Recycled</label>
+    </customValue>
+    <customValue>
+        <fullName>Counters Not Cleaned</fullName>
+        <default>false</default>
+        <label>Counters Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Faucets Not Cleaned</fullName>
+        <default>false</default>
+        <label>Faucets Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Tub/Shower Not Cleaned</fullName>
+        <default>false</default>
+        <label>Tub/Shower Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Skimmer Basket Not Cleaned</fullName>
+        <default>false</default>
+        <label>Skimmer Basket Not Cleaned</label>
+    </customValue>
+    <customValue>
+        <fullName>Gate Not Locked</fullName>
+        <default>false</default>
+        <label>Gate Not Locked</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical Test Kit Missing</fullName>
+        <default>false</default>
+        <label>Chemical Test Kit Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool Shows Debris</fullName>
+        <default>false</default>
+        <label>Pool Shows Debris</label>
+    </customValue>
+    <customValue>
+        <fullName>Key Not Replaced</fullName>
+        <default>false</default>
+        <label>Key Not Replaced</label>
+    </customValue>
+    <customValue>
+        <fullName>Type of Service</fullName>
+        <default>false</default>
+        <label>Type of Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Too Far From Current Route</fullName>
+        <default>false</default>
+        <label>Too Far From Current Route</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Enough Money</fullName>
+        <default>false</default>
+        <label>Not Enough Money</label>
+    </customValue>
+    <customValue>
+        <fullName>Contractor No Response</fullName>
+        <default>false</default>
+        <label>Contractor No Response</label>
+    </customValue>
+    <customValue>
+        <fullName>No Work Done</fullName>
+        <default>false</default>
+        <label>No Work Done</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Work Done</fullName>
+        <default>false</default>
+        <label>Partial Work Done</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>No Flower Beds</fullName>
+        <default>false</default>
+        <label>No Flower Beds</label>
+    </customValue>
+    <customValue>
+        <fullName>4th Refresh</fullName>
+        <default>false</default>
+        <label>4th Refresh</label>
+    </customValue>
+    <customValue>
+        <fullName>TE Comp</fullName>
+        <default>false</default>
+        <label>TE Comp</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Hazard</fullName>
+        <default>false</default>
+        <label>Property Hazard</label>
+    </customValue>
+    <customValue>
+        <fullName>2nd Chance Failed</fullName>
+        <default>false</default>
+        <label>2nd Chance Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>VM Full</fullName>
+        <default>false</default>
+        <label>VM Full</label>
+    </customValue>
+    <customValue>
+        <fullName>VM Not Set Up</fullName>
+        <default>false</default>
+        <label>VM Not Set Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Refused to Return</fullName>
+        <default>false</default>
+        <label>Refused to Return</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Issues</fullName>
+        <default>false</default>
+        <label>Weather Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Can&apos;t Complete Until Next Week</fullName>
+        <default>false</default>
+        <label>Can&apos;t Complete Until Next Week</label>
+    </customValue>
+    <customValue>
+        <fullName>No Work Marked Complete</fullName>
+        <default>false</default>
+        <label>No Work Marked Complete</label>
+    </customValue>
+    <masterLabel>Rejection Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

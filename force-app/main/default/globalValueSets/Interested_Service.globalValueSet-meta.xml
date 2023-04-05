@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bush trimming</fullName>
+        <default>false</default>
+        <label>Bush trimming</label>
+    </customValue>
+    <customValue>
+        <fullName>Desertscaping</fullName>
+        <default>false</default>
+        <label>Desertscaping</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawn aeration</fullName>
+        <default>false</default>
+        <label>Lawn aeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawn mowing</fullName>
+        <default>false</default>
+        <label>Lawn mowing</label>
+    </customValue>
+    <customValue>
+        <fullName>Fall cleanup</fullName>
+        <default>false</default>
+        <label>Fall cleanup</label>
+    </customValue>
+    <customValue>
+        <fullName>Spring cleanup</fullName>
+        <default>false</default>
+        <label>Spring cleanup</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawn fertilization</fullName>
+        <default>false</default>
+        <label>Lawn fertilization</label>
+    </customValue>
+    <customValue>
+        <fullName>Pressure washing</fullName>
+        <default>false</default>
+        <label>Pressure washing</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales cleans</fullName>
+        <default>false</default>
+        <label>Sales cleans</label>
+    </customValue>
+    <customValue>
+        <fullName>Snow removal</fullName>
+        <default>false</default>
+        <label>Snow removal</label>
+    </customValue>
+    <customValue>
+        <fullName>Gutter Cleaning</fullName>
+        <default>false</default>
+        <label>Gutter Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Disinfection and Sanitation (COVID-19)</fullName>
+        <default>false</default>
+        <label>Disinfection and Sanitation (COVID-19)</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool Cleaning</fullName>
+        <default>false</default>
+        <label>Pool Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Move-In/Move-Out Cleaning</fullName>
+        <default>false</default>
+        <label>Move-In/Move-Out Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Move-Out/In Cleaning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Move-Out/In Cleaning</label>
+    </customValue>
+    <masterLabel>Interested Service</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

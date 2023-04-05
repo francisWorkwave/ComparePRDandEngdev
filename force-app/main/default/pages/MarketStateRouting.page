@@ -1,0 +1,27 @@
+<apex:page standardcontroller="Case">
+<style>
+    body {
+          border-style:solid;
+          border-width:6px;
+          border-color: #F0EEE9;
+          background: linear-gradient(120deg,#9bb969,#F0EEE9)!important; 
+          background-repeat: no-repeat !important;
+          background-position: center center !important;
+          background-size: contain !important;              
+         }
+</style>
+<body>
+<b><p style="color: #5d5d5d; 
+             font-size:22px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">
+     Please Update the "State Assignment" Field Below in order to route this case to the correct Support Team </p></b>
+<p style="color: #007398; 
+             font-size:18px; 
+             font-family: 'Roboto', sans-serif; 
+             text-align: center;">
+     Please Select The State Assignment Below </p>    
+    <center><apex:form ><apex:inputField value="{!Case.State_Assignment__c}" style="width: 340px; height: 30px"/> <apex:commandButton action="{! save }" value="Update" style="height:30px;width:60px;" /></apex:form> </center>
+<BR></BR>
+</body> 
+ </apex:page>

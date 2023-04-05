@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Commercial_Deal_in_Validate_Notification</fullName>
+        <description>Commercial Deal in &apos;Validate&apos; Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jared.wangsgard+forms@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/TE_Commercial_Deal_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Needs_Pricing_Notification</fullName>
+        <description>&apos;Needs Pricing&apos; Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>amy.ames@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Opportunity_Stage_Change</fullName>
+        <description>Notify on Opportunity Stage Change</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aaron.lewis@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>adrian.raso@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>matt.cazer@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SF_Administration_Internal/Opportunity_Stage_Change_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Opp_in_Educate_Disco_Notification</fullName>
+        <description>Opp in &apos;Educate/Disco&apos; Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jared.wangsgard+forms@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Educate_Disco_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Pricing_Complete_Notification</fullName>
+        <description>Pricing in Complete Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Pricing_in_Progress_Notification</fullName>
+        <description>Pricing in Progress Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Internal_Notices/Pricing_in_Progress_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Opportunity_Name</fullName>
+        <field>Name</field>
+        <formula>Account.Name &amp; &quot; / &quot; &amp;  Market__c &amp; &quot; / &quot; &amp; TEXT( Product__c )</formula>
+        <name>Opportunity Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Oppty_Stamp_Closed_Won_Status_Date_Time</fullName>
+        <description>Time stamp based on a field value change of the Closed Won Status field.</description>
+        <field>Closed_Won_Status_Date_Time_Change__c</field>
+        <formula>NOW()</formula>
+        <name>Oppty: Time Stamp Close Won Status Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Notify on Opportunity Stage Change</fullName>
+        <actions>
+            <name>Notify_on_Opportunity_Stage_Change</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Notifies users every time the stage of an opportunity changes.</description>
+        <formula>ISCHANGED(StageName)&amp;&amp; NOT(ISPICKVAL(StageName,&apos;New&apos;) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Oppty%3A Closed Won Status Date%2FTime Change</fullName>
+        <actions>
+            <name>Oppty_Stamp_Closed_Won_Status_Date_Time</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Automatically date/time stamp the Closed Won Status Date/Time Field when the Closed Won Status custom field value is changed.</description>
+        <formula>ISCHANGED(Closed_Won_Status__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Opportunity Name</fullName>
+        <actions>
+            <name>Opportunity_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT ( CONTAINS (Name, Account.Name ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

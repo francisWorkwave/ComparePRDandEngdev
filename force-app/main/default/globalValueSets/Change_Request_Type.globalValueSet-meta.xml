@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Capabilities/Team Change</fullName>
+        <default>false</default>
+        <label>Capabilities/Team Change</label>
+    </customValue>
+    <customValue>
+        <fullName>New Vendor</fullName>
+        <default>false</default>
+        <label>New Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Wants to End Partnership with TE</fullName>
+        <default>false</default>
+        <label>Wants to End Partnership with TE</label>
+    </customValue>
+    <customValue>
+        <fullName>New Account</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Area Change</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Area Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Request for More Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Request for More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Work Hours/Days Change</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Work Hours/Days Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary Change</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Temporary Change</label>
+    </customValue>
+    <masterLabel>Change Request Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

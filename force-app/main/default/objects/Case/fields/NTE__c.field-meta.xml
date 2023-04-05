@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTE__c</fullName>
+    <description>The amount of pre-approved funds from the client or consumer in order to complete the extra work on this individual job/request as quickly as possible.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The amount of pre-approved funds from the client or consumer for this INDIVIDUAL JOB ONLY. If the bid amount or unit pricing is higher than this amount, submit the bid for approval.</inlineHelpText>
+    <label>NTE</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

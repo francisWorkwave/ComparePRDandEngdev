@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Bid_Amount__c</fullName>
+    <description>The amount the contractor has bid or has agreed to (unit pricing) in order to complete the additional work on a property. This will be the additional additional amount if the bid is attached to a recurring job or the total amount if it is a one time request.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How much money does the contractor need to complete the job?   For overgrowth or inhibiting completing a recurring service it will be the additional amount requested.  For one time services/requests, it will be the total amount needed.</inlineHelpText>
+    <label>Total Contractor Bid Amount</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

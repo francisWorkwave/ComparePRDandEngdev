@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Close_Case_Before_Case_Res_Reason</fullName>
+    <active>true</active>
+    <description>Requires a case status to be closed when entering a case resolution reason.</description>
+    <errorConditionFormula>AND(
+ $User.Id &lt;&gt; &quot;0056g000001rqQ8&quot;,
+ NOT(ISPICKVAL(Status, &apos;Closed&apos;)),
+ NOT(ISBLANK(TEXT(Case_Resolution_Reason__c))),
+ NOT(ISPICKVAL( Turns_Status__c , &apos;Closed&apos;))
+)</errorConditionFormula>
+    <errorDisplayField>Case_Resolution_Reason__c</errorDisplayField>
+    <errorMessage>The Case Status must be closed when entering a case resolution reason. If you are not ready to close this case yet, please change the case resolution reason to &quot;None&quot;</errorMessage>
+</ValidationRule>

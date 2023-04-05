@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Time Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EASTERN</fullName>
+                <default>false</default>
+                <label>EASTERN</label>
+            </value>
+            <value>
+                <fullName>CENTRAL</fullName>
+                <default>false</default>
+                <label>CENTRAL</label>
+            </value>
+            <value>
+                <fullName>MOUNTAIN</fullName>
+                <default>false</default>
+                <label>MOUNTAIN</label>
+            </value>
+            <value>
+                <fullName>PHOENIX</fullName>
+                <default>false</default>
+                <label>PHOENIX</label>
+            </value>
+            <value>
+                <fullName>PACIFIC</fullName>
+                <default>false</default>
+                <label>PACIFIC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

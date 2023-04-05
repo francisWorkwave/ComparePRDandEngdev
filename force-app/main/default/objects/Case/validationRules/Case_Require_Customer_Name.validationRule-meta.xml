@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Require_Customer_Name</fullName>
+    <active>true</active>
+    <description>Requires the &quot;Property Owner&quot; field when status &lt;&gt; new.</description>
+    <errorConditionFormula>AND(
+    $RecordType.DeveloperName = &quot;Bid_Process_Details&quot;, 
+    Customer_Name__c = NULL,
+    NOT(ISPICKVAL (Status, &quot;Response Received&quot;)),
+    NOT(ISPICKVAL (Status, &quot;New&quot;)), 
+       OR(
+          NOT(ISPICKVAL (Status, &quot;Closed&quot;)),
+          NOT(ISPICKVAL(PRIORVALUE( Status ), &quot;New&quot;))
+)
+)</errorConditionFormula>
+    <errorMessage>Property Owner Name is required. Click the &quot;Add Property Owner&quot; button at the top of the page to add the property owner name.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Hours__c</fullName>
+    <description>Estimated time that this support request will take to complete.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated time that this support request will take to complete.</inlineHelpText>
+    <label>Estimated Hours</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

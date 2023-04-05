@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Housekeeping_Coefficient__c</fullName>
+        <default>false</default>
+        <label>Housekeeping_Coefficient__c</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawn_Care_Coefficient__c</fullName>
+        <default>false</default>
+        <label>Lawn_Care_Coefficient__c</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool_Coefficient__c</fullName>
+        <default>false</default>
+        <label>Pool_Coefficient__c</label>
+    </customValue>
+    <customValue>
+        <fullName>Snow_Coefficient__c</fullName>
+        <default>false</default>
+        <label>Snow_Coefficient__c</label>
+    </customValue>
+    <customValue>
+        <fullName>Pest_Control_Coefficent__c</fullName>
+        <default>false</default>
+        <label>Pest_Control_Coefficent__c</label>
+    </customValue>
+    <masterLabel>Market Coefficient</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_Leak_Detection__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used for Pool service</description>
+    <externalId>false</externalId>
+    <label>Leak Detection</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Edit_After_Ops_Approval</fullName>
+    <active>true</active>
+    <description>restricts edit to Finance team once record has been approved by operations</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL( Operations_Status__c, &apos;Approved&apos; ), 
+    $Profile.Name &lt;&gt; &apos;System Administrator&apos;,     
+      OR(       
+        ISCHANGED( Adjustment_Type__c ),
+        ISCHANGED( Task_Id__c ),
+        ISCHANGED( Job_Id__c ),
+        ISCHANGED( Resubmission__c ),
+        ISCHANGED( Reason_for_Adjustment__c ),
+        ISCHANGED( Adjust_Contractor_Funds__c ),
+        ISCHANGED( Amount__c ),
+        ISCHANGED( Client_Consumer_Adjustment_Type__c ),
+        ISCHANGED( Contractor_Name__c ),
+        ISCHANGED( Adjustment_Explanation__c ),
+        ISCHANGED( Contractor_Id__c ),
+        ISCHANGED( Adjustment_Amount__c ),
+        ISCHANGED( Contractor_Pay_Increase__c ),
+        ISCHANGED( Client_Consumer_Charge_Adjustment_Req__c ),
+        ISCHANGED( Customer_Type__c ),
+        ISCHANGED( How_was_Error_Discovered__c ),
+        ISCHANGED( Submission_Notes__c )),
+            $Profile.Name &lt;&gt; &apos;Finance&apos; ||          
+            $Profile.Name &lt;&gt; &apos;Finance Manager&apos;)</errorConditionFormula>
+    <errorMessage>You do not have permission to edit a request once it has been approved by Operations</errorMessage>
+</ValidationRule>

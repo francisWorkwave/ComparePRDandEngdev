@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assign_Inactive_Reason</fullName>
+    <active>true</active>
+    <description>This validation rule prevents users from updating the contractor status without choosing a reason for inactivation.</description>
+    <errorConditionFormula>ISPICKVAL( Contractor_Status__c , &quot;Inactive - No Longer Wants to Work With TaskEasy&quot;) &amp;&amp;  ISBLANK(&quot;Reason_For_Inactive_Status__c&quot;)</errorConditionFormula>
+    <errorMessage>Please assign the reason the contractor no longer wants to work with TaskEasy</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Recruitment_Opportunity__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Recruitment Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Sub_Status__c</fieldNames>
+        <picklistValueName>Request Revoked</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Work_Scheduled_Date__c</fieldNames>
+        <picklistValueName>Work Scheduled</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

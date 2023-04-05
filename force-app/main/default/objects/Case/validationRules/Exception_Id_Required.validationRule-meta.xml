@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exception_Id_Required</fullName>
+    <active>true</active>
+    <description>Requires a value in &quot;Exception Id&quot; field to save when status = waiting on client response on Bid Case record type</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL(Status, &quot;Waiting on Client Response&quot;),
+ RecordType.DeveloperName = &quot;Bid_Process_Details&quot;,
+ ISBLANK( Exception_ID__c )
+)</errorConditionFormula>
+    <errorMessage>You must enter an &quot;Exception Id&quot; when selecting &quot;Waiting on Client Response&quot; as a Case Status</errorMessage>
+</ValidationRule>
