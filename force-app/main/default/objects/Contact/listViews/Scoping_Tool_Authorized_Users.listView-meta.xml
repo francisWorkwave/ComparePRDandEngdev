@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoping_Tool_Authorized_Users</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Scoping_Tool_Authorized__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scoping_Tool_Authorized__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Scoping Tool Authorized Users</label>
+</ListView>

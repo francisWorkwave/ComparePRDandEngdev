@@ -49,6 +49,7 @@ public with sharing class OrderFunnel_Models {
         public String pricebookId {get;set;}
         public String accessCode {get;set;}
         public String accessNote {get;set;}
+        public String status {get;set;}
         public List<AdditionalFieldModel> additionalFields {get; set;}
         public List<MetricModel> metrics {get; set;}
 
@@ -92,6 +93,9 @@ public with sharing class OrderFunnel_Models {
         public String type;
         public String description;
         public String family;
+        public String iconTag;
+        public String color;
+        public String marketingDescription;
         public String merchandisingTags;
         public Boolean clientProduct;
         public List<ServiceTypeModel> serviceTypes;
@@ -111,16 +115,35 @@ public with sharing class OrderFunnel_Models {
         public String type;
         public String description;
         public String family;
+        public String iconTag;
+        public String color;
+        public String marketingDescription;
         public String merchandisingTags;
         public String netsuiteItem;
         public String taxCode;
+        public String defaultServiceTemplate;
 
         public List<ServiceTypeModel> serviceTypes;
 
+        // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+        public List<ServiceTemplateModel> serviceTemplates;
+        // End. Fran
+
         public Product2Model(){
             ServiceTypes = new List<ServiceTypeModel>();
+            // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+            serviceTemplates = new List<ServiceTemplateModel>();
+            // End. Fran
         }
     }
+
+    // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+    public class ServiceTemplateModel{
+        public String type;
+        public String zone;
+        public String schedule;
+    }
+    // End. Fran
 
     public class ServiceTypeModel {
         public String id {get; set;}

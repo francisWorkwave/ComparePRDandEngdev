@@ -5,11 +5,15 @@
         <description>New Request Email Notification</description>
         <protected>false</protected>
         <recipients>
+            <recipient>amy.ames@taskeasy.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>jared.wangsgard@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jose.lucero@taskeasy.com</recipient>
+            <recipient>jason.hogan@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

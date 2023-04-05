@@ -14,6 +14,22 @@
             </value>
         </assignmentItems>
         <connector>
+            <targetReference>AssetName</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>set_Name_Full_Address</name>
+        <label>set Name Full Address</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>{!$Record.Street_Address__c}, {!$Record.City__c}, {!$Record.State__c}, {!$Record.Postal_Code__c}</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
             <targetReference>Postal_Code_Changed</targetReference>
         </connector>
     </assignments>
@@ -21,7 +37,7 @@
         <name>Set_Region_Values</name>
         <label>Set Region Values</label>
         <locationX>50</locationX>
-        <locationY>671</locationY>
+        <locationY>1007</locationY>
         <assignmentItems>
             <assignToReference>$Record.Region__c</assignToReference>
             <operator>Assign</operator>
@@ -38,10 +54,91 @@
         </assignmentItems>
     </assignments>
     <decisions>
+        <name>AssetName</name>
+        <label>Asset Name</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Postal_Code_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>AddressNotNull</name>
+            <conditionLogic>(1 AND 2 AND 3 AND 4) AND (5 OR 6 OR 7 OR 8 OR 9)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Street_Address__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.City__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.State__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Postal_Code__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Street_Address__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.City__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.State__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Postal_Code__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>set_Name_Full_Address</targetReference>
+            </connector>
+            <label>Address not null</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Postal_Code_Changed</name>
         <label>Postal Code Changed</label>
         <locationX>182</locationX>
-        <locationY>431</locationY>
+        <locationY>767</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -71,6 +168,11 @@
         <dataType>String</dataType>
         <expression>{!$Record.Account.Id}+&quot;-&quot;+{!$Record.TE_Property_Id__c}</expression>
     </formulas>
+    <formulas>
+        <name>isNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
     <interviewLabel>Asset - Before {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Asset - Before</label>
     <processMetadataValues>
@@ -96,7 +198,7 @@
         <name>Lookup_Region</name>
         <label>Lookup Region</label>
         <locationX>50</locationX>
-        <locationY>551</locationY>
+        <locationY>887</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_Region_Values</targetReference>

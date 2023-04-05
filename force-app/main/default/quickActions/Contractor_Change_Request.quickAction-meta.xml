@@ -15,7 +15,7 @@
     </fieldOverrides>
     <fieldOverrides>
         <field>Reason</field>
-        <literalValue>Contractor Change Request</literalValue>
+        <literalValue>Schedule</literalValue>
     </fieldOverrides>
     <fieldOverrides>
         <field>Status</field>
@@ -51,6 +51,11 @@
                 <emptySpace>false</emptySpace>
                 <field>ContactId</field>
                 <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Origin</field>
+                <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>

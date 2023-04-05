@@ -5,7 +5,7 @@
         <description>Commercial Deal in &apos;Validate&apos; Notification</description>
         <protected>false</protected>
         <recipients>
-            <recipient>jared.wangsgard+forms@taskeasy.com</recipient>
+            <recipient>colby.shosted@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -46,7 +46,7 @@
         <description>Opp in &apos;Educate/Disco&apos; Notification</description>
         <protected>false</protected>
         <recipients>
-            <recipient>jared.wangsgard+forms@taskeasy.com</recipient>
+            <recipient>colby.shosted@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

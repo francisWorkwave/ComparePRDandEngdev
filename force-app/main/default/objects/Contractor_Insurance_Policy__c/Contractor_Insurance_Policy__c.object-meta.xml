@@ -157,12 +157,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Certification</label>
+    <label>Contractor Insurance Policy</label>
     <nameField>
-        <label>Certification</label>
+        <label>Contractor Insurance Policy Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Certifications</pluralLabel>
+    <pluralLabel>Contractor Insurance Policies</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

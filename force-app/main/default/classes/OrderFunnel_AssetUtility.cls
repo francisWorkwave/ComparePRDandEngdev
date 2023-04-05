@@ -132,6 +132,7 @@ public with sharing class OrderFunnel_AssetUtility {
         a.TE_Property_Id__c = model.TEID;
         a.CU_Property_Id__c = model.CUID;
         a.Current_Tracing_ID__c = model.CurrentTracingId;
+        a.Status = model.status;
 
         if (model.Address != null) {
             a.Street_Address__c = model.Address.Street;

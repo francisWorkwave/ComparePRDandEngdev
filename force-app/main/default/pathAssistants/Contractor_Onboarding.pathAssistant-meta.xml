@@ -5,24 +5,8 @@
     <fieldName>Recruitment_Status__c</fieldName>
     <masterLabel>Contractor Onboarding</masterLabel>
     <pathAssistantSteps>
-        <info>&lt;p&gt;This will be contractors we have contacted. (Email/Phone) Who did not answer.&lt;/p&gt;</info>
-        <picklistValueName>Contacted</picklistValueName>
-    </pathAssistantSteps>
-    <pathAssistantSteps>
         <fieldNames>First_Job_Scheduled_Date__c</fieldNames>
-        <fieldNames>Service_Area__c</fieldNames>
-        <fieldNames>Days_available__c</fieldNames>
-        <fieldNames>Number_of_jobs__c</fieldNames>
-        <fieldNames>Schedule_Notes__c</fieldNames>
         <picklistValueName>First Route Scheduled</picklistValueName>
-    </pathAssistantSteps>
-    <pathAssistantSteps>
-        <info>&lt;p&gt;Contractor has everything filled out (T&amp;amp;C/W9/Insurance/Banking info) &lt;/p&gt;&lt;p&gt;Ready for first route and to go to nesting.&lt;/p&gt;</info>
-        <picklistValueName>Fully Verified</picklistValueName>
-    </pathAssistantSteps>
-    <pathAssistantSteps>
-        <info>&lt;p&gt;We have spoken with the contractor and the contractor is interested in working with us.&lt;/p&gt;&lt;p&gt;Contractor may need a call back or wants a couple of days to gather all necessary information&lt;/p&gt;</info>
-        <picklistValueName>Pending Account Validation</picklistValueName>
     </pathAssistantSteps>
     <recordTypeName>Contractor_Account</recordTypeName>
 </PathAssistant>

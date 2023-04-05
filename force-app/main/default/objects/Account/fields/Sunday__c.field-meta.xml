@@ -115,26 +115,6 @@
                 <default>false</default>
                 <label>20</label>
             </value>
-            <value>
-                <fullName>25</fullName>
-                <default>false</default>
-                <label>25</label>
-            </value>
-            <value>
-                <fullName>30</fullName>
-                <default>false</default>
-                <label>30</label>
-            </value>
-            <value>
-                <fullName>35</fullName>
-                <default>false</default>
-                <label>35</label>
-            </value>
-            <value>
-                <fullName>40</fullName>
-                <default>false</default>
-                <label>40</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

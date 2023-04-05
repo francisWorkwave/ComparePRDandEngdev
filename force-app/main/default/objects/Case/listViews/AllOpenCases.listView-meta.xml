@@ -15,12 +15,11 @@
     <columns>Market_Assignment__c</columns>
     <columns>Market_State_Assignment__c</columns>
     <columns>Manual_Market_Assignment__c</columns>
-    <columns>CASES.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>CASES.CLOSED</field>
-        <operation>equals</operation>
-        <value>0</value>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Bid_Process_Details</value>
     </filters>
     <label>All Open Cases</label>
     <sharedTo>

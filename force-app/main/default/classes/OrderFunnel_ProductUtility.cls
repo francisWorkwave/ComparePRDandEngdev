@@ -24,7 +24,7 @@ public with sharing class OrderFunnel_ProductUtility {
 
     private static String buildSearchQuery(String accountId, String region, Boolean includeInternal, List<String> tags){
         String query = 'SELECT Id, ProductCode, Name, Display_Name__c, RecordType.Name, ';
-        query += 'Description, Merchandising_Tags__c, Family, Client__c, External_ID__c, Product_Photo_URL__c,';
+        query += 'Description, Merchandising_Tags__c, Family, Product_Family__c, Product_Family__r.Name, Product_Family__r.Color__c, Product_Family__r.Icon_Tag__c, Client__c, External_ID__c, Product_Photo_URL__c,';
 
         query += '(SELECT Id, Service_Type__c, Service_Type__r.Name, Service_Type__r.Contractor_Description__c, Service_Type__r.Customer_Description__c ';
         query += 'FROM Component_Services__r) ';
@@ -97,7 +97,9 @@ public with sharing class OrderFunnel_ProductUtility {
         model.productPhotoURL = product.Product_Photo_URL__c;
         model.Type = product.RecordType.Name;
         model.Description = product.Description;
-        model.Family = product.Family;
+        model.Family = product?.Product_Family__r?.Name;
+        model.color = product?.Product_Family__r?.Color__c;
+        model.iconTag = product?.Product_Family__r?.Icon_Tag__c;
         model.MerchandisingTags = product.Merchandising_Tags__c;
         if(product.Client__c != null){
             model.clientProduct = true;

@@ -393,37 +393,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Days_available__c</picklist>
-        <values>
-            <fullName>Friday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Monday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Saturday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sunday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Thursday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Tuesday</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wednesday</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Debt_Status__c</picklist>
         <values>
             <fullName>NA</fullName>
@@ -940,6 +909,32 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>PaymentMethod__c</picklist>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PaymentTerms__c</picklist>
+        <values>
+            <fullName>Net 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Payment_Status__c</picklist>
         <values>
             <fullName>Account Verified</fullName>
@@ -1150,6 +1145,26 @@
     </picklistValues>
     <picklistValues>
         <picklist>Reason_For_Inactive_Status__c</picklist>
+        <values>
+            <fullName>Busy With Personal Book of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%E2%80%99t Like Our Processes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%E2%80%99t Want to Be Apart of Route Optimization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negative Experience With a Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Dispute</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Payout Duration Too Long</fullName>
             <default>false</default>
@@ -1520,7 +1535,7 @@
         <picklist>Status__c</picklist>
         <values>
             <fullName>Active</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Archived</fullName>
@@ -1661,21 +1676,6 @@
         </values>
         <values>
             <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Test_Program_Participation__c</picklist>
-        <values>
-            <fullName>Contractor Minimum</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>In-App Additional Funds</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>On-Demand Jobs</fullName>
             <default>false</default>
         </values>
     </picklistValues>

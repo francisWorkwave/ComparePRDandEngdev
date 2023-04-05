@@ -6,9 +6,19 @@
         <label>Capabilities/Team Change</label>
     </customValue>
     <customValue>
-        <fullName>New Vendor</fullName>
+        <fullName>Request for More Work</fullName>
         <default>false</default>
-        <label>New Vendor</label>
+        <label>Request for More Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Area Change</fullName>
+        <default>false</default>
+        <label>Service Area Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary Change</fullName>
+        <default>false</default>
+        <label>Temporary Change</label>
     </customValue>
     <customValue>
         <fullName>Wants to End Partnership with TE</fullName>
@@ -16,34 +26,9 @@
         <label>Wants to End Partnership with TE</label>
     </customValue>
     <customValue>
-        <fullName>New Account</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>New Account</label>
-    </customValue>
-    <customValue>
-        <fullName>Service Area Change</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Service Area Change</label>
-    </customValue>
-    <customValue>
-        <fullName>Request for More Work</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Request for More Work</label>
-    </customValue>
-    <customValue>
         <fullName>Work Hours/Days Change</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Work Hours/Days Change</label>
-    </customValue>
-    <customValue>
-        <fullName>Temporary Change</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Temporary Change</label>
     </customValue>
     <masterLabel>Change Request Type</masterLabel>
     <sorted>false</sorted>

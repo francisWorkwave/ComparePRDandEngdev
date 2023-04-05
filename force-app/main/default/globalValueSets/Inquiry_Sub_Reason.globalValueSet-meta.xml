@@ -301,6 +301,12 @@
         <label>New Provider</label>
     </customValue>
     <customValue>
+        <fullName>Service Delays &amp; Reschedules</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delays &amp; Reschedules</label>
+    </customValue>
+    <customValue>
         <fullName>Customer Service</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -317,12 +323,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Instructions</label>
-    </customValue>
-    <customValue>
-        <fullName>Service Delays &amp; Reschedules</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Service Delays &amp; Reschedules</label>
     </customValue>
     <customValue>
         <fullName>No Longer Needed</fullName>

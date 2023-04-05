@@ -165,7 +165,6 @@
         <searchResultsAdditionalFields>RegionID__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>State__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Code__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Zip_Code__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

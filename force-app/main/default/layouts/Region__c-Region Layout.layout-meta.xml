@@ -117,6 +117,10 @@
                 <behavior>Edit</behavior>
                 <field>Route_Optimized__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Price_Book__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

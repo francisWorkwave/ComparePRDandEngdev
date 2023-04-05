@@ -11,5 +11,5 @@
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>true</enableUserSelfDeactivate>
     <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
-    <restrictedProfileCloning>true</restrictedProfileCloning>
+    <restrictedProfileCloning>false</restrictedProfileCloning>
 </UserManagementSettings>

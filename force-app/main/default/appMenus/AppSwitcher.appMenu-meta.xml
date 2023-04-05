@@ -53,10 +53,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -202,18 +198,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>PandaDoc_to_SF_OAuth2</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>AM_Team</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>DEVHUB_dodyqyfypsr5bfosh6jk</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>DevOps_Center</name>
         <type>ConnectedApp</type>
     </appMenuItems>
 </AppMenu>

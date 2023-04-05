@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>54.0</apiVersion>
-    <decisions>
-        <name>Type_of_queue</name>
-        <label>Type of queue</label>
-        <locationX>314</locationX>
-        <locationY>276</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Market_Support_Queue</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Case_Owner_Role__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>TEI Market Support Advocate</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>get_market_support_queue</targetReference>
-            </connector>
-            <label>Market Support Queue</label>
-        </rules>
-        <rules>
-            <name>Bid_Process_Details</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.RecordTypeDeveloperName__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Bid_Process_Details</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Get_Bid_Team_queue</targetReference>
-            </connector>
-            <label>Bid_Process_Details</label>
-        </rules>
-    </decisions>
     <interviewLabel>Case - Scheduled - Case Reassign to Queue {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case - Scheduled - Case Reassign to Queue</label>
     <processMetadataValues>
@@ -62,8 +25,8 @@
     <recordLookups>
         <name>Get_Bid_Team_queue</name>
         <label>Get Bid_Team queue</label>
-        <locationX>314</locationX>
-        <locationY>396</locationY>
+        <locationX>176</locationX>
+        <locationY>276</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Reasign_cases_to_BidTeam</targetReference>
@@ -87,39 +50,11 @@
         <object>Group</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordLookups>
-        <name>get_market_support_queue</name>
-        <label>get market_support_queue</label>
-        <locationX>50</locationX>
-        <locationY>396</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Reasing_case_to_market_support</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>DeveloperName</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>market_support</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Type</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Queue</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Group</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <recordUpdates>
         <name>Reasign_cases_to_BidTeam</name>
         <label>Reasign cases to BidTeam</label>
-        <locationX>314</locationX>
-        <locationY>516</locationY>
+        <locationX>176</locationX>
+        <locationY>396</locationY>
         <inputAssignments>
             <field>OwnerId</field>
             <value>
@@ -128,26 +63,20 @@
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
-    <recordUpdates>
-        <name>Reasing_case_to_market_support</name>
-        <label>Reasing case to market_support</label>
-        <locationX>50</locationX>
-        <locationY>516</locationY>
-        <inputAssignments>
-            <field>OwnerId</field>
-            <value>
-                <elementReference>get_market_support_queue.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <start>
-        <locationX>188</locationX>
+        <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Type_of_queue</targetReference>
+            <targetReference>Get_Bid_Team_queue</targetReference>
         </connector>
-        <filterLogic>1 AND 2 AND (3 OR 4)</filterLogic>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>RecordTypeDeveloperName__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Bid_Process_Details</stringValue>
+            </value>
+        </filters>
         <filters>
             <field>Owned_by_Queue__c</field>
             <operator>EqualTo</operator>
@@ -160,20 +89,6 @@
             <operator>EqualTo</operator>
             <value>
                 <stringValue>New</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>RecordTypeDeveloperName__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Bid_Process_Details</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Case_Owner_Role__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>TEI Market Support Advocate</stringValue>
             </value>
         </filters>
         <object>Case</object>

@@ -307,11 +307,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Case_Owner_Role__c</field>
-            <table>User.Case$CreatedById</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>OfflinePdaTrialExpirationDate</field>
             <table>User</table>
         </columns>
@@ -319,11 +314,6 @@
             <checkedByDefault>false</checkedByDefault>
             <field>ForecastEnabled</field>
             <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Owned_by_Queue__c</field>
-            <table>User.Case$CreatedById</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
@@ -344,11 +334,6 @@
             <checkedByDefault>false</checkedByDefault>
             <field>FederationIdentifier</field>
             <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Created_Date_Only__c</field>
-            <table>User.Case$CreatedById</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
@@ -438,16 +423,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Manager_Name__c</field>
-            <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Is_Admin__c</field>
-            <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Exclude_From_Restriction_Rules__c</field>
             <table>User</table>
         </columns>
         <masterLabel>Users</masterLabel>
@@ -853,12 +828,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>RO_Market__c</field>
+            <field>External_ID__c</field>
             <table>User.Case$CreatedById</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Manager__c</field>
+            <field>Service_Blocking__c</field>
+            <table>User.Case$CreatedById</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Order__c</field>
             <table>User.Case$CreatedById</table>
         </columns>
         <masterLabel>Cases</masterLabel>
