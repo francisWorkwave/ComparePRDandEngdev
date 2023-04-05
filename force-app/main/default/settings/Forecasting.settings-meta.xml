@@ -213,10 +213,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -227,10 +223,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -429,24 +421,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -507,11 +483,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -561,11 +535,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -712,10 +682,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -726,10 +692,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -928,24 +890,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -1006,11 +952,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -1060,11 +1004,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1215,10 +1155,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1229,10 +1165,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -1431,24 +1363,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -1510,11 +1426,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -1564,11 +1478,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1715,10 +1625,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1729,10 +1635,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -1931,24 +1833,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -2009,11 +1895,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -2063,11 +1947,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2218,10 +2098,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2232,10 +2108,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -2434,24 +2306,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -2513,11 +2369,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -2567,11 +2421,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2718,10 +2568,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2732,10 +2578,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -2934,24 +2776,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -3012,11 +2838,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -3066,11 +2890,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3221,10 +3041,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -3235,10 +3051,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -3437,24 +3249,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -3516,11 +3312,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -3570,11 +3364,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3721,10 +3511,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -3735,10 +3521,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -3937,24 +3719,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -4015,11 +3781,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -4069,11 +3833,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4224,10 +3984,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -4238,10 +3994,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -4440,24 +4192,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -4519,11 +4255,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -4573,11 +4307,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4724,10 +4454,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -4738,10 +4464,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -4940,24 +4662,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -5018,11 +4724,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -5072,11 +4776,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5227,10 +4927,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -5241,10 +4937,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -5443,24 +5135,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -5522,11 +5198,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -5576,11 +5250,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5727,10 +5397,6 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -5741,10 +5407,6 @@
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <label>Last Modified Date</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -5943,24 +5605,8 @@
             <label>Renewed Contract</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFX</field>
             <label>ROI Analysis Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
@@ -6021,11 +5667,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -6075,11 +5719,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>

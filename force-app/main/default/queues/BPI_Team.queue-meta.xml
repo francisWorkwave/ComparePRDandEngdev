@@ -3,9 +3,6 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>BPI Team</name>
     <queueMembers>
-        <roleAndSubordinates>
-            <roleAndSubordinate>BPI_Team_Lead</roleAndSubordinate>
-        </roleAndSubordinates>
         <roles>
             <role>BPI_Team</role>
         </roles>

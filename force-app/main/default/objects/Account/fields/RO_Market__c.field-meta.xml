@@ -9,6 +9,7 @@
     <trackHistory>true</trackHistory>
     <type>Picklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -120,11 +121,6 @@
                 <fullName>Houston</fullName>
                 <default>false</default>
                 <label>Houston</label>
-            </value>
-            <value>
-                <fullName>Huntsville</fullName>
-                <default>false</default>
-                <label>Huntsville</label>
             </value>
             <value>
                 <fullName>Indianapolis</fullName>
@@ -285,6 +281,72 @@
                 <fullName>Winston-Salem</fullName>
                 <default>false</default>
                 <label>Winston-Salem</label>
+            </value>
+            <value>
+                <fullName>Cape Coral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cape Coral</label>
+            </value>
+            <value>
+                <fullName>North Carolina</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>North Carolina</label>
+            </value>
+            <value>
+                <fullName>North Florida</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>North Florida</label>
+            </value>
+            <value>
+                <fullName>Ohio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ohio</label>
+            </value>
+            <value>
+                <fullName>Phoenix</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Phoenix</label>
+            </value>
+            <value>
+                <fullName>Sacramento</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sacramento</label>
+            </value>
+            <value>
+                <fullName>San Francisco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>San Francisco</label>
+            </value>
+            <value>
+                <fullName>South Carolina</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South Carolina</label>
+            </value>
+            <value>
+                <fullName>South Florida</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South Florida</label>
+            </value>
+            <value>
+                <fullName>Tennessee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tennessee</label>
+            </value>
+            <value>
+                <fullName>Tuscon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tuscon</label>
             </value>
         </valueSetDefinition>
     </valueSet>

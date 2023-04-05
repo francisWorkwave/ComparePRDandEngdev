@@ -18,10 +18,6 @@
                 <behavior>Edit</behavior>
                 <field>Change_Notes__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Exclude_From_Restriction_Rules__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>

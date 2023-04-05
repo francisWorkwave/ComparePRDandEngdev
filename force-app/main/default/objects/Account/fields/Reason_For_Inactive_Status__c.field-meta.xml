@@ -9,47 +9,33 @@
     <type>Picklist</type>
     <valueSet>
         <controllingField>Contractor_Status__c</controllingField>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
-            <value>
-                <fullName>App Usage</fullName>
-                <default>false</default>
-                <label>App Usage</label>
-            </value>
-            <value>
-                <fullName>Banking Information</fullName>
-                <default>false</default>
-                <label>Banking Information</label>
-            </value>
             <value>
                 <fullName>Behavior</fullName>
                 <default>false</default>
                 <label>Behavior</label>
             </value>
             <value>
-                <fullName>Client Request</fullName>
+                <fullName>Busy With Personal Book of Business</fullName>
                 <default>false</default>
-                <label>Client Request</label>
+                <label>Busy With Personal Book of Business</label>
             </value>
             <value>
-                <fullName>Consistent Poor Quality</fullName>
+                <fullName>Doesn’t Like Our Processes</fullName>
                 <default>false</default>
-                <label>Consistent Poor Quality</label>
+                <label>Doesn’t Like Our Processes</label>
             </value>
             <value>
-                <fullName>Fast Pay</fullName>
+                <fullName>Doesn’t Want to Be Apart of Route Optimization</fullName>
                 <default>false</default>
-                <label>Fast Pay</label>
+                <label>Doesn’t Want to Be Apart of Route Optimization</label>
             </value>
             <value>
-                <fullName>Flagged For Review</fullName>
+                <fullName>Lack of Communication</fullName>
                 <default>false</default>
-                <label>Flagged For Review</label>
-            </value>
-            <value>
-                <fullName>Insurance Requirements</fullName>
-                <default>false</default>
-                <label>Insurance Requirements</label>
+                <label>Lack of Communication</label>
             </value>
             <value>
                 <fullName>Limited Capacity</fullName>
@@ -57,34 +43,19 @@
                 <label>Limited Capacity</label>
             </value>
             <value>
-                <fullName>Low Completion Percentage</fullName>
+                <fullName>Negative Experience With a Representative</fullName>
                 <default>false</default>
-                <label>Low Completion Percentage</label>
+                <label>Negative Experience With a Representative</label>
             </value>
             <value>
-                <fullName>No Banking Information</fullName>
+                <fullName>No Available Work</fullName>
                 <default>false</default>
-                <label>No Banking Information</label>
-            </value>
-            <value>
-                <fullName>No communication</fullName>
-                <default>false</default>
-                <label>No communication</label>
+                <label>No Available Work</label>
             </value>
             <value>
                 <fullName>No Longer in Business</fullName>
                 <default>false</default>
                 <label>No Longer in Business</label>
-            </value>
-            <value>
-                <fullName>Not Interested - Undetermined</fullName>
-                <default>false</default>
-                <label>Not Interested - Undetermined</label>
-            </value>
-            <value>
-                <fullName>No Work Available</fullName>
-                <default>false</default>
-                <label>No Work Available</label>
             </value>
             <value>
                 <fullName>Off-Season</fullName>
@@ -97,14 +68,24 @@
                 <label>Pay Duration</label>
             </value>
             <value>
+                <fullName>Payment Dispute</fullName>
+                <default>false</default>
+                <label>Payment Dispute</label>
+            </value>
+            <value>
                 <fullName>Personal Emergency</fullName>
                 <default>false</default>
                 <label>Personal Emergency</label>
             </value>
             <value>
-                <fullName>Photo Requirements</fullName>
+                <fullName>Poor Quality</fullName>
                 <default>false</default>
-                <label>Photo Requirements</label>
+                <label>Poor Quality</label>
+            </value>
+            <value>
+                <fullName>Poor Route Completion</fullName>
+                <default>false</default>
+                <label>Poor Route Completion</label>
             </value>
             <value>
                 <fullName>Pricing is Too Low</fullName>
@@ -121,15 +102,30 @@
                 <default>false</default>
                 <label>Routing</label>
             </value>
-            <value>
-                <fullName>Team Disabled</fullName>
-                <default>false</default>
-                <label>Team Disabled</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
+            <valueName>Busy With Personal Book of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
+            <valueName>Doesn’t Like Our Processes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
+            <valueName>Doesn’t Want to Be Apart of Route Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
+            <valueName>Negative Experience With a Representative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
             <valueName>Payout Duration Too Long</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>
+            <valueName>Payment Dispute</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Inactive - No Longer Wants to Work With TaskEasy</controllingFieldValue>

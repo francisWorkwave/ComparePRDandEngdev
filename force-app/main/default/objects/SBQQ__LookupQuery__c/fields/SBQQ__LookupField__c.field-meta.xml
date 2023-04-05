@@ -107,6 +107,11 @@
                 <default>false</default>
                 <label>SBQQ__Account__c</label>
             </value>
+            <value>
+                <fullName>Type__c</fullName>
+                <default>false</default>
+                <label>Type__c</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

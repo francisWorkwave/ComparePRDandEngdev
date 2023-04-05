@@ -1,11 +1,14 @@
 public with sharing class OrderFunnel_PricebookUtility {
     public static List<OrderFunnel_Models.Pricebook> getPricebooks(String pricebookId, Boolean includeInactive) {
         List<Pricebook2> pbs = queryPricebooks(pricebookId, includeInactive);
+        List<Contracted_Discount__c> accDiscounts = queryAccountDiscounts();
 
         List<OrderFunnel_Models.Pricebook> pricebookModels = new List<OrderFunnel_Models.Pricebook>();
 
         for (Pricebook2 pb : pbs) {
-            pricebookModels.add(buildPricebook(pb));
+            OrderFunnel_Models.Pricebook pbModel = buildPricebook(pb);
+            addAccountDiscounts(pbModel, accDiscounts);
+            pricebookModels.add(pbModel);
         }
 
         return pricebookModels;
@@ -23,6 +26,14 @@ public with sharing class OrderFunnel_PricebookUtility {
         query += whereClause;
 
         return (List<Pricebook2>) Database.query(query);
+    }
+
+    private static List<Contracted_Discount__c> queryAccountDiscounts() {
+        return [
+            SELECT Id, Account__c
+            FROM Contracted_Discount__c
+            WHERE Type__c = 'Account'
+        ];
     }
 
     private static String buildWhereClause(String pricebookId, Boolean includeInactive) {
@@ -54,12 +65,19 @@ public with sharing class OrderFunnel_PricebookUtility {
         return pbModel;
     }
 
+    private static void addAccountDiscounts(OrderFunnel_Models.Pricebook pbModel, List<Contracted_Discount__c> accDiscounts){
+        for(Contracted_Discount__c cd:accDiscounts){
+            pbModel.overrides.add(cd.Account__c);
+        }
+    }
+
     public static List<OrderFunnel_Models.PricebookEntry> getPricebookEntries(
         String pricebookId,
         String accountId,
         String productId,
         Boolean showAll
     ) {
+        system.debug(pricebookId+' '+ accountId + ' ' + productId + ' ' + showAll);
         Map<Id, OrderFunnel_Models.PricebookEntry> pbeModels = new Map<Id, OrderFunnel_Models.PricebookEntry>();
         if ((accountId == '' || accountId == null) || showAll) {
             List<Product2> products;
@@ -88,7 +106,7 @@ public with sharing class OrderFunnel_PricebookUtility {
                     throw new API_Dispatcher.APIException(404, 'No product found in pricebook with given parameters.');
                 }
             }
-
+            system.debug(products);
             for (Product2 prod : products) {
                 OrderFunnel_Models.PricebookEntry entry = new OrderFunnel_Models.PricebookEntry();
 
@@ -112,7 +130,7 @@ public with sharing class OrderFunnel_PricebookUtility {
                 pbeModels.put(entry.productId, entry);
             }
         }
-
+        system.debug(pbeModels);
         if (accountId != null) {
             OrderFunnel_ContractedDiscountHelper helper = new OrderFunnel_ContractedDiscountHelper(pricebookId, accountId);
 
@@ -125,7 +143,7 @@ public with sharing class OrderFunnel_PricebookUtility {
                 pbeModels.put(productId, entry);
             }
         }
-
+        system.debug('Hiiiii ' + pbeModels);
         return pbeModels.values();
     }
 }

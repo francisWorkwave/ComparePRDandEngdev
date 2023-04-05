@@ -5,6 +5,5 @@
     <description>[Status] &quot;Flagged&quot; is only selectable by a member of the Finance Team</description>
     <errorConditionFormula>ISPICKVAL( Status__c, &quot;Flagged&quot; ) &amp;&amp;
 $Profile.Name != &quot;Finance&quot;</errorConditionFormula>
-    <errorDisplayField>Account_Customer_Type__pc</errorDisplayField>
     <errorMessage>You do not have permission to update the Account Status to: &quot;Flagged&quot;</errorMessage>
 </ValidationRule>

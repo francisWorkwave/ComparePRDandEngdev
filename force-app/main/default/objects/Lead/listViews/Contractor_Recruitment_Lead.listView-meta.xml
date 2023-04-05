@@ -10,7 +10,6 @@
     <columns>LEAD.STATUS</columns>
     <columns>LEAD.CREATED_DATE</columns>
     <columns>LEAD.LAST_UPDATE</columns>
-    <columns>Referrer__c</columns>
     <columns>CREATEDBY_USER.ALIAS</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
     <columns>Sent_to_Gil_Date__c</columns>

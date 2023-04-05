@@ -9,14 +9,14 @@
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Queue</filterScope>
     <filters>
-        <field>CASES.CLOSED</field>
-        <operation>equals</operation>
-        <value>0</value>
-    </filters>
-    <filters>
         <field>BPI_Request_Status__c</field>
         <operation>equals</operation>
         <value>New Request</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
     </filters>
     <label>BPI Daily Files</label>
     <queue>BPI_Team</queue>

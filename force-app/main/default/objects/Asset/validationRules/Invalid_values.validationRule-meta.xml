@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invalid_values</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Text(Status) != &apos;Active&apos;, Text(Status) != &apos;Archived&apos;, Text(Status) != &apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Invalid field value</errorMessage>
+</ValidationRule>

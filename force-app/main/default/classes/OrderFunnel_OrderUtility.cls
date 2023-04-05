@@ -20,7 +20,7 @@ public with sharing class OrderFunnel_OrderUtility {
             return 'SELECT Id, AccountId, OrderNumber, Name FROM Order WHERE SBQQ__Quote__c =: quoteId';
         }
 
-        String query = 'SELECT Id, OrderNumber, Work_Order_Reference__c, Status, Plan_Type__c, Billing_Type__c, Payment_Schedule__c, ';
+        String query = 'SELECT Id, OrderNumber, Work_Order_Reference__c, Status, Plan_Type__c, Billing_Type__c, Payment_Schedule__c, Service_ID__c, ';
         query += 'CreatedDate, Earliest_Start_Date__c, Latest_End_Date__c, EffectiveDate, EndDate, ';
         query += 'Additional_Field_Label_1__c, Additional_Field_Value_1__c, Additional_Field_Label_2__c, Additional_Field_Value_2__c, ';
         query += 'Additional_Field_Label_3__c, Additional_Field_Value_3__c, Additional_Field_Label_4__c, Additional_Field_Value_4__c, ';
@@ -106,7 +106,7 @@ public with sharing class OrderFunnel_OrderUtility {
         model.EarliestAvailableStartDate = dateToString(o.Earliest_Start_Date__c);
         model.LatestAvailableEndDate = dateToString(o.Latest_End_Date__c);
         model.WorkOrderReference = o.Work_Order_Reference__c;
-        model.ServiceId = null;
+        model.ServiceId = o.Service_ID__c;
         model.StripeTransactionId = null;
 
         model.Contractor = o.Contractor__c;

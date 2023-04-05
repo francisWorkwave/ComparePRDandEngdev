@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>iFrame Viewer</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="baseURL" label="Base URL:" type="String" />
+            <property name="param" label="Parameter 1" type="String" />
+            <property name="fieldApiName" label="Field API Name" type="String" />
+            <property name="width" label="Width" type="String" />
+            <property name="height" label="Height" type="String" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

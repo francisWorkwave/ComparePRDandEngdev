@@ -527,12 +527,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>RO_Market__c</field>
+            <field>External_ID__c</field>
             <table>Case</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Manager__c</field>
+            <field>Service_Blocking__c</field>
+            <table>Case</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Order__c</field>
             <table>Case</table>
         </columns>
         <masterLabel>Cases</masterLabel>

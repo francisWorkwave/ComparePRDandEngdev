@@ -27,11 +27,6 @@
                 <default>false</default>
                 <label>Workers Comp State Policy</label>
             </value>
-            <value>
-                <fullName>Automobile</fullName>
-                <default>false</default>
-                <label>Automobile</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

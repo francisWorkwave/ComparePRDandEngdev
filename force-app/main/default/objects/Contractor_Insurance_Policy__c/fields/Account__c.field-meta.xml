@@ -4,6 +4,7 @@
     <externalId>false</externalId>
     <label>Account</label>
     <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contractor Insurance Policies</relationshipLabel>
     <relationshipName>Contractor_Insurance_Policies</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

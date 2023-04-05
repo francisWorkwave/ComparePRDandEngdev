@@ -12,14 +12,13 @@
         <field>Adjustment_Amount__c</field>
         <field>Amount__c</field>
         <field>Submission_Date__c</field>
-        <field>Submission_Notes__c</field>
         <field>Contractor_Name__c</field>
         <field>Client_Consumer_Name__c</field>
         <field>Customer_Type__c</field>
         <field>Owner</field>
     </approvalPageFields>
     <approvalStep>
-        <allowDelegate>true</allowDelegate>
+        <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
                 <type>userHierarchyField</type>

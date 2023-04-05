@@ -5,7 +5,6 @@
     <columns>State__c</columns>
     <columns>Type__c</columns>
     <columns>Code__c</columns>
-    <columns>Zip_Code__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

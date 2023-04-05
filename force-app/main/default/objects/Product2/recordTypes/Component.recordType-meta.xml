@@ -41,6 +41,10 @@
             <fullName>One-Time</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Snow Triggered</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Family</picklist>
@@ -91,19 +95,31 @@
     <picklistValues>
         <picklist>Merchandising_Tags__c</picklist>
         <values>
-            <fullName>Best Value</fullName>
+            <fullName>Debris %26 Waste</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Most Popular</fullName>
+            <fullName>Interior Property</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Seasonal Cleanup</fullName>
+            <fullName>Pools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seasonal Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinklers %26 Irrigation</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Trees %26 Bushes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Bundling</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -184,6 +200,10 @@
         </values>
         <values>
             <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow Triggered</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -522,6 +542,10 @@
         </values>
         <values>
             <fullName>One-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow Triggered</fullName>
             <default>false</default>
         </values>
     </picklistValues>

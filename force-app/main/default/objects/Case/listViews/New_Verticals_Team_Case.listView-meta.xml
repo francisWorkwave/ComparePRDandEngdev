@@ -6,7 +6,7 @@
     <columns>CASES.SUBJECT</columns>
     <columns>CASES.STATUS</columns>
     <columns>CASES.PRIORITY</columns>
-    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CASES.REASON</columns>
     <columns>Case_Resolution_Reason__c</columns>
@@ -19,7 +19,6 @@
     <label>New Verticals Team</label>
     <queue>New_Verticals_Team</queue>
     <sharedTo>
-        <group>New_Verticals_Recruitment_Team</group>
         <group>New_Verticals_Team</group>
     </sharedTo>
 </ListView>

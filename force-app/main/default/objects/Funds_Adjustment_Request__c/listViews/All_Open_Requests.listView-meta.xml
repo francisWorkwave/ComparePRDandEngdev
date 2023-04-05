@@ -14,8 +14,6 @@
     <columns>Adjust_Contractor_Funds__c</columns>
     <columns>Finance_Contractor_Adjustment_Status__c</columns>
     <columns>Finance_Client_Consumer_ADJ_Status__c</columns>
-    <columns>OWNER.ALIAS</columns>
-    <columns>OWNER.LAST_NAME</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Request_Status__c</field>

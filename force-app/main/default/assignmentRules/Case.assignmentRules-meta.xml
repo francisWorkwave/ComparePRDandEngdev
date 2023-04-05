@@ -58,20 +58,6 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>Bid_Team</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Bid Process Details</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Origin</field>
-                <operation>equals</operation>
-                <value>In-App</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
             <assignedTo>market_support</assignedTo>
             <assignedToType>Queue</assignedToType>
             <booleanFilter>1 and 12 and (2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11)</booleanFilter>
@@ -134,6 +120,15 @@
                 <field>Case.RecordTypeId</field>
                 <operation>notEqual</operation>
                 <value>Urgent Client Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Bid_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Bid Process Details</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>

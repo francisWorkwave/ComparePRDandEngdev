@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResidentAsset__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Resident Asset</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Asset.Account.RecordTypeDeveloperName__c</field>
+            <operation>equals</operation>
+            <value>Consumer</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Resident Lease &amp; Resident Leases (Resident Asset)</relationshipLabel>
+    <relationshipName>Resident_Lease_Resident_Leases1</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
