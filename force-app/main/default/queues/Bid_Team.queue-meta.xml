@@ -3,14 +3,15 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Bid Team</name>
     <queueMembers>
+        <publicGroups>
+            <publicGroup>Trainers</publicGroup>
+        </publicGroups>
         <roles>
             <role>Bid_Team</role>
+            <role>Bid_Team_Lead</role>
         </roles>
-        <users>
-            <user>jose.lucero@taskeasy.com</user>
-        </users>
     </queueMembers>
-    <queueRoutingConfig>CaseRouting</queueRoutingConfig>
+    <queueRoutingConfig>Single_Assignment</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

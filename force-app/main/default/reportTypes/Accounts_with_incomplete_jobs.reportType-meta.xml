@@ -1347,22 +1347,52 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>External_ID__c</field>
+            <field>Referrer_Source__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>PaymentMethod__c</field>
+            <field>Referrer_Short_URL__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>PaymentTerms__c</field>
+            <field>Parent_Account_Status__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>WorkWave_Performer_ID__c</field>
+            <field>Parent_Account_Creation_Date__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Test_Program_Participation__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Primary_Workcrew_Account__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>OA_Coverage_Amount__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>GL_Coverage_Amount__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Automobile_Coverage_Amount__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PR_Contractor__c</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>

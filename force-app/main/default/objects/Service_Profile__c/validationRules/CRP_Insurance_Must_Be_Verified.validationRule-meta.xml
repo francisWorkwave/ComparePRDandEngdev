@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CRP_Insurance_Must_Be_Verified</fullName>
-    <active>true</active>
+    <active>false</active>
     <description>Insurance must be verified and the field &quot;Tree Insurance Verified&quot; on the Contractor Recruitment Profile must be marked as TRUE in order to update this record with any Tree Specialist Capabilities.</description>
     <errorConditionFormula>IF(
 Contractor_Recruitment_Profile__r.Tree_Insurance_Verified__c = FALSE &amp;&amp;

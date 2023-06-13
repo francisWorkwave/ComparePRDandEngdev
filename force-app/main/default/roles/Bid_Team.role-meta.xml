@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Bid Team</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Training_Manager</parentRole>
+    <parentRole>Bid_Team_Lead</parentRole>
 </Role>

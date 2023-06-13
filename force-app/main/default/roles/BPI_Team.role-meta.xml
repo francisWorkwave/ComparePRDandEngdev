@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>BPI Team</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Director_of_Operations</parentRole>
+    <parentRole>BPI_Team_Lead</parentRole>
 </Role>

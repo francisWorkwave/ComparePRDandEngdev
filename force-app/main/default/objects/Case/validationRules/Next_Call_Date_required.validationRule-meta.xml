@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Call_Date_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISBLANK( Next_Call_Date__c ) , 
+ RecordType.DeveloperName  = &quot;Client_Pricing_Request&quot;,
+NOT(CONTAINS($User.Username,&apos;boomi@taskeasy.com&apos;)))</errorConditionFormula>
+    <errorMessage>A next call date must be set before saving Client Pricing Request.</errorMessage>
+</ValidationRule>

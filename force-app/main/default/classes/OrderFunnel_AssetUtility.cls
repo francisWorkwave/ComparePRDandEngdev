@@ -43,7 +43,7 @@ public with sharing class OrderFunnel_AssetUtility {
     private static String buildQuery(String accountId, String propertyId, String assetId){
         String query = 'SELECT Id, Name, AccountId, Account.Price_Book__c, TE_Property_Id__c, CU_Property_Id__c, Current_Tracing_ID__c, ';
         query += 'Street_Address__c, City__c, State__c, Postal_Code__c, Property_Location__Latitude__s, Property_Location__Longitude__s, ';
-        query += 'Access_Code__c, Access_Note__c, Region__c, Region__r.Name, Region__r.TE_Region__c, Region__r.Price_Book__c, External_ID__c, ';
+        query += 'Access_Code__c, Access_Note__c, Region__c, Region__r.Name, Region__r.TE_Region__c, Region__r.Price_Book__c, ';
         query += getAssetMetricFieldsString('');
         query += 'Additional_Field_Label_1__c, Additional_Field_Value_1__c, Additional_Field_Label_2__c, Additional_Field_Value_2__c, ';
         query += 'Additional_Field_Label_3__c, Additional_Field_Value_3__c, Additional_Field_Label_4__c, Additional_Field_Value_4__c, ';
@@ -108,7 +108,6 @@ public with sharing class OrderFunnel_AssetUtility {
         model.pricebookId = a.Region__r.Price_book__c;
         model.accessCode = a.Access_Code__c;
         model.accessNote = a.Access_Note__c;
-        model.externalId = a.External_ID__c; // Added by Fran 05-19-2023
 
         model.additionalFields = OrderFunnel_Utility.buildAdditionalFieldModels(a, 'Asset');
 
@@ -133,7 +132,6 @@ public with sharing class OrderFunnel_AssetUtility {
         a.TE_Property_Id__c = model.TEID;
         a.CU_Property_Id__c = model.CUID;
         a.Current_Tracing_ID__c = model.CurrentTracingId;
-        a.Status = model.status;
 
         if (model.Address != null) {
             a.Street_Address__c = model.Address.Street;

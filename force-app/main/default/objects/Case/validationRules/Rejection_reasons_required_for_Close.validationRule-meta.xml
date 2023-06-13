@@ -3,13 +3,14 @@
     <fullName>Rejection_reasons_required_for_Close</fullName>
     <active>true</active>
     <description>Requires &quot;Rejection Reason and &quot;Responsible Party&quot; to have a value if &quot;Reject&quot; is selected as a case reason before Case can be moved to Closed</description>
-    <errorConditionFormula>ISPICKVAL(Status, &quot;Closed&quot;) &amp;&amp;
- ISPICKVAL(Reason, &quot;Reject&quot;) &amp;&amp;
- ISBLANK(TEXT( QC_Responsible_Party__c )) ||
-
-NOT(ISBLANK(TEXT( QC_Responsible_Party__c ))) &amp;&amp;
- ISBLANK( QC_Rejection_Reason__c ) &amp;&amp;
- ISPICKVAL(Status, &quot;Closed&quot;) &amp;&amp;
- ISPICKVAL(Reason, &quot;Reject&quot;)</errorConditionFormula>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &quot;Closed&quot;),
+    ISPICKVAL(Reason, &quot;Reject&quot;),
+    OR(
+    ISBLANK(TEXT(QC_Responsible_Party__c)),
+    ISBLANK(TEXT(QC_Primary_Rejection_Reason__c)),
+    ISBLANK(QC_Rejection_Reason__c)
+)
+)</errorConditionFormula>
     <errorMessage>You must select a value in the &quot;Responsible Party&quot; and &quot;Rejection Reason&quot; fields if this Case Reason has a value of Reject</errorMessage>
 </ValidationRule>

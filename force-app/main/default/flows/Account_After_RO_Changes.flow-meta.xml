@@ -4,8 +4,8 @@
         <description>Active for Route Optimization set to false</description>
         <name>Approve_inactivation_for_Route_Optimization</name>
         <label>Approve inactivation for Route Optimization</label>
-        <locationX>599</locationX>
-        <locationY>543</locationY>
+        <locationX>598</locationX>
+        <locationY>542</locationY>
         <actionName>submit</actionName>
         <actionType>submit</actionType>
         <connector>
@@ -34,10 +34,36 @@
     </actionCalls>
     <actionCalls>
         <description>Posts RO comment to chatter</description>
+        <name>Post_RO_is_Paused</name>
+        <label>Post RO is Paused</label>
+        <locationX>1284</locationX>
+        <locationY>831</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <connector>
+            <targetReference>Update_Account_Status</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <stringValue>Route Optimization Paused until {!$Record.RO_Paused_Until__c} by {!$Record.LastModifiedBy.FirstName} {!$Record.LastModifiedBy.LastName} for account {!$Record.Name}.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <description>Posts RO comment to chatter</description>
         <name>Post_RO_Update</name>
         <label>Post RO Update</label>
-        <locationX>1285</locationX>
-        <locationY>536</locationY>
+        <locationX>1284</locationX>
+        <locationY>525</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <connector>
@@ -95,8 +121,11 @@
     <decisions>
         <name>Does_it_have_RO_Changes_comments</name>
         <label>Does it have RO Changes comments?</label>
-        <locationX>990</locationX>
-        <locationY>538</locationY>
+        <locationX>989</locationX>
+        <locationY>534</locationY>
+        <defaultConnector>
+            <targetReference>is_RO_paused</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>It has no RO Comments</defaultConnectorLabel>
         <rules>
             <name>It_has_RO_Comments</name>
@@ -114,7 +143,30 @@
             <label>It has RO Comments</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>is_RO_paused</name>
+        <label>is RO paused?</label>
+        <locationX>992</locationX>
+        <locationY>822</locationY>
+        <defaultConnectorLabel>RO is not paused</defaultConnectorLabel>
+        <rules>
+            <name>RO_is_paused</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RO_Paused_Until__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Save_previous_Status</targetReference>
+            </connector>
+            <label>RO is paused</label>
+        </rules>
+    </decisions>
     <description>Auto submits approval process when the status of a contractor account is set to inactive and route optimization was activated less than 14 days ago.</description>
+    <environments>Default</environments>
     <formulas>
         <description>Gets todays date minus 14</description>
         <name>Todayminus14</name>
@@ -143,10 +195,29 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordUpdates>
+        <name>Save_previous_Status</name>
+        <label>Save previous Status</label>
+        <locationX>1143</locationX>
+        <locationY>882</locationY>
+        <connector>
+            <targetReference>Post_RO_is_Paused</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Previous_Status__c</field>
+            <value>
+                <elementReference>$Record.Status__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
         <name>Update_Account</name>
         <label>Update Account</label>
-        <locationX>1406</locationX>
-        <locationY>536</locationY>
+        <locationX>1284</locationX>
+        <locationY>687</locationY>
+        <connector>
+            <targetReference>is_RO_paused</targetReference>
+        </connector>
         <inputAssignments>
             <field>RO_Comments__c</field>
             <value>
@@ -155,13 +226,54 @@
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
+    <recordUpdates>
+        <name>Update_Account_0</name>
+        <label>Update Account</label>
+        <locationX>1165</locationX>
+        <locationY>249</locationY>
+        <inputAssignments>
+            <field>RO_Paused_Until__c</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status_Reason__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <elementReference>$Record.Previous_Status__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Account_Status</name>
+        <label>Update Account Status</label>
+        <locationX>1488</locationX>
+        <locationY>831</locationY>
+        <inputAssignments>
+            <field>Status_Reason__c</field>
+            <value>
+                <stringValue>Paused</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Inactive</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
     <start>
-        <locationX>623</locationX>
-        <locationY>49</locationY>
+        <locationX>621</locationX>
+        <locationY>38</locationY>
         <connector>
             <targetReference>Active_for_Route_Optimization_changed_within_14_days</targetReference>
         </connector>
-        <filterLogic>(1 OR 2) AND (3 OR 4)</filterLogic>
+        <filterLogic>(1 OR 2) AND (3 OR 4 OR 5)</filterLogic>
         <filters>
             <field>RecordTypeId</field>
             <operator>EqualTo</operator>
@@ -178,9 +290,9 @@
         </filters>
         <filters>
             <field>Request_Account_Deactivation__c</field>
-            <operator>IsChanged</operator>
+            <operator>IsNull</operator>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
             </value>
         </filters>
         <filters>
@@ -190,8 +302,26 @@
                 <booleanValue>false</booleanValue>
             </value>
         </filters>
+        <filters>
+            <field>RO_Paused_Until__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
         <object>Account</object>
         <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>RO_Pause_Date_is_due</name>
+            <connector>
+                <targetReference>Update_Account_0</targetReference>
+            </connector>
+            <label>RO Pause Date is due</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>RO_Paused_Until__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>

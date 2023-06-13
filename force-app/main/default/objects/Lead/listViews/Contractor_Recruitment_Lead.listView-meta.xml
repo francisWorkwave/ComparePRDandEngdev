@@ -5,22 +5,17 @@
     <columns>LEAD.COMPANY</columns>
     <columns>LEAD.STATE</columns>
     <columns>LEAD.EMAIL</columns>
-    <columns>birthDateFA__c</columns>
-    <columns>birthDate__c</columns>
     <columns>LEAD.STATUS</columns>
     <columns>LEAD.CREATED_DATE</columns>
     <columns>LEAD.LAST_UPDATE</columns>
+    <columns>Referrer__c</columns>
     <columns>CREATEDBY_USER.ALIAS</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
     <columns>Sent_to_Gil_Date__c</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <columns>LEAD.UNREAD</columns>
+    <columns>Type__c</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>LEAD.RECORDTYPE</field>
-        <operation>equals</operation>
-        <value>Lead.Contractor_Lead</value>
-    </filters>
     <label>Contractor Recruitment</label>
     <sharedTo>
         <allInternalUsers></allInternalUsers>

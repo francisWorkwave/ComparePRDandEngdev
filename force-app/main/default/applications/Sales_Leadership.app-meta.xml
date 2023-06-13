@@ -11,6 +11,7 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
+        <logo>Sales_leadersship</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -23,318 +24,246 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Customer Community User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Finance</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Finance Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Identity User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Insurance Claims</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Integrations</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops Director</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator (Do Not Use)</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>RCS Advocate</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Ops</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Product/Dev</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only1</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Sales System Administrator</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Sales System Administrator (Do not Use)</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Secondary Administrator</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>SF Backup Integration</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>SLC Advocate</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>SolutionManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>support Profile</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Sys Admin - API Only</profile>
+        <profile>Insurance Claims</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>Read Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>TE Dev - Read Only</profile>
+        <profile>Read Only - Ops</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>TE Development</profile>
+        <profile>Integrations</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>TEI Advocate</profile>
+        <profile>Read Only - Product/Dev</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only1</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops Director</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator (Do Not Use)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>RCS Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contractor_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Identity User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -478,258 +407,6 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Identity User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Insurance Claims</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Integrations</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator (Do Not Use)</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>RCS Advocate</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops Director</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Ops</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Product/Dev</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only1</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sales Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sales Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sales System Administrator</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sales System Administrator (Do not Use)</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Secondary Administrator</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>SF Backup Integration</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>SLC Advocate</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>support Profile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sys Admin - API Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Contractor_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
-        <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -761,12 +438,12 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
+        <content>Contractor_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Contractor_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>AM Standard User</profile>
+        <profile>Sys Admin - API Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -775,7 +452,7 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>API Integrations</profile>
+        <profile>Minimum Access - Salesforce</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -784,7 +461,7 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Bid Team Advocate</profile>
+        <profile>Ops Director</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -793,7 +470,7 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>BPI Advocate</profile>
+        <profile>Ops Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -802,7 +479,196 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Business Intelligence</profile>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator (Do Not Use)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>support Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>RCS Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sys Admin - API Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only - Ops</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only - Product/Dev</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only1</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales System Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales System Administrator (Do not Use)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Secondary Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SF Backup Integration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SLC Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TE Dev - Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TE Development</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -856,6 +722,15 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
+        <profile>Insurance Claims</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
         <profile>Contractor Recruitment Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -869,21 +744,129 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Client_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Customer Community User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Integrations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Finance</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Finance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Identity User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>AM Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Client_Funds_Adjustment</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>API Integrations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Bid Team Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>BPI Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Business Intelligence</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TEI Advocate</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -892,7 +875,187 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Bid Team Advocate</profile>
+        <profile>Ops Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Ops System Administrator (Do Not Use)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>RCS Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only - Ops</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only - Product/Dev</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only1</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales System Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sales System Administrator (Do not Use)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Secondary Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SF Backup Integration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SLC Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>support Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Sys Admin - API Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -974,6 +1137,15 @@
         <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>CPQ Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>Bid Team Advocate</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -1054,7 +1226,52 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TE Dev - Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>AM Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TE Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TEI Advocate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Consumer_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>API Integrations</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -1076,219 +1293,126 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Opportunity_Record_Page7</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Ops System Administrator (Do Not Use)</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>RCS Advocate</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Ops</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only - Product/Dev</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only1</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>Sales Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Opportunity_Record_Page7</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page7</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>Sales System Administrator</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Opportunity_Record_Page7</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Account_Management_Opportuniity</recordType>
         <type>Flexipage</type>
-        <profile>Sales System Administrator (Do not Use)</profile>
+        <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Opportunity_Record_Page7</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Account_Management_Opportuniity</recordType>
         <type>Flexipage</type>
-        <profile>Secondary Administrator</profile>
+        <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Opportunity_Record_Page7</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Account_Management_Opportuniity</recordType>
         <type>Flexipage</type>
-        <profile>SF Backup Integration</profile>
+        <profile>Sales System Administrator</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Lead_Record_Page4</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <recordType>Lead.Client_Lead</recordType>
         <type>Flexipage</type>
-        <profile>SLC Advocate</profile>
+        <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Lead_Record_Page4</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <recordType>Lead.Client_Lead</recordType>
         <type>Flexipage</type>
-        <profile>SolutionManager</profile>
+        <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Lead_Record_Page4</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <recordType>Lead.Consumer_Leads</recordType>
         <type>Flexipage</type>
-        <profile>Standard</profile>
+        <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Lead_Record_Page4</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <recordType>Lead.Consumer_Leads</recordType>
         <type>Flexipage</type>
-        <profile>support Profile</profile>
+        <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Contact_Record_Page2</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.Client_Contact</recordType>
         <type>Flexipage</type>
-        <profile>Sys Admin - API Only</profile>
+        <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Contact_Record_Page2</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.Client_Contact</recordType>
         <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Contact_Record_Page2</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.Consumer_Contact</recordType>
         <type>Flexipage</type>
-        <profile>TE Dev - Read Only</profile>
+        <profile>Sales Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
+        <content>Contact_Record_Page2</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.Consumer_Contact</recordType>
         <type>Flexipage</type>
-        <profile>TE Development</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Consumer_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Consumer_Adjustment</recordType>
-        <type>Flexipage</type>
-        <profile>TEI Advocate</profile>
+        <profile>Sales Standard User</profile>
     </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
@@ -1299,6 +1423,7 @@
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>Contractor_Recruitment__c</tabs>
     <tabs>Service_Type__c</tabs>
+    <tabs>Shift__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Leadership_UtilityBar</utilityBar>
 </CustomApplication>

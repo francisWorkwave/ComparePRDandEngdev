@@ -5,7 +5,8 @@
         <label>Contractor Day of First Job SMS</label>
         <locationX>285</locationX>
         <locationY>548</locationY>
-        <actionName>liveMessageNotificationNotFound</actionName>
+        <actionName>liveMessageNotification</actionName>
+        <actionType>liveMessageNotification</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>contextRecordId</name>
@@ -41,7 +42,8 @@
         <label>New Contractor Resources</label>
         <locationX>523</locationX>
         <locationY>360</locationY>
-        <actionName>liveMessageNotificationNotFound</actionName>
+        <actionName>liveMessageNotification</actionName>
+        <actionType>liveMessageNotification</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>contextRecordId</name>

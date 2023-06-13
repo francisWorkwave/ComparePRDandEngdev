@@ -12,4 +12,5 @@
     <tabs>standard-File</tabs>
     <tabs>Contractor_Recruitment__c</tabs>
     <tabs>Service_Type__c</tabs>
+    <tabs>Shift__c</tabs>
 </CustomApplication>

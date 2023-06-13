@@ -8,10 +8,5 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>TE_User_Id__c</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>Ready_to_Accept_Work__c</field>
-        <operation>equals</operation>
-        <value>1</value>
-    </filters>
     <label>My Accounts</label>
 </ListView>

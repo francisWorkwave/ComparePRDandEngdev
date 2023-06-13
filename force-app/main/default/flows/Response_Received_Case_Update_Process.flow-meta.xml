@@ -720,6 +720,37 @@
                     <stringValue>Closed</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Parent.SuppliedEmail</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>mailer-daemon@salesforce.com</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>myRule_3_A1</targetReference>
             </connector>
@@ -878,7 +909,7 @@
         </rules>
     </decisions>
     <description>9/29/20: Updated DEP Queues to Market Queues - Incoming Email Updates Status of Open and Closed Related Cases, Reassigns Ownership if Owner is Inactive to Queues</description>
-    <interviewLabel>Response_Received_Case_Update_Process-17_InterviewLabel</interviewLabel>
+    <interviewLabel>Response_Received_Case_Update_Process-18_InterviewLabel</interviewLabel>
     <label>Response Received Case Update Process</label>
     <processMetadataValues>
         <name>ObjectType</name>

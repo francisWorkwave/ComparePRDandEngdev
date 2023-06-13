@@ -117,10 +117,6 @@
                 <behavior>Edit</behavior>
                 <field>Route_Optimized__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Price_Book__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -189,6 +185,10 @@
         <fields>Account.NAME</fields>
         <fields>Property_Count__c</fields>
         <relatedList>Region_Assignment__c.Region__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Opportunity_Location__c.Region__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

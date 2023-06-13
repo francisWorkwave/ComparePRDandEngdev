@@ -16,50 +16,11 @@ public with sharing class OrderFunnel_ContractedDiscountHelper {
     }
 
     private void loadContractedDiscounts(){
-        List<Product2> productsTemp = [SELECT Id FROM Product2 WHERE Id IN (SELECT Product2Id FROM PricebookEntry WHERE Pricebook2Id = :pricebookId)];
-
-        List<Contracted_Discount__c> pricebookDiscounts = [
-            SELECT Id, Product__c, Discount_Schedule__c
-            FROM Contracted_Discount__c
-            WHERE Price_Book__c = :pricebookId
-                AND Account__c = :accountId
-                AND Product__c = null
-        ];
-
-        if(pricebookDiscounts.isEmpty()){
-            List<Contracted_Discount__c> accountDiscounts = [
-                SELECT Id, Product__c, Discount_Schedule__c
-                FROM Contracted_Discount__c
-                WHERE Price_Book__c = null
-                AND Account__c = :accountId
-            ];
-
-            for (Contracted_Discount__c discount : accountDiscounts) {
-
-                for(Product2 prd:productsTemp){
-                    contractedDiscountByProductId.put(prd.Id, discount);
-                    products.put(prd.Id, null);
-                }
-                discountSchedules.put(discount.Discount_Schedule__c, null);
-            }
-        }else{
-            for (Contracted_Discount__c discount : pricebookDiscounts) {
-
-                for(Product2 prd:productsTemp){
-                    contractedDiscountByProductId.put(prd.Id, discount);
-                    products.put(prd.Id, null);
-                }
-                discountSchedules.put(discount.Discount_Schedule__c, null);
-            }
-        }
-
-
         List<Contracted_Discount__c> discounts = [
             SELECT Id, Product__c, Discount_Schedule__c
             FROM Contracted_Discount__c
             WHERE Price_Book__c = :pricebookId
                 AND Account__c = :accountId
-                AND Product__c != null
         ];
 
         for (Contracted_Discount__c discount : discounts) {
@@ -209,12 +170,6 @@ public with sharing class OrderFunnel_ContractedDiscountHelper {
             if(type == 'Amount'){
                 blockModel.unitPrice = blocks[i].SBQQ__Price__c - tiers[j].SBQQ__DiscountAmount__c;
                 blockModel.discount = tiers[j].SBQQ__DiscountAmount__c;
-
-                //Block non-negative amounts
-                if(blockModel.unitPrice < 0){
-                    blockModel.unitPrice = 0;
-                    blockModel.discount = blocks[i].SBQQ__Price__c;
-                }
 
             }else if(type == 'Percent'){
                 blockModel.unitPrice = blocks[i].SBQQ__Price__c * ((100 - tiers[j].SBQQ__Discount__c)/100);

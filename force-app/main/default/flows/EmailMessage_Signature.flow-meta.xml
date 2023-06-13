@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>More_than_32_000_characters</name>
+        <label>More than 32,000 characters</label>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Yes</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>lessThan32K</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>updateEmailBody</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>Add Signature if applicable</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>FirstInitialOfLastName</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$User.LastName}, 1)</expression>
+    </formulas>
+    <formulas>
+        <name>lessThan32K</name>
+        <dataType>Boolean</dataType>
+        <expression>(LEN({!$Record.HtmlBody}) + LEN({!signature} ) ) &lt; 32000</expression>
+    </formulas>
+    <interviewLabel>EmailMessage Signature {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>EmailMessage Signature</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>updateEmailBody</name>
+        <label>updateEmailBody</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Incoming</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ToAddress</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>rtmservice@invitationhomes.com</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>HtmlBody</field>
+            <value>
+                <stringValue>{!$Record.HtmlBody} {!signature}</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>More_than_32_000_characters</targetReference>
+        </connector>
+        <filterFormula>{!$User.TEI_User__c} = True</filterFormula>
+        <object>EmailMessage</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>signature</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;strong&gt;{!$User.FirstName} {!FirstInitialOfLastName}.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;TaskEasy, Inc.&lt;/p&gt;&lt;p&gt;800-518-4461&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

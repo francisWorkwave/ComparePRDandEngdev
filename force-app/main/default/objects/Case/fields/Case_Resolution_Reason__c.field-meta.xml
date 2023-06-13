@@ -20,6 +20,16 @@
                 <label>ACH Email Sent to AR Team</label>
             </value>
             <value>
+                <fullName>Added existing vendor</fullName>
+                <default>false</default>
+                <label>Added existing vendor</label>
+            </value>
+            <value>
+                <fullName>Added new vendor</fullName>
+                <default>false</default>
+                <label>Added new vendor</label>
+            </value>
+            <value>
                 <fullName>ANET Failed Payment Collected</fullName>
                 <default>false</default>
                 <label>ANET Failed Payment Collected</label>
@@ -145,6 +155,21 @@
                 <label>Need New Bid</label>
             </value>
             <value>
+                <fullName>No Change Needed - Informational</fullName>
+                <default>false</default>
+                <label>No Change Needed - Informational</label>
+            </value>
+            <value>
+                <fullName>No Change - Not Enough Work</fullName>
+                <default>false</default>
+                <label>No Change - Not Enough Work</label>
+            </value>
+            <value>
+                <fullName>No Change - Poor Performance</fullName>
+                <default>false</default>
+                <label>No Change - Poor Performance</label>
+            </value>
+            <value>
                 <fullName>No Second Chance Required - Bid Only</fullName>
                 <default>false</default>
                 <label>No Second Chance Required - Bid Only</label>
@@ -153,6 +178,11 @@
                 <fullName>NTE Used - Work Completed</fullName>
                 <default>false</default>
                 <label>NTE Used - Work Completed</label>
+            </value>
+            <value>
+                <fullName>Property/Task Question Answered</fullName>
+                <default>false</default>
+                <label>Property/Task Question Answered</label>
             </value>
             <value>
                 <fullName>Property or Task Question Answered</fullName>
@@ -173,6 +203,16 @@
                 <fullName>QC Second Chance Job Created</fullName>
                 <default>false</default>
                 <label>QC Second Chance Job Created</label>
+            </value>
+            <value>
+                <fullName>Removed for performance</fullName>
+                <default>false</default>
+                <label>Removed for performance</label>
+            </value>
+            <value>
+                <fullName>Removed for vacation</fullName>
+                <default>false</default>
+                <label>Removed for vacation</label>
             </value>
             <value>
                 <fullName>Sales Pricing Request Completed</fullName>
@@ -235,9 +275,44 @@
                 <label>Took too Long to Service Lawn</label>
             </value>
             <value>
+                <fullName>Update RO settings</fullName>
+                <default>false</default>
+                <label>Update RO settings</label>
+            </value>
+            <value>
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
+            </value>
+            <value>
+                <fullName>TE Declined Work</fullName>
+                <default>false</default>
+                <label>TE Declined Work</label>
+            </value>
+            <value>
+                <fullName>Client reassigned Work</fullName>
+                <default>false</default>
+                <label>Client reassigned Work</label>
+            </value>
+            <value>
+                <fullName>Turn Completed</fullName>
+                <default>false</default>
+                <label>Turn Completed</label>
+            </value>
+            <value>
+                <fullName>Vendor Declined Work</fullName>
+                <default>false</default>
+                <label>Vendor Declined Work</label>
+            </value>
+            <value>
+                <fullName>Vendor accepted Work</fullName>
+                <default>false</default>
+                <label>Vendor accepted Work</label>
+            </value>
+            <value>
+                <fullName>Vendor Inquiry Resolved</fullName>
+                <default>false</default>
+                <label>Vendor Inquiry Resolved</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -278,9 +353,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -335,9 +410,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -394,9 +469,9 @@
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -453,9 +528,9 @@
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -512,9 +587,9 @@
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -570,9 +645,9 @@
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -626,12 +701,11 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -686,9 +760,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -744,9 +818,9 @@
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -801,9 +875,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -858,9 +932,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -914,11 +988,10 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -973,9 +1046,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1030,9 +1103,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1087,9 +1160,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1144,9 +1217,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1201,9 +1274,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1258,9 +1331,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1315,9 +1388,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1372,9 +1445,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1429,9 +1502,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1486,9 +1559,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1544,9 +1617,9 @@
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1603,9 +1676,9 @@
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Leaf Clean-up</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1660,9 +1733,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1717,9 +1790,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1774,9 +1847,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1831,9 +1904,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1889,9 +1962,10 @@
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -1946,9 +2020,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2003,9 +2077,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2060,9 +2134,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2116,10 +2190,11 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
+            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2174,9 +2249,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2230,11 +2305,10 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2288,11 +2362,10 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2346,11 +2419,10 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2404,11 +2476,10 @@
             <controllingFieldValue>Recruitment Review</controllingFieldValue>
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
-            <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2463,9 +2534,9 @@
             <controllingFieldValue>Sales Clean Interior Condition</controllingFieldValue>
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2521,9 +2592,9 @@
             <controllingFieldValue>Customer Requested Work</controllingFieldValue>
             <controllingFieldValue>Urgent Client Request</controllingFieldValue>
             <controllingFieldValue>Property Question</controllingFieldValue>
+            <controllingFieldValue>Unable to Access Community</controllingFieldValue>
             <controllingFieldValue>Insurance Question</controllingFieldValue>
             <controllingFieldValue>Bid Status</controllingFieldValue>
-            <controllingFieldValue>Contractor Wants More Work</controllingFieldValue>
             <controllingFieldValue>Already Done</controllingFieldValue>
             <controllingFieldValue>Frequency Change</controllingFieldValue>
             <controllingFieldValue>No Work Needed</controllingFieldValue>
@@ -2567,6 +2638,66 @@
         <valueSettings>
             <controllingFieldValue>Incorrect Property Data</controllingFieldValue>
             <valueName>Incorrect Property Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Added existing vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Added new vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>No Change Needed - Informational</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>No Change - Not Enough Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>No Change - Poor Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Property/Task Question Answered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Removed for performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Removed for vacation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor Change Request</controllingFieldValue>
+            <valueName>Update RO settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>TE Declined Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Client reassigned Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Turn Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Vendor Declined Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Vendor accepted Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Vendor Inquiry Resolved</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

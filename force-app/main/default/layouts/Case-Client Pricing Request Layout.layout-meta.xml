@@ -51,6 +51,10 @@
                 <behavior>Readonly</behavior>
                 <field>Market_Assignment__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Next_Call_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -16,8 +16,16 @@
                 <field>Total_Calls_Rollup__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Associated_Prospects__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Property_Activation_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Task_Count__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -68,7 +76,10 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Prospect_Account__c</fields>
-        <fields>Prospect_Converted__c</fields>
+        <fields>Email__c</fields>
+        <fields>Phone_Number__c</fields>
+        <fields>Recruitment_Status__c</fields>
+        <fields>Status__c</fields>
         <relatedList>Recruitment_Opportunity_Prospect__c.Recruitment_Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>

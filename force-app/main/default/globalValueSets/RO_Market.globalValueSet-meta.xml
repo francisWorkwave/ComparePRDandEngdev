@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Abilene</fullName>
+        <default>false</default>
+        <label>Abilene</label>
+    </customValue>
+    <customValue>
+        <fullName>Amarillo</fullName>
+        <default>false</default>
+        <label>Amarillo</label>
+    </customValue>
+    <customValue>
+        <fullName>Arizona</fullName>
+        <default>false</default>
+        <label>Arizona</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlanta</fullName>
+        <default>false</default>
+        <label>Atlanta</label>
+    </customValue>
+    <customValue>
+        <fullName>Augusta</fullName>
+        <default>false</default>
+        <label>Augusta</label>
+    </customValue>
+    <customValue>
+        <fullName>Austin</fullName>
+        <default>false</default>
+        <label>Austin</label>
+    </customValue>
+    <customValue>
+        <fullName>Baltimore</fullName>
+        <default>false</default>
+        <label>Baltimore</label>
+    </customValue>
+    <customValue>
+        <fullName>Birmingham</fullName>
+        <default>false</default>
+        <label>Birmingham</label>
+    </customValue>
+    <customValue>
+        <fullName>Charleston</fullName>
+        <default>false</default>
+        <label>Charleston</label>
+    </customValue>
+    <customValue>
+        <fullName>Charlotte</fullName>
+        <default>false</default>
+        <label>Charlotte</label>
+    </customValue>
+    <customValue>
+        <fullName>Chicago</fullName>
+        <default>false</default>
+        <label>Chicago</label>
+    </customValue>
+    <customValue>
+        <fullName>Cincinnati</fullName>
+        <default>false</default>
+        <label>Cincinnati</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleveland</fullName>
+        <default>false</default>
+        <label>Cleveland</label>
+    </customValue>
+    <customValue>
+        <fullName>Columbia</fullName>
+        <default>false</default>
+        <label>Columbia</label>
+    </customValue>
+    <customValue>
+        <fullName>Columbus</fullName>
+        <default>false</default>
+        <label>Columbus</label>
+    </customValue>
+    <customValue>
+        <fullName>Dallas</fullName>
+        <default>false</default>
+        <label>Dallas</label>
+    </customValue>
+    <customValue>
+        <fullName>DC</fullName>
+        <default>false</default>
+        <label>DC</label>
+    </customValue>
+    <customValue>
+        <fullName>Denver</fullName>
+        <default>false</default>
+        <label>Denver</label>
+    </customValue>
+    <customValue>
+        <fullName>Detroit</fullName>
+        <default>false</default>
+        <label>Detroit</label>
+    </customValue>
+    <customValue>
+        <fullName>Fort Myers</fullName>
+        <default>false</default>
+        <label>Fort Myers</label>
+    </customValue>
+    <customValue>
+        <fullName>Greenville</fullName>
+        <default>false</default>
+        <label>Greenville</label>
+    </customValue>
+    <customValue>
+        <fullName>Houston</fullName>
+        <default>false</default>
+        <label>Houston</label>
+    </customValue>
+    <customValue>
+        <fullName>Huntsville</fullName>
+        <default>false</default>
+        <label>Huntsville</label>
+    </customValue>
+    <customValue>
+        <fullName>Indianapolis</fullName>
+        <default>false</default>
+        <label>Indianapolis</label>
+    </customValue>
+    <customValue>
+        <fullName>Jackson</fullName>
+        <default>false</default>
+        <label>Jackson</label>
+    </customValue>
+    <customValue>
+        <fullName>Jacksonville</fullName>
+        <default>false</default>
+        <label>Jacksonville</label>
+    </customValue>
+    <customValue>
+        <fullName>Kansas City</fullName>
+        <default>false</default>
+        <label>Kansas City</label>
+    </customValue>
+    <customValue>
+        <fullName>Knoxville</fullName>
+        <default>false</default>
+        <label>Knoxville</label>
+    </customValue>
+    <customValue>
+        <fullName>LaGrange</fullName>
+        <default>false</default>
+        <label>LaGrange</label>
+    </customValue>
+    <customValue>
+        <fullName>Las Vegas</fullName>
+        <default>false</default>
+        <label>Las Vegas</label>
+    </customValue>
+    <customValue>
+        <fullName>Little Rock</fullName>
+        <default>false</default>
+        <label>Little Rock</label>
+    </customValue>
+    <customValue>
+        <fullName>Longview</fullName>
+        <default>false</default>
+        <label>Longview</label>
+    </customValue>
+    <customValue>
+        <fullName>Louisville</fullName>
+        <default>false</default>
+        <label>Louisville</label>
+    </customValue>
+    <customValue>
+        <fullName>Macon</fullName>
+        <default>false</default>
+        <label>Macon</label>
+    </customValue>
+    <customValue>
+        <fullName>Memphis</fullName>
+        <default>false</default>
+        <label>Memphis</label>
+    </customValue>
+    <customValue>
+        <fullName>Miami</fullName>
+        <default>false</default>
+        <label>Miami</label>
+    </customValue>
+    <customValue>
+        <fullName>Milwaukee</fullName>
+        <default>false</default>
+        <label>Milwaukee</label>
+    </customValue>
+    <customValue>
+        <fullName>Minneapolis</fullName>
+        <default>false</default>
+        <label>Minneapolis</label>
+    </customValue>
+    <customValue>
+        <fullName>Nashville</fullName>
+        <default>false</default>
+        <label>Nashville</label>
+    </customValue>
+    <customValue>
+        <fullName>New York</fullName>
+        <default>false</default>
+        <label>New York</label>
+    </customValue>
+    <customValue>
+        <fullName>Northern California</fullName>
+        <default>false</default>
+        <label>Northern California</label>
+    </customValue>
+    <customValue>
+        <fullName>Oklahoma</fullName>
+        <default>false</default>
+        <label>Oklahoma</label>
+    </customValue>
+    <customValue>
+        <fullName>Orlando</fullName>
+        <default>false</default>
+        <label>Orlando</label>
+    </customValue>
+    <customValue>
+        <fullName>Philadelphia</fullName>
+        <default>false</default>
+        <label>Philadelphia</label>
+    </customValue>
+    <customValue>
+        <fullName>Pittsburgh</fullName>
+        <default>false</default>
+        <label>Pittsburgh</label>
+    </customValue>
+    <customValue>
+        <fullName>Portland</fullName>
+        <default>false</default>
+        <label>Portland</label>
+    </customValue>
+    <customValue>
+        <fullName>Raleigh</fullName>
+        <default>false</default>
+        <label>Raleigh</label>
+    </customValue>
+    <customValue>
+        <fullName>Salt Lake</fullName>
+        <default>false</default>
+        <label>Salt Lake</label>
+    </customValue>
+    <customValue>
+        <fullName>San Antonio</fullName>
+        <default>false</default>
+        <label>San Antonio</label>
+    </customValue>
+    <customValue>
+        <fullName>Savannah</fullName>
+        <default>false</default>
+        <label>Savannah</label>
+    </customValue>
+    <customValue>
+        <fullName>Southern California</fullName>
+        <default>false</default>
+        <label>Southern California</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Louis</fullName>
+        <default>false</default>
+        <label>St. Louis</label>
+    </customValue>
+    <customValue>
+        <fullName>Tampa</fullName>
+        <default>false</default>
+        <label>Tampa</label>
+    </customValue>
+    <customValue>
+        <fullName>Washington</fullName>
+        <default>false</default>
+        <label>Washington</label>
+    </customValue>
+    <customValue>
+        <fullName>Winston-Salem</fullName>
+        <default>false</default>
+        <label>Winston-Salem</label>
+    </customValue>
+    <customValue>
+        <fullName>Ohio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ohio</label>
+    </customValue>
+    <customValue>
+        <fullName>North Carolina</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>North Carolina</label>
+    </customValue>
+    <customValue>
+        <fullName>North Florida</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>North Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>South Carolina</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>South Carolina</label>
+    </customValue>
+    <customValue>
+        <fullName>South Florida</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>South Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennessee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tennessee</label>
+    </customValue>
+    <customValue>
+        <fullName>Sacramento</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sacramento</label>
+    </customValue>
+    <customValue>
+        <fullName>Phoenix</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Phoenix</label>
+    </customValue>
+    <customValue>
+        <fullName>Cape Coral</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cape Coral</label>
+    </customValue>
+    <customValue>
+        <fullName>San Francisco</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>San Francisco</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuscon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tuscon</label>
+    </customValue>
+    <masterLabel>RO Market</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

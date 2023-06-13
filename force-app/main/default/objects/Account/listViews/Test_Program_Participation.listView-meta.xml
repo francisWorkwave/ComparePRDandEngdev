@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Program_Participation</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Test_Program_Participation__c</columns>
+    <columns>TE_User_Id__c</columns>
+    <columns>User_Id__pc</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Test_Program_Participation__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Test Program Participation</label>
+    <sharedTo>
+        <role>Client_Operations_Manager</role>
+    </sharedTo>
+</ListView>

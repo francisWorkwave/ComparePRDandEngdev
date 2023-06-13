@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insured_Arborist_Contractors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>Automobile_Coverage_Amount__c</columns>
+    <columns>OA_Coverage_Amount__c</columns>
+    <columns>GL_Coverage_Amount__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GL_Coverage_Amount__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>2000000</value>
+    </filters>
+    <filters>
+        <field>OA_Coverage_Amount__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>500000</value>
+    </filters>
+    <filters>
+        <field>Automobile_Coverage_Amount__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1000000</value>
+    </filters>
+    <label>Insured Arborist Contractors</label>
+    <sharedTo>
+        <roleAndSubordinates>Finance_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

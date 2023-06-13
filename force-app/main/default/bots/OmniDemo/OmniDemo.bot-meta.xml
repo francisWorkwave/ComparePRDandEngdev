@@ -5549,6 +5549,7 @@
         </mlSlotClasses>
         <name>OmniDemo</name>
     </botMlDomain>
+    <botUser>jared.wangsgard@taskeasy.com</botUser>
     <contextVariables>
         <contextVariableMappings>
             <SObjectType>LiveChatTranscript</SObjectType>

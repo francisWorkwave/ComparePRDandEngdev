@@ -197,7 +197,7 @@
             <name>New_Web_Lead_Notification_Web_NOT_Contractor_or_Consumer</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Lead.LeadSource</field>
             <operation>equals</operation>

@@ -12,5 +12,5 @@
     <enableUserSelfDeactivate>true</enableUserSelfDeactivate>
     <permsetsInFieldCreation>false</permsetsInFieldCreation>
     <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
-    <restrictedProfileCloning>false</restrictedProfileCloning>
+    <restrictedProfileCloning>true</restrictedProfileCloning>
 </UserManagementSettings>

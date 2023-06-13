@@ -111,11 +111,23 @@
     <picklistValues>
         <picklist>Case_Resolution_Reason__c</picklist>
         <values>
+            <fullName>Added existing vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Added new vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Bid Declined Other Action Taken</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Case Reopened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client given FYI update on property</fullName>
             <default>false</default>
         </values>
         <values>
@@ -127,11 +139,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>No Change - Not Enough Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Change - Poor Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Change Needed - Informational</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>No Second Chance Required - Bid Only</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Property or Task Question Answered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property%2FTask Question Answered</fullName>
             <default>false</default>
         </values>
         <values>
@@ -147,7 +175,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Removed for performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed for vacation</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Scheduled service update provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services put on seasonal inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services started on a property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services stopped%2Fcancelled on a property</fullName>
             <default>false</default>
         </values>
         <values>
@@ -166,6 +214,10 @@
             <fullName>Task%28s%29 Rescheduled due to weather delay</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Update RO settings</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Change_Request_Type__c</picklist>
@@ -174,23 +226,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Request for More Work</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Service Area Change</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Temporary Change</fullName>
+            <fullName>New Vendor</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Wants to End Partnership with TE</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Work Hours%2FDays Change</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -379,9 +419,17 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>QC_Rejection_Reason__c</picklist>
+        <picklist>QC_Primary_Rejection_Reason__c</picklist>
+        <values>
+            <fullName>2nd Chance Failed</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>2nd chance not completed over 72 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4th Refresh</fullName>
             <default>false</default>
         </values>
         <values>
@@ -406,6 +454,241 @@
         </values>
         <values>
             <fullName>Bush Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemical Test Kit Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Counters Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debris Not Removed from Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debris left in Client%27s Garbage Can</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debris remains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deep Edging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deicer Not Applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Photos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faucets Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix It Client Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floors Not Vacuumed%2FSwept</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gate Not Locked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grass Clippings %28OG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gravel Not Raked Evenly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Property Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key Not Replaced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mirrors Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mowing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Flower Beds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Mulch Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Work Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Money</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not all Leaves removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Mulch Not Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Work Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photos Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool Shows Debris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rep Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduling Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serviced Too Soon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skimmer Basket Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow Not Cleared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spraying%2FPulling Weeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>String Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stump Not Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE Comp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE System Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenant Refused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toilets Not Cleaned%2FWater Recycled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Far From Current Route</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tree Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tub%2FShower Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Type of Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Color of Mulch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Property</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QC_Rejection_Reason__c</picklist>
+        <values>
+            <fullName>2nd chance not completed over 72 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4th Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appliances Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bid Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blow Leaves%2FGrass Clippings%2FIncedental Debris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blurry%2Funclear Photos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bush Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can%27t Complete Until Next Week</fullName>
             <default>false</default>
         </values>
         <values>
@@ -481,7 +764,23 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>No Flower Beds</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>No Mulch Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Work Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Work Marked Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Money</fullName>
             <default>false</default>
         </values>
         <values>
@@ -501,11 +800,23 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Partial Work Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Photos Missing</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Pool Shows Debris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refused to Return</fullName>
             <default>false</default>
         </values>
         <values>
@@ -553,11 +864,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Too Far From Current Route</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Tree Trimming</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Tub%2FShower Not Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VM Full</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VM Not Set Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather Issues</fullName>
             <default>false</default>
         </values>
         <values>
@@ -572,7 +899,15 @@
     <picklistValues>
         <picklist>QC_Responsible_Party__c</picklist>
         <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
             <default>false</default>
         </values>
         <values>
@@ -603,7 +938,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Contractor Wants More Work</fullName>
+            <fullName>Contractor Change Request</fullName>
             <default>false</default>
         </values>
         <values>
@@ -692,6 +1027,10 @@
         </values>
         <values>
             <fullName>Tenant Refused Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Access Community</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1128,6 +1467,57 @@
         </values>
         <values>
             <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Turns_Status__c</picklist>
+        <values>
+            <fullName>Client has Responded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Vendor Acceptance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA remedy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Response Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Contractor</fullName>
             <default>false</default>
         </values>
     </picklistValues>

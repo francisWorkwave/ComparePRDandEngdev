@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "TaskEasy-Engdev",
+  "name": "TaskEasy-Production",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "sourceApiVersion": "54.0"
 }

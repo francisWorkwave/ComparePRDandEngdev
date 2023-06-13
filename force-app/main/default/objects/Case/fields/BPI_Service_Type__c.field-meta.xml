@@ -68,9 +68,19 @@
                 <label>Sprinkler</label>
             </value>
             <value>
+                <fullName>Trash Out</fullName>
+                <default>false</default>
+                <label>Trash Out</label>
+            </value>
+            <value>
                 <fullName>Trees</fullName>
                 <default>false</default>
                 <label>Trees</label>
+            </value>
+            <value>
+                <fullName>Turn</fullName>
+                <default>false</default>
+                <label>Turn</label>
             </value>
         </valueSetDefinition>
     </valueSet>

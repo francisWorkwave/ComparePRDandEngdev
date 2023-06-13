@@ -128,14 +128,6 @@
         <value>Loading...</value>
     </labels>
     <labels>
-        <fullName>TaskDeletion</fullName>
-        <categories>Task</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>TaskDeletion</shortDescription>
-        <value>You are not allowed to Delete Task records.</value>
-    </labels>
-    <labels>
         <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
         <language>en_US</language>
         <protected>false</protected>

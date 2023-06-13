@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>OnlyPositiveAndNonZero</fullName>
-    <active>true</active>
-    <description>Estimated_Effort_Coefficient__c to be an integer and possibly enforce that it is positive and non-zero</description>
-    <errorConditionFormula>AND( isChanged(Estimated_Effort_Coefficient__c), Estimated_Effort_Coefficient__c &lt;= 0)</errorConditionFormula>
-    <errorDisplayField>Estimated_Effort_Coefficient__c</errorDisplayField>
-    <errorMessage>It has to be positive and non-zero</errorMessage>
-</ValidationRule>

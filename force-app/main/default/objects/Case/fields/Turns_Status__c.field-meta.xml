@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Turns_Status__c</fullName>
+    <description>Specifies the status of turns.</description>
+    <externalId>false</externalId>
+    <label>Turns Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>TE Accepted</fullName>
+                <default>false</default>
+                <label>TE Accepted</label>
+            </value>
+            <value>
+                <fullName>Pending Vendor Acceptance</fullName>
+                <default>false</default>
+                <label>Pending Vendor Acceptance</label>
+            </value>
+            <value>
+                <fullName>Vendor Accepted</fullName>
+                <default>false</default>
+                <label>Vendor Accepted</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>QA pending</fullName>
+                <default>false</default>
+                <label>QA pending</label>
+            </value>
+            <value>
+                <fullName>Client has Responded</fullName>
+                <default>false</default>
+                <label>Client has Responded</label>
+            </value>
+            <value>
+                <fullName>QA remedy</fullName>
+                <default>false</default>
+                <label>QA remedy</label>
+            </value>
+            <value>
+                <fullName>QA Accepted</fullName>
+                <default>false</default>
+                <label>QA Accepted</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Waiting on Contractor</fullName>
+                <default>false</default>
+                <label>Waiting on Contractor</label>
+            </value>
+            <value>
+                <fullName>Response Received</fullName>
+                <default>false</default>
+                <label>Response Received</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>New</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>TE Accepted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Pending Vendor Acceptance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Vendor Accepted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Scheduled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>QA pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>Client has Responded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>QA remedy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <valueName>QA Accepted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Turns Request</controllingFieldValue>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Closed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Waiting on Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turns Vendor Inquiry</controllingFieldValue>
+            <valueName>Response Received</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

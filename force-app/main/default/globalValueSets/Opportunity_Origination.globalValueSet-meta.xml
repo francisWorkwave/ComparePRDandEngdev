@@ -146,16 +146,10 @@
         <label>Partner Referral</label>
     </customValue>
     <customValue>
-        <fullName>2015 Tradeshow</fullName>
+        <fullName>2018 Tradeshow</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>2015 Tradeshow</label>
-    </customValue>
-    <customValue>
-        <fullName>2016 Tradeshow</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>2016 Tradeshow</label>
+        <label>2018 Tradeshow</label>
     </customValue>
     <customValue>
         <fullName>2017 Tradeshow</fullName>
@@ -164,10 +158,16 @@
         <label>2017 Tradeshow</label>
     </customValue>
     <customValue>
-        <fullName>2018 Tradeshow</fullName>
+        <fullName>2016 Tradeshow</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>2018 Tradeshow</label>
+        <label>2016 Tradeshow</label>
+    </customValue>
+    <customValue>
+        <fullName>2015 Tradeshow</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>2015 Tradeshow</label>
     </customValue>
     <masterLabel>Opportunity Origination</masterLabel>
     <sorted>false</sorted>

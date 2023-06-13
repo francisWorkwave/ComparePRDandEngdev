@@ -122,6 +122,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>List Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Other</fullName>
             <default>false</default>
         </values>
@@ -389,21 +393,6 @@
         </values>
         <values>
             <fullName>Residential</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Status__c</picklist>
-        <values>
-            <fullName>Active</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Deleted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Inactive</fullName>
             <default>false</default>
         </values>
     </picklistValues>

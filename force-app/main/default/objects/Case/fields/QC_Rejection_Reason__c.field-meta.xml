@@ -3,7 +3,7 @@
     <fullName>QC_Rejection_Reason__c</fullName>
     <description>Used in the QC Process</description>
     <externalId>false</externalId>
-    <label>Rejection Reason</label>
+    <label>Rejection Reasons</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
@@ -12,264 +12,7 @@
     <valueSet>
         <controllingField>QC_Responsible_Party__c</controllingField>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Blurry/unclear Photos</fullName>
-                <default>false</default>
-                <label>Blurry/unclear Photos</label>
-            </value>
-            <value>
-                <fullName>String Trimming</fullName>
-                <default>false</default>
-                <label>String Trimming</label>
-            </value>
-            <value>
-                <fullName>Mowing</fullName>
-                <default>false</default>
-                <label>Mowing</label>
-            </value>
-            <value>
-                <fullName>Grass Clippings (OG)</fullName>
-                <default>false</default>
-                <label>Grass Clippings (OG)</label>
-            </value>
-            <value>
-                <fullName>Blow Leaves/Grass Clippings/Incedental Debris</fullName>
-                <default>false</default>
-                <label>Blow Leaves/Grass Clippings/Incedental Debris</label>
-            </value>
-            <value>
-                <fullName>Deep Edging</fullName>
-                <default>false</default>
-                <label>Deep Edging</label>
-            </value>
-            <value>
-                <fullName>Bush Trimming</fullName>
-                <default>false</default>
-                <label>Bush Trimming</label>
-            </value>
-            <value>
-                <fullName>Spraying/Pulling Weeds</fullName>
-                <default>false</default>
-                <label>Spraying/Pulling Weeds</label>
-            </value>
-            <value>
-                <fullName>Debris remains</fullName>
-                <default>false</default>
-                <label>Debris remains</label>
-            </value>
-            <value>
-                <fullName>Gravel Not Raked Evenly</fullName>
-                <default>false</default>
-                <label>Gravel Not Raked Evenly</label>
-            </value>
-            <value>
-                <fullName>Tree Trimming</fullName>
-                <default>false</default>
-                <label>Tree Trimming</label>
-            </value>
-            <value>
-                <fullName>Stump Not Ground</fullName>
-                <default>false</default>
-                <label>Stump Not Ground</label>
-            </value>
-            <value>
-                <fullName>Debris Not Removed from Property</fullName>
-                <default>false</default>
-                <label>Debris Not Removed from Property</label>
-            </value>
-            <value>
-                <fullName>Debris left in Client&apos;s Garbage Can</fullName>
-                <default>false</default>
-                <label>Debris left in Client&apos;s Garbage Can</label>
-            </value>
-            <value>
-                <fullName>Old Mulch Not Removed</fullName>
-                <default>false</default>
-                <label>Old Mulch Not Removed</label>
-            </value>
-            <value>
-                <fullName>Wrong Color of Mulch</fullName>
-                <default>false</default>
-                <label>Wrong Color of Mulch</label>
-            </value>
-            <value>
-                <fullName>Not all Leaves removed</fullName>
-                <default>false</default>
-                <label>Not all Leaves removed</label>
-            </value>
-            <value>
-                <fullName>Deicer Not Applied</fullName>
-                <default>false</default>
-                <label>Deicer Not Applied</label>
-            </value>
-            <value>
-                <fullName>Snow Not Cleared</fullName>
-                <default>false</default>
-                <label>Snow Not Cleared</label>
-            </value>
-            <value>
-                <fullName>Wrong Property</fullName>
-                <default>false</default>
-                <label>Wrong Property</label>
-            </value>
-            <value>
-                <fullName>Serviced Too Soon</fullName>
-                <default>false</default>
-                <label>Serviced Too Soon</label>
-            </value>
-            <value>
-                <fullName>Photos Missing</fullName>
-                <default>false</default>
-                <label>Photos Missing</label>
-            </value>
-            <value>
-                <fullName>Duplicate Photos</fullName>
-                <default>false</default>
-                <label>Duplicate Photos</label>
-            </value>
-            <value>
-                <fullName>Bid Only</fullName>
-                <default>false</default>
-                <label>Bid Only</label>
-            </value>
-            <value>
-                <fullName>Scheduling Error</fullName>
-                <default>false</default>
-                <label>Scheduling Error</label>
-            </value>
-            <value>
-                <fullName>2nd chance not completed over 72 hours</fullName>
-                <default>false</default>
-                <label>2nd chance not completed over 72 hours</label>
-            </value>
-            <value>
-                <fullName>Rep Error</fullName>
-                <default>false</default>
-                <label>Rep Error</label>
-            </value>
-            <value>
-                <fullName>TE System Error</fullName>
-                <default>false</default>
-                <label>TE System Error</label>
-            </value>
-            <value>
-                <fullName>Tenant Refused</fullName>
-                <default>false</default>
-                <label>Tenant Refused</label>
-            </value>
-            <value>
-                <fullName>Occupied</fullName>
-                <default>false</default>
-                <label>Occupied</label>
-            </value>
-            <value>
-                <fullName>Onsite Construction</fullName>
-                <default>false</default>
-                <label>Onsite Construction</label>
-            </value>
-            <value>
-                <fullName>Access Issue</fullName>
-                <default>false</default>
-                <label>Access Issue</label>
-            </value>
-            <value>
-                <fullName>Incorrect Property Data</fullName>
-                <default>false</default>
-                <label>Incorrect Property Data</label>
-            </value>
-            <value>
-                <fullName>No Mulch Needed</fullName>
-                <default>false</default>
-                <label>No Mulch Needed</label>
-            </value>
-            <value>
-                <fullName>Fix It Client Issue</fullName>
-                <default>false</default>
-                <label>Fix It Client Issue</label>
-            </value>
-            <value>
-                <fullName>Appliances Not Cleaned</fullName>
-                <default>false</default>
-                <label>Appliances Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Mirrors Not Cleaned</fullName>
-                <default>false</default>
-                <label>Mirrors Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Floors Not Vacuumed/Swept</fullName>
-                <default>false</default>
-                <label>Floors Not Vacuumed/Swept</label>
-            </value>
-            <value>
-                <fullName>Toilets Not Cleaned/Water Recycled</fullName>
-                <default>false</default>
-                <label>Toilets Not Cleaned/Water Recycled</label>
-            </value>
-            <value>
-                <fullName>Counters Not Cleaned</fullName>
-                <default>false</default>
-                <label>Counters Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Faucets Not Cleaned</fullName>
-                <default>false</default>
-                <label>Faucets Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Tub/Shower Not Cleaned</fullName>
-                <default>false</default>
-                <label>Tub/Shower Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Skimmer Basket Not Cleaned</fullName>
-                <default>false</default>
-                <label>Skimmer Basket Not Cleaned</label>
-            </value>
-            <value>
-                <fullName>Gate Not Locked</fullName>
-                <default>false</default>
-                <label>Gate Not Locked</label>
-            </value>
-            <value>
-                <fullName>Chemical Test Kit Missing</fullName>
-                <default>false</default>
-                <label>Chemical Test Kit Missing</label>
-            </value>
-            <value>
-                <fullName>Pool Shows Debris</fullName>
-                <default>false</default>
-                <label>Pool Shows Debris</label>
-            </value>
-            <value>
-                <fullName>Key Not Replaced</fullName>
-                <default>false</default>
-                <label>Key Not Replaced</label>
-            </value>
-            <value>
-                <fullName>Type of Service</fullName>
-                <default>false</default>
-                <label>Type of Service</label>
-            </value>
-            <value>
-                <fullName>Too Far From Current Route</fullName>
-                <default>false</default>
-                <label>Too Far From Current Route</label>
-            </value>
-            <value>
-                <fullName>Not Enough Money</fullName>
-                <default>false</default>
-                <label>Not Enough Money</label>
-            </value>
-            <value>
-                <fullName>Contractor No Response</fullName>
-                <default>false</default>
-                <label>Contractor No Response</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>Rejection_Reason</valueSetName>
         <valueSettings>
             <controllingFieldValue>Contractor</controllingFieldValue>
             <valueName>Blurry/unclear Photos</valueName>
@@ -415,47 +158,97 @@
             <valueName>Key Not Replaced</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Not Enough Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>VM Full</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>VM Not Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Refused to Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Weather Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>Can&apos;t Complete Until Next Week</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contractor</controllingFieldValue>
+            <valueName>No Work Marked Complete</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Bid Only</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Scheduling Error</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Rep Error</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>TE System Error</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Tenant Refused</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Occupied</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Onsite Construction</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Access Issue</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Incorrect Property Data</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>No Mulch Needed</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TaskEasy</controllingFieldValue>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
             <valueName>Fix It Client Issue</valueName>
         </valueSettings>
     </valueSet>

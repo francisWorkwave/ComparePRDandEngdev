@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>AM_Team</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Account_Management</application>
         <default>false</default>
         <visible>false</visible>
@@ -67,6 +72,11 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -205,10 +215,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>MessagesHTMLController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ModelsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -218,10 +224,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MyProfilePageControllerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ObjectPermissionSelector</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -513,10 +515,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>PrepareMySandbox</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Region_Assignment</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -537,10 +535,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ServiceTemplateSelector</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -554,14 +548,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SiteRegisterControllerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TaskTriggerHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>Tasks</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1118,6 +1104,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Automobile_Coverage_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
         <readable>true</readable>
@@ -1160,6 +1151,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Client_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Client_Kickoff_Call_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1234,6 +1230,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Days_available__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Debris_Trash_Removal__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1270,11 +1271,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Email_Routing_Managed__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.External_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1330,6 +1326,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Fully_Verified_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.GL_Coverage_Amount__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1444,6 +1445,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.MSA_Uploaded__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Market_Assignment__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1494,6 +1500,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Number_of_jobs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OA_Coverage_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Onboarding_Start_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1513,23 +1529,28 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PR_Contractor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.ParentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Parent_Account_Creation_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Parent_Account_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Parent_Region_Assignment_Count__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.PaymentMethod__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.PaymentTerms__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1564,6 +1585,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Previous_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Price_Book__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1575,6 +1601,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Primary_Time_Zone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Primary_Workcrew_Account__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1605,6 +1636,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.RO_Monday_Starting_Location__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.RO_Paused_Until__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1649,11 +1685,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.RecordTypeDeveloperName__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.Recruitment_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1665,6 +1696,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Referral_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Referred_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Referrer_Short_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Referrer_Source__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1764,12 +1810,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Schedule_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Secondary_Phone_From_Agreement__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Service_Activation_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Service_Area__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1884,12 +1940,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.TE_Workcrew_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Te_User_ID_Text__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Team_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Test_Program_Participation__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1995,11 +2061,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Weed_Application_Removal__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.WorkWave_Performer_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2329,17 +2390,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Asset.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Asset.Flower_Bed_SQFT__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Asset.FullAddress__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2844,6 +2895,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.AddressID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Address__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2954,6 +3010,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.CbsaName__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Change_Request_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2980,6 +3041,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Closed_Today__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.CompAmount__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3024,6 +3090,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.CurrentIntervalLabel__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Customer_Email__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3048,6 +3119,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.DaysPastDue__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Description</field>
         <readable>true</readable>
@@ -3055,6 +3131,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Domain__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Due_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3070,11 +3151,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Excluded_From_Routing__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.External_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3099,6 +3175,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.IntervalFinishLabel__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.IsClosedOnCreate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3119,12 +3200,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.LastStoppedServiceDate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Last_Auto_Gen_Completion_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.LawnOvergrowthBidAmount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Manager__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3154,7 +3245,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.MostRecentActiviationDate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.NTE__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.NextScheduledFollowingLastCompletionDate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Next_Call_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3164,7 +3270,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Order__c</field>
+        <field>Case.OpenEms__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.OptimizationMarket__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3199,6 +3310,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.PastDueReason__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Pricing_Client_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3224,17 +3340,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Product_Family__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Case.Properties_that_need_service__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.PropertyState__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Property_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.QC_Primary_Rejection_Reason__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3260,6 +3381,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Quote__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.RO_Market__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3294,17 +3420,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Reopened_Date_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Scheduled_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Scope_of_Work__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.Service_Blocking__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3379,13 +3505,33 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.TaskType__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Task_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.TotalDaysPastDue__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Turns_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Type</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.UniqueId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3443,19 +3589,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.AccountExternalId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.AccountName__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3573,11 +3709,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Fax</field>
         <readable>true</readable>
@@ -3615,11 +3746,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Interested_Services__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.IsSoftDeleted__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3748,11 +3874,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.PublicID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ReportsToId</field>
         <readable>true</readable>
@@ -3795,11 +3916,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Spanish__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3973,6 +4089,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Interests__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Jigsaw</field>
         <readable>true</readable>
@@ -4005,6 +4126,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.MC4SF__MC_Subscriber__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Markets__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4100,6 +4226,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.Referred_by_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Referrer_Short_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Referrer_Source__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4514,11 +4650,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Order.External_OrderID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Order.JSON__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4560,11 +4691,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.PoNumber</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.Product_Family__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4615,11 +4741,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.SBQQ__TaxAmount__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.Service_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4934,16 +5055,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OrderItem.Product_Family__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OrderItem.Product_Record_Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>OrderItem.Recurrence_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -5255,11 +5366,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Product_Availability__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Product2.Product_Family__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7859,11 +7965,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SBQQ__Quote__c.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>SBQQ__Quote__c.SBQQ__Account__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8249,16 +8350,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SBQQ__Quote__c.SalesforceServiceCartInstanceID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SBQQ__Quote__c.Service_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>SBQQ__Quote__c.TE_Region__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8284,7 +8375,15 @@
     </fieldPermissions>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>AccountContactRelation_Before_AssignRole</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Account_Actions_Status_Change_Updates</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Account_After_Client_Onboarding</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8304,19 +8403,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Account_After_Populate_External_Id</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Account_After_RO_Changes</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Account_Before_Contractor_Recruitment_Onboarding</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Account_Messages</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8340,15 +8431,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Account_Sub_After_Contact_Roles</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Account_Triggered_New_Contractor_Onboarding</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Add_Follower_to_Insurance_Claim</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Asset_After_Populate_External_Id</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8392,11 +8483,23 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Case_After_Populate_External_Id</flow>
+        <flow>Case_After_Auto_Close_Cases</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Case_After_Turns_Cases</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Case_After_Urgent_Client_Requests</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Case_Assign_Case_Ownership_by_Region</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Case_Before_Case_Assignment</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8424,6 +8527,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Case_Scheduled_Past_Due_Round_Robin_queue</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Case_Update_from_Bot</flow>
     </flowAccesses>
     <flowAccesses>
@@ -8433,6 +8540,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Cases_Related_to_Opportunities</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Certification_Scheduled_Auto_Insurance_Expiration</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8448,7 +8559,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Contact_After_Populate_External_Id</flow>
+        <flow>Contact_After_Assign_Contact_Roles</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Contact_After_Contractor_Leads</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8461,10 +8576,6 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Contact_Scheduled_Daily_Rejection_Notice_Email</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Contracted_Discount</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8481,6 +8592,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Educate_Disco_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>EmailMessage_Signature</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8540,6 +8655,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Insurance_Claims_After</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Insurance_Claims_Initiator_AM_Claim_Follower</flow>
     </flowAccesses>
     <flowAccesses>
@@ -8556,7 +8675,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Lead_After_Zapier</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Lead_Creation_Process_and_Assignments</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>LocationRecruit_MassCreate</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8569,6 +8696,18 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Messaging_Test</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Migrate_AccountContact_Relationship</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Migrate_Region_Assignment</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Migrate_Service_Profile_to_Team_Account</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8588,11 +8727,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Order_After_Populate_External_Id</flow>
+        <flow>OpportunityLocation_MassCreatingRecords</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Order_Product_After</flow>
+        <flow>OpportunityLocation_Validations_Before</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Opportunity_After_Create_Related_Account</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8616,19 +8759,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>ProductFamily_After_PopulateExternalId</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>ProductFeature_After_Populate_External_Id</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Product_After_Populate_External_Id</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Quote_After_Populate_External_Id</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8645,6 +8776,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Recruitment_Opportunity_Create</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Recruitment_Opportunity_Prospect_Before</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8669,14 +8804,6 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Scheduled_QC_Case_Rejection_Email</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>ServiceTemplate_After_Populate_External_Id</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>ServiceType_After_Populate_External_Id</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8705,6 +8832,22 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Testing_Code</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Time_Card_Scheduled_Submit_for_Approval</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Time_Card_Scheduled_Weekly</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Time_Card_Submit_for_Approval</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Time_Clock_Entry</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -8826,11 +8969,19 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
+        <recordType>Case.PastDueCase</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
         <recordType>Case.QC_Case</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
         <recordType>Case.Tracing_Case</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.Turns</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -8845,6 +8996,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseInteraction-Case Feed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ChannelObjectLinkingRule-Channel Object Linking Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CollaborationGroup-Group Layout</layout>
@@ -8937,6 +9091,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DataUsePurpose-Data Use Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordItem-Duplicate Record Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
@@ -9047,6 +9204,9 @@
         <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Location_Recruit__c-Location Recruit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9059,12 +9219,6 @@
         <layout>NTE__c-NTE Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ObjectPermission__mdt-Object Permission Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Object__mdt-Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9072,6 +9226,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity_Location__c-Opportunity Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-Order Layout</layout>
@@ -9138,9 +9295,6 @@
         <layout>Product_Account_Additional_Fields__c-Additional Fields by Product %2F Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Product_Family__c-Product Family Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ProfileSkill-Skill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9148,9 +9302,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProfileSkillUser-Skill User Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Profile__mdt-Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Property_Metric_Map__mdt-Property Metric Map Layout</layout>
@@ -9177,10 +9328,10 @@
         <layout>Regional_Price__c-Regional Price Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ResidentLease__c-Resident Lease Layout</layout>
+        <layout>SObjectTriggerFlag__mdt-Trigger Flag Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SObjectTriggerFlag__mdt-Trigger Flag Layout</layout>
+        <layout>SalesforceContract-Salesforce Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Salesforce_Support_Epic__c-Epic Layout</layout>
@@ -9235,6 +9386,9 @@
         <layout>Service_Type__c-Service Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Shift__c-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9262,6 +9416,12 @@
         <recordType>Task.New_Task</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Time_Card__c-Time Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Time_Entry__c-Time Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9280,6 +9440,9 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>VoiceCall-Voice Call Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>WorkAccess-Access Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9290,6 +9453,75 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__App_Config__mdt-sf_devops__App Config Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Async_Operation_Result__c-sf_devops__Async Operation Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Back_Sync__c-sf_devops__Back Sync Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Branch__c-sf_devops__Branch Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Change_Bundle_Install__c-sf_devops__Change Bundle Install Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Change_Bundle__c-sf_devops__Change Bundle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Change_Submission__c-sf_devops__Change Submission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Deploy_Component__c-sf_devops__Deploy Component Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Deployment_Result__c-sf_devops__Deployment Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Environment__c-sf_devops__Environment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Hidden_Remote_Change__c-sf_devops__Hidden Remote Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Merge_Result__c-sf_devops__Merge Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Object_Activity__c-sf_devops__Object Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Pipeline_Stage__c-sf_devops__Pipeline Stage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Pipeline__c-sf_devops__Pipeline Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Remote_Change__c-sf_devops__Remote Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Repository__c-sf_devops__Repository Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Service__mdt-sf_devops__Service Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Source_Member_Reference__c-sf_devops__Source Member Reference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Submit_Component__c-sf_devops__Submit Component Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Vcs_Event__c-sf_devops__VCS Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Work_Item_Promote__c-sf_devops__Work Item Promote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Work_Item__c-sf_devops__Work Item Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>AccountNotes</apexPage>
@@ -9306,6 +9538,10 @@
     <pageAccesses>
         <apexPage>ChangePassword</apexPage>
         <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Chat_Test</apexPage>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Exception</apexPage>
@@ -9475,12 +9711,22 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Case.PastDueCase</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Case.QC_Case</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Tracing_Case</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Turns</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -9639,11 +9885,11 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Comp_Request__c</tab>
+        <tab>CM_Team_Home_Page</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Contracted_Discount__c</tab>
+        <tab>Comp_Request__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -9672,10 +9918,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Price_Segment__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Product_Family__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -9712,6 +9954,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Service_Type__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Shift__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Time_Card__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -13,7 +13,7 @@
             <user>eb@taskeasy.com</user>
         </users>
     </queueMembers>
-    <queueRoutingConfig>CaseRouting</queueRoutingConfig>
+    <queueRoutingConfig>Single_Assignment</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

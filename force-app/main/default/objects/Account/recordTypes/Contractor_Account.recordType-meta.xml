@@ -15,6 +15,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>List Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Other</fullName>
             <default>false</default>
         </values>
@@ -390,6 +394,37 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Days_available__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Debt_Status__c</picklist>
         <values>
             <fullName>NA</fullName>
@@ -471,11 +506,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -836,11 +887,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -966,32 +1033,6 @@
         </values>
         <values>
             <fullName>Subsidiary</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>PaymentMethod__c</picklist>
-        <values>
-            <fullName>Credit Card</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Invoice</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>PaymentTerms__c</picklist>
-        <values>
-            <fullName>Net 30</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Net 60</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Per Service</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1201,6 +1242,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Huntsville</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Indianapolis</fullName>
             <default>false</default>
         </values>
@@ -1347,11 +1392,35 @@
     <picklistValues>
         <picklist>Reason_For_Inactive_Status__c</picklist>
         <values>
+            <fullName>App Usage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Behavior</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Lack of Communication</fullName>
+            <fullName>Client Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consistent Poor Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flagged For Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Requirements</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1359,7 +1428,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>No Available Work</fullName>
+            <fullName>Low Completion Percentage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Banking Information</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1367,11 +1440,19 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Off-Season</fullName>
+            <fullName>No Work Available</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Payment Dispute</fullName>
+            <fullName>No communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested - Undetermined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Season</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1383,11 +1464,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Poor Quality</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Poor Route Completion</fullName>
+            <fullName>Photo Requirements</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1402,9 +1479,17 @@
             <fullName>Routing</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Team Disabled</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Recruitment_Status__c</picklist>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>First Route Scheduled</fullName>
             <default>false</default>
@@ -1540,11 +1625,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1724,6 +1825,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Pay Duration</fullName>
             <default>false</default>
         </values>
@@ -1760,7 +1865,7 @@
         <picklist>Status__c</picklist>
         <values>
             <fullName>Active</fullName>
-            <default>true</default>
+            <default>false</default>
         </values>
         <values>
             <fullName>Archived</fullName>
@@ -1768,6 +1873,10 @@
         </values>
         <values>
             <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nesting</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1908,11 +2017,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1933,6 +2058,21 @@
         </values>
         <values>
             <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Test_Program_Participation__c</picklist>
+        <values>
+            <fullName>Contractor Minimum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-App Additional Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Jobs</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1995,11 +2135,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2187,11 +2343,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2394,11 +2566,27 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
             <default>false</default>
         </values>
         <values>

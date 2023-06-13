@@ -23,8 +23,8 @@ public with sharing class OrderFunnel_ProductUtility {
     }
 
     private static String buildSearchQuery(String accountId, String region, Boolean includeInternal, List<String> tags){
-        String query = 'SELECT Id, ProductCode, Name, Display_Name__c, RecordType.Name, Estimated_Effort_Coefficient__c, ';
-        query += 'Description, Merchandising_Tags__c, Family, Product_Family__c, Product_Family__r.Name, Product_Family__r.Color__c, Product_Family__r.Icon_Tag__c, Client__c, External_ID__c, Product_Photo_URL__c,';
+        String query = 'SELECT Id, ProductCode, Name, Display_Name__c, RecordType.Name, ';
+        query += 'Description, Merchandising_Tags__c, Family, Client__c, External_ID__c, Product_Photo_URL__c,';
 
         query += '(SELECT Id, Service_Type__c, Service_Type__r.Name, Service_Type__r.Contractor_Description__c, Service_Type__r.Customer_Description__c ';
         query += 'FROM Component_Services__r) ';
@@ -34,8 +34,7 @@ public with sharing class OrderFunnel_ProductUtility {
 
         query += '(Client__c = null OR ';
         if(accountId != null && accountId != ''){
-            //query += 'Client__c = :accountId'; // Original
-            query += 'Client__c = :accountId OR Client__r.External_ID__c =: accountId '; // Added by Fran 05/19/23   
+            query += 'Client__c = :accountId';
         }
         query = query.removeEnd(' OR ');
         query += ') AND ';
@@ -66,9 +65,8 @@ public with sharing class OrderFunnel_ProductUtility {
         //TODO for use in internal mapping (non-customer facing or cached)
         List<Product2> products = [ SELECT  Id
                                     FROM Product2
-                                    WHERE Id IN :productIds OR External_ID__c IN: productIds];
+                                    WHERE Id IN :productIds];
 
-        // OR External_ID__c IN: productIds added by Fran // Added by Fran 05-19-2023
         if(products.isEmpty()){
             throw new API_Dispatcher.APIException(404, 'Products not found');
         }
@@ -99,12 +97,8 @@ public with sharing class OrderFunnel_ProductUtility {
         model.productPhotoURL = product.Product_Photo_URL__c;
         model.Type = product.RecordType.Name;
         model.Description = product.Description;
-        model.Family = product?.Product_Family__r?.Name;
-        model.color = product?.Product_Family__r?.Color__c;
-        model.iconTag = product?.Product_Family__r?.Icon_Tag__c;
+        model.Family = product.Family;
         model.MerchandisingTags = product.Merchandising_Tags__c;
-        model.estimatedEffortMins = product.Estimated_Effort_Coefficient__c;
-
         if(product.Client__c != null){
             model.clientProduct = true;
         }
@@ -123,19 +117,11 @@ public with sharing class OrderFunnel_ProductUtility {
         return model;
     }
 
-    public static Product2 getProductFields(String productId){
-        return [Select Property_Metric__c From Product2 Where Id =: productId];
-    }
-
     public static CPQ_Models.ProductModel buildCPQModel(String productId, String pricebookId){
         try{
             ProductReaderContext ctx = new ProductReaderContext(pricebookId, null);
             String productJSON = SBQQ.ServiceRouter.load('SBQQ.ProductAPI.ProductLoader', productId, JSON.serialize(ctx));
-            CPQ_Models.ProductModel resul = (CPQ_Models.ProductModel) JSON.deserialize(productJSON, CPQ_Models.ProductModel.class);
-            Product2 productFields =  getProductFields(productId);
-            resul.record.Property_Metric__c = productFields.Property_Metric__c;
-            return resul;
-            // return (CPQ_Models.ProductModel) JSON.deserialize(productJSON, CPQ_Models.ProductModel.class);
+            return (CPQ_Models.ProductModel) JSON.deserialize(productJSON, CPQ_Models.ProductModel.class);
         }catch(Exception ex){
             throw new API_Dispatcher.APIException(404, 'Unable to read product. ' + ex.getMessage());
         }

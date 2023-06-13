@@ -12,13 +12,10 @@
     <columns>LEAD.CREATED_DATE</columns>
     <columns>LEAD.LEAD_SOURCE</columns>
     <columns>Opportunity_Origination__c</columns>
-    <columns>Properties_that_need_service__c</columns>
-    <columns>Vertical__c</columns>
+    <columns>Referrer__c</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>LEAD.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>LEAD.CREATED_DATE</field>
-        <operation>greaterThan</operation>
-        <value>8/1/2021 12:00 AM</value>
-    </filters>
     <label>All Leads All Time</label>
 </ListView>

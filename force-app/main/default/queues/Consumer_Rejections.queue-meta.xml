@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Consumer Rejections</name>
+    <queueMembers>
+        <users>
+            <user>carlos.galvez@taskeasy.com</user>
+            <user>jose.diaz@taskeasy.com</user>
+            <user>joseline.garcia@taskeasy.com</user>
+            <user>stephania.etienne@taskeasy.com</user>
+            <user>victoria.diaz@taskeasy.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>CaseRouting</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -8,11 +8,6 @@
     <columns>CONTACT.FIRST_NAME</columns>
     <columns>CONTACT.LAST_NAME</columns>
     <columns>Opportunity_Origination__c</columns>
-    <filterScope>Everything</filterScope>
-    <filters>
-        <field>CONTACT.RECORDTYPE</field>
-        <operation>equals</operation>
-        <value>Contact.Contractor_Owner</value>
-    </filters>
+    <filterScope>Mine</filterScope>
     <label>My Contacts</label>
 </ListView>

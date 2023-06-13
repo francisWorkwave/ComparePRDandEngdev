@@ -11,67 +11,34 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Most Popular</fullName>
+                <default>false</default>
+                <label>Most Popular</label>
+            </value>
+            <value>
+                <fullName>Best Value</fullName>
+                <default>false</default>
+                <label>Best Value</label>
+            </value>
+            <value>
                 <fullName>Garden Beds</fullName>
                 <default>false</default>
                 <label>Garden Beds</label>
             </value>
             <value>
+                <fullName>Seasonal Cleanup</fullName>
+                <default>false</default>
+                <label>Seasonal Cleanup</label>
+            </value>
+            <value>
                 <fullName>Trees &amp; Bushes</fullName>
                 <default>false</default>
-                <label>Trees &amp; Bushes &amp; Vines</label>
+                <label>Trees &amp; Bushes</label>
             </value>
             <value>
                 <fullName>Landscaping</fullName>
                 <default>false</default>
                 <label>Landscaping</label>
-            </value>
-            <value>
-                <fullName>Debris &amp; Waste</fullName>
-                <default>false</default>
-                <label>Debris &amp; Waste</label>
-            </value>
-            <value>
-                <fullName>Interior Property</fullName>
-                <default>false</default>
-                <label>Interior Property</label>
-            </value>
-            <value>
-                <fullName>Pools</fullName>
-                <default>false</default>
-                <label>Pools</label>
-            </value>
-            <value>
-                <fullName>Seasonal Services</fullName>
-                <default>false</default>
-                <label>Seasonal Services</label>
-            </value>
-            <value>
-                <fullName>Sprinklers &amp; Irrigation</fullName>
-                <default>false</default>
-                <label>Sprinklers &amp; Irrigation</label>
-            </value>
-            <value>
-                <fullName>Value Bundling</fullName>
-                <default>false</default>
-                <label>Value Bundling</label>
-            </value>
-            <value>
-                <fullName>Best Value</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Best Value</label>
-            </value>
-            <value>
-                <fullName>Most Popular</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Most Popular</label>
-            </value>
-            <value>
-                <fullName>Seasonal Cleanup</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Seasonal Cleanup</label>
             </value>
         </valueSetDefinition>
     </valueSet>

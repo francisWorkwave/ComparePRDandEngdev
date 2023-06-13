@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Quality Control Advocate</name>
     <opportunityAccessLevel>Read</opportunityAccessLevel>
-    <parentRole>Quality_Control_Manager</parentRole>
+    <parentRole>QC_TEI_Team_Lead</parentRole>
 </Role>

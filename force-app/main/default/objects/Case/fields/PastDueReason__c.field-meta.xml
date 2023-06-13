@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PastDueReason__c</fullName>
+    <description>Reason for past due case</description>
+    <externalId>false</externalId>
+    <label>Past Due Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access Issue - Client Attention Needed</fullName>
+                <default>false</default>
+                <label>Access Issue - Client Attention Needed</label>
+            </value>
+            <value>
+                <fullName>Client Requested Reschedule</fullName>
+                <default>false</default>
+                <label>Client Requested Reschedule</label>
+            </value>
+            <value>
+                <fullName>Consumer Finance Issues</fullName>
+                <default>false</default>
+                <label>Consumer Finance Issues</label>
+            </value>
+            <value>
+                <fullName>Consumer Multiple Skips</fullName>
+                <default>false</default>
+                <label>Consumer Multiple Skips</label>
+            </value>
+            <value>
+                <fullName>Consumer Non-Communication</fullName>
+                <default>false</default>
+                <label>Consumer Non-Communication</label>
+            </value>
+            <value>
+                <fullName>Consumer set Off-Season</fullName>
+                <default>false</default>
+                <label>Consumer set Off-Season</label>
+            </value>
+            <value>
+                <fullName>Contractor Reported Already Serviced</fullName>
+                <default>false</default>
+                <label>Contractor Reported Already Serviced</label>
+            </value>
+            <value>
+                <fullName>Outstanding Bid - Client Approval Needed</fullName>
+                <default>false</default>
+                <label>Outstanding Bid - Client Approval Needed</label>
+            </value>
+            <value>
+                <fullName>Overgrowth - Client Approval Needed</fullName>
+                <default>false</default>
+                <label>Overgrowth - Client Approval Needed</label>
+            </value>
+            <value>
+                <fullName>Quality Control Rejection</fullName>
+                <default>false</default>
+                <label>Quality Control Rejection</label>
+            </value>
+            <value>
+                <fullName>Recently Reassigned &amp; Scheduled</fullName>
+                <default>false</default>
+                <label>Recently Reassigned &amp; Scheduled</label>
+            </value>
+            <value>
+                <fullName>Recruiting contractor for this coverage area</fullName>
+                <default>false</default>
+                <label>Recruiting contractor for this coverage area</label>
+            </value>
+            <value>
+                <fullName>Task Discontinued</fullName>
+                <default>false</default>
+                <label>Task Discontinued</label>
+            </value>
+            <value>
+                <fullName>Tenant Refused Service - Client Attention Needed</fullName>
+                <default>false</default>
+                <label>Tenant Refused Service - Client Attention Needed</label>
+            </value>
+            <value>
+                <fullName>Weather Delay</fullName>
+                <default>false</default>
+                <label>Weather Delay</label>
+            </value>
+            <value>
+                <fullName>AM Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AM Team Error</label>
+            </value>
+            <value>
+                <fullName>Bid Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bid Delay</label>
+            </value>
+            <value>
+                <fullName>Bid Team Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bid Team Error</label>
+            </value>
+            <value>
+                <fullName>Client Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Delay</label>
+            </value>
+            <value>
+                <fullName>Consumer Skips</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consumer Skips</label>
+            </value>
+            <value>
+                <fullName>Contractor Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor Delay</label>
+            </value>
+            <value>
+                <fullName>Contractor Missed Scope of Work</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor Missed Scope of Work</label>
+            </value>
+            <value>
+                <fullName>Contractor Non-Communication</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor Non-Communication</label>
+            </value>
+            <value>
+                <fullName>Equipment Failure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equipment Failure</label>
+            </value>
+            <value>
+                <fullName>Finance Issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance Issues</label>
+            </value>
+            <value>
+                <fullName>Job Skipped</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Job Skipped</label>
+            </value>
+            <value>
+                <fullName>Lack of Capacity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lack of Capacity</label>
+            </value>
+            <value>
+                <fullName>Low Contractor Earnings</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Low Contractor Earnings</label>
+            </value>
+            <value>
+                <fullName>MM Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MM Error</label>
+            </value>
+            <value>
+                <fullName>Market Support Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Market Support Error</label>
+            </value>
+            <value>
+                <fullName>No Vendor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Vendor</label>
+            </value>
+            <value>
+                <fullName>TE Scheduling Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TE Scheduling Error</label>
+            </value>
+            <value>
+                <fullName>Task Suspended for Season</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Task Suspended for Season</label>
+            </value>
+            <value>
+                <fullName>Weather Issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Weather Issues</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -29,53 +29,6 @@ public with sharing class OrderFunnel_ContactUtility {
         return cons;
     }
 
-
-    public static List<Contact> getChildrenContacts(String filter, String accountId, Boolean includeChildren){
-
-        Schema.FieldSet fieldSet = Schema.getGlobalDescribe().get('Contact').getDescribe().fieldSets.getMap().get('AccountContactChildren');
-        if(fieldSet == null) {
-            throw new API_Dispatcher.APIException(300, 'fieldSet not found');
-        }
-        string contactQuery = 'Select ';
-        string fields = ',Id';
-
-        for(Schema.FieldSetMember fieldSetMem:fieldSet.getFields()){
-            fields += ', ' + fieldSetMem.getFieldPath();
-        }
-        fields = fields.replaceFirst(',', '');
-
-        contactQuery += fields + ' From Contact Where';
-
-        if (filter == 'accountExternalId') {
-            contactQuery += ' Account.External_ID__c = \'' + accountId + '\'';    
-            if (includeChildren) {
-                contactQuery += ' OR Account.Parent.External_ID__c = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.Parent.External_ID__c = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.Parent.Parent.External_ID__c = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.Parent.Parent.External_ID__c = \'' + accountId + '\''; 
-                contactQuery += ' OR Account.Parent.Parent.Parent.Parent.External_ID__c = \'' + accountId + '\''; 
-            }
-        }else {
-            contactQuery += ' AccountId = \'' + accountId + '\'';
-            if (includeChildren) {
-                contactQuery += ' OR Account.ParentId = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.ParentId = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.Parent.ParentId = \'' + accountId + '\'';
-                contactQuery += ' OR Account.Parent.Parent.ParentId = \'' + accountId + '\''; 
-                contactQuery += ' OR Account.Parent.Parent.Parent.ParentId = \'' + accountId + '\''; 
-            }
-        }
-        System.debug('contactQuery ' + contactQuery);
-
-        List<Contact> cons = Database.query(contactQuery);
-
-        if(cons.isEmpty()){
-            throw new API_Dispatcher.APIException(404, 'Contact not found');
-        }
-
-        return cons;
-    }
-
     public static OrderFunnel_Models.ContactModel buildModel(Contact c){
         OrderFunnel_Models.ContactModel model = new OrderFunnel_Models.ContactModel();
         model.id = c.Id;

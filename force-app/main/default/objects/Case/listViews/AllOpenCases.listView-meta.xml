@@ -11,15 +11,14 @@
     <columns>CASES.REASON</columns>
     <columns>Job_ID__c</columns>
     <columns>OWNER_NAME</columns>
-    <columns>Auto_Market_Assignment__c</columns>
     <columns>Market_Assignment__c</columns>
     <columns>Market_State_Assignment__c</columns>
-    <columns>Manual_Market_Assignment__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>CASES.RECORDTYPE</field>
-        <operation>notEqual</operation>
-        <value>Case.Bid_Process_Details</value>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
     </filters>
     <label>All Open Cases</label>
     <sharedTo>
