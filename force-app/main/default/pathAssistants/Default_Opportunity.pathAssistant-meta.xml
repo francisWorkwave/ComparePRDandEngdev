@@ -14,7 +14,7 @@
         <fieldNames>CloseDate</fieldNames>
         <fieldNames>Amount</fieldNames>
         <fieldNames>Payment_Terms__c</fieldNames>
-        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://taskeasy--c.documentforce.com/servlet/rtaImage?eid=1CF6g000000Xz08&amp;amp;feoid=Info&amp;amp;refid=0EM6g0000001S27&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
+        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://taskeasy--engdev.sandbox.file.force.com/servlet/rtaImage?eid=1CF6g000000Xz08&amp;amp;feoid=Info&amp;amp;refid=0EM6g0000001S27&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
         <picklistValueName>Closed Won</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>

@@ -6,16 +6,12 @@
         <roles>
             <role>Contractor_Recruitment</role>
             <role>Contractor_Recruitment_Manager</role>
-            <role>SLC_Contractor_Recruitment_Advocate</role>
             <role>TEI_Contractor_Recruitment_Advocate</role>
             <role>TEI_Contractor_Recruitment_Team_Lead</role>
         </roles>
         <users>
             <user>adrian.raso@taskeasy.com</user>
             <user>jared.wangsgard@taskeasy.com</user>
-            <user>jose.perez@taskeasy.com</user>
-            <user>monica.hamrick@taskeasy.com</user>
-            <user>spencer.imboden@taskeasy.com</user>
         </users>
     </queueMembers>
     <queueRoutingConfig>SMS_Routing</queueRoutingConfig>

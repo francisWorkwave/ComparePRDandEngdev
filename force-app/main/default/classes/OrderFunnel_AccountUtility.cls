@@ -1,7 +1,7 @@
 public with sharing class OrderFunnel_AccountUtility {
     public static List<Account> getAccounts(String id){
-        List<Account> accs = [  SELECT  Id, Name, Phone, BillingStreet, BillingCity,
-                                        BillingState, BillingPostalCode, BillingCountry,
+        List<Account> accs = [  SELECT  Id, Name, Phone, BillingStreet, BillingCity, External_ID__c,
+                                        BillingState, BillingPostalCode, BillingCountry, PaymentMethod__c, PaymentTerms__c,
 
                                         Additional_Field_Label_1__c, Additional_Field_Value_1__c, Additional_Field_Label_2__c, Additional_Field_Value_2__c,
                                         Additional_Field_Label_3__c, Additional_Field_Value_3__c, Additional_Field_Label_4__c, Additional_Field_Value_4__c,
@@ -31,7 +31,9 @@ public with sharing class OrderFunnel_AccountUtility {
         model.BillingAddress.State = a.BillingState;
         model.BillingAddress.PostalCode = a.BillingPostalCode;
         model.BillingAddress.Country = a.BillingCountry;
-
+        model.PaymentMethod = a.PaymentMethod__c;
+        model.PaymentTerms = a.PaymentTerms__c;
+        model.externalId = a.External_ID__c; // Added by Fran 05-19-2023
         model.additionalFields = OrderFunnel_Utility.buildAdditionalFieldModels(a, 'Customer');
 
         return model;

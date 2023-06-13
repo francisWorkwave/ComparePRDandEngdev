@@ -4,7 +4,6 @@
     <active>true</active>
     <description>Creates requirement for the resolution reason as well as the case reason field to be filled in before a case can be saved as a closed status.</description>
     <errorConditionFormula>AND(
-$RecordType.DeveloperName &lt;&gt; &apos;PastDueCase&apos;,
 ISPICKVAL(Status, &apos;Closed&apos;),
 OR(
 ISBLANK(TEXT( Case_Resolution_Reason__c)),

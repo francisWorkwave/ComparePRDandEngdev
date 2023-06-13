@@ -190,9 +190,9 @@
             <label>Client Account</label>
         </rules>
     </decisions>
-    <description>**MIGRATED TO FLOW** Adds the related Client account type owner as an insurance claim record follower</description>
+    <description>Adds the related Client account type owner as an insurance claim record follower</description>
     <interviewLabel>Insurance_Claims_Initiator_AM_Claim_Follower-2_InterviewLabel</interviewLabel>
-    <label>zzz Retired - Insurance_Claims_Initiator_AM_Claim_Follower</label>
+    <label>*Insurance_Claims_Initiator_AM_Claim_Follower</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>

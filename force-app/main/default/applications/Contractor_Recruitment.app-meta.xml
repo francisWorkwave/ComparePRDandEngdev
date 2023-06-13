@@ -20,7 +20,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#78A12E</headerColor>
-        <logo>Contractor_Logo</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -36,17 +35,14 @@
     <tabs>standard-Task</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Campaign</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>standard-Case</tabs>
     <tabs>Recruitment_Opportunity__c</tabs>
     <tabs>Contractor_Insurance_Policy__c</tabs>
     <tabs>Contractor_Recruitment__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-DiscoveryForAccounts</tabs>
-    <tabs>Shift__c</tabs>
-    <tabs>Time_Card__c</tabs>
+    <tabs>Service_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Recruitment_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -61,19 +57,10 @@
             <tab>Recruitment_Opportunity__c</tab>
         </mappings>
         <mappings>
-            <tab>Shift__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Time_Card__c</tab>
+            <tab>Service_Type__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Campaign</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Case</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>

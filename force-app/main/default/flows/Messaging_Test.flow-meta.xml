@@ -11,8 +11,7 @@
         <label>Snow Reminder</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
-        <actionName>liveMessageNotification</actionName>
-        <actionType>liveMessageNotification</actionType>
+        <actionName>liveMessageNotificationNotFound</actionName>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>recipientPhone</name>

@@ -4,22 +4,14 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>ACCOUNT.RECORDTYPE</columns>
     <columns>Status__c</columns>
+    <columns>TE_User_Id__c</columns>
+    <columns>Contractor_Id__c</columns>
     <columns>Business_Address_City__c</columns>
     <columns>Client_Id__c</columns>
     <columns>Client_Id__pc</columns>
-    <columns>CORE.USERS.ALIAS</columns>
-    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>User_Id__pc</columns>
+    <columns>PARENT_NAME</columns>
     <columns>ACCOUNT.CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>Status__c</field>
-        <operation>equals</operation>
-        <value>Active</value>
-    </filters>
-    <filters>
-        <field>ACCOUNT.RECORDTYPE</field>
-        <operation>equals</operation>
-        <value>Account.Client_Account</value>
-    </filters>
     <label>All Accounts</label>
 </ListView>

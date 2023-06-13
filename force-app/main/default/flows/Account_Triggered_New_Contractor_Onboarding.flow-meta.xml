@@ -34,55 +34,16 @@
         </connector>
     </assignments>
     <decisions>
-        <name>Account_First_route_scheduled</name>
-        <label>Account = First route scheduled</label>
-        <locationX>1598</locationX>
-        <locationY>602</locationY>
+        <name>Account_Fully_Verified</name>
+        <label>Account = Fully Verified</label>
+        <locationX>1377</locationX>
+        <locationY>554</locationY>
         <defaultConnector>
             <targetReference>Account_is_No_Longer_Active</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Change</defaultConnectorLabel>
         <rules>
-            <name>First_route_scheduled</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Recruitment_Status__c</leftValueReference>
-                <operator>IsChanged</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Recruitment_Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>First Route Scheduled</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Onboarding</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>CCR_for_New_Account</targetReference>
-            </connector>
-            <label>First route scheduled?</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Account_Fully_verified</name>
-        <label>Account = Fully verified</label>
-        <locationX>1371</locationX>
-        <locationY>534</locationY>
-        <defaultConnector>
-            <targetReference>Account_First_route_scheduled</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Fully_verified</name>
+            <name>Recruitment_Fully_Verified</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Recruitment_Status__c</leftValueReference>
@@ -99,9 +60,9 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_fully_verified_date</targetReference>
+                <targetReference>Change_Status_to_Onboarding</targetReference>
             </connector>
-            <label>Fully verified</label>
+            <label>Changed to Verified</label>
         </rules>
     </decisions>
     <decisions>
@@ -132,8 +93,8 @@
     <decisions>
         <name>Account_is_No_Longer_Active</name>
         <label>Account No Longer Active</label>
-        <locationX>1851</locationX>
-        <locationY>631</locationY>
+        <locationX>1615</locationX>
+        <locationY>547</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Change_to_Inactive</name>
@@ -187,7 +148,7 @@
     <decisions>
         <name>New_or_Existing_Account</name>
         <label>New or Existing Account?</label>
-        <locationX>167</locationX>
+        <locationX>168</locationX>
         <locationY>391</locationY>
         <defaultConnector>
             <targetReference>Get_onboarder_team_member</targetReference>
@@ -212,10 +173,10 @@
     <decisions>
         <name>W9_Status_Changed</name>
         <label>W9 Status Changed</label>
-        <locationX>983</locationX>
-        <locationY>521</locationY>
+        <locationX>995</locationX>
+        <locationY>546</locationY>
         <defaultConnector>
-            <targetReference>Account_Fully_verified</targetReference>
+            <targetReference>Account_Fully_Verified</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Change</defaultConnectorLabel>
         <rules>
@@ -266,6 +227,7 @@
             <label>Status changed?</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>BeginningOrEnd</name>
         <dataType>String</dataType>
@@ -333,53 +295,6 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
-        <name>CCR_for_New_Account</name>
-        <label>CCR for New Account</label>
-        <locationX>1642</locationX>
-        <locationY>899</locationY>
-        <connector>
-            <targetReference>Account_is_No_Longer_Active</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>AccountId</field>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Change_Request_Type__c</field>
-            <value>
-                <stringValue>New Vendor</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Description</field>
-            <value>
-                <elementReference>CCRcasedescription</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Reason</field>
-            <value>
-                <stringValue>Contractor Change Request</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>RecordTypeId</field>
-            <value>
-                <stringValue>0126g0000010fhs</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Subject</field>
-            <value>
-                <elementReference>CCRSubject</elementReference>
-            </value>
-        </inputAssignments>
-        <object>Case</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordCreates>
-    <recordCreates>
         <name>New_Contractor_Account_Task</name>
         <label>New Contractor Account Task</label>
         <locationX>175</locationX>
@@ -429,7 +344,7 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
         <locationX>1177</locationX>
         <locationY>666</locationY>
         <connector>
-            <targetReference>Account_Fully_verified</targetReference>
+            <targetReference>Account_Fully_Verified</targetReference>
         </connector>
         <inputAssignments>
             <field>ActivityDate</field>
@@ -476,7 +391,7 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
         <locationX>1140</locationX>
         <locationY>960</locationY>
         <connector>
-            <targetReference>Account_Fully_verified</targetReference>
+            <targetReference>Account_Fully_Verified</targetReference>
         </connector>
         <inputAssignments>
             <field>ActivityDate</field>
@@ -567,8 +482,8 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
     <recordDeletes>
         <name>Delete_Open_Tasks</name>
         <label>Delete Open Tasks</label>
-        <locationX>1864</locationX>
-        <locationY>871</locationY>
+        <locationX>1623</locationX>
+        <locationY>771</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>RecordTypeId</field>
@@ -657,28 +572,31 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Set_fully_verified_date</name>
-        <label>Set fully verified date</label>
-        <locationX>1405</locationX>
-        <locationY>889</locationY>
-        <connector>
-            <targetReference>Account_First_route_scheduled</targetReference>
-        </connector>
+        <name>Change_Status_to_Onboarding</name>
+        <label>Change Status to Onboarding</label>
+        <locationX>1384</locationX>
+        <locationY>772</locationY>
         <inputAssignments>
             <field>Fully_Verified_Date__c</field>
             <value>
                 <elementReference>$Flow.CurrentDate</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Onboarding</stringValue>
+            </value>
+        </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>49</locationX>
         <locationY>50</locationY>
         <connector>
             <targetReference>New_or_Existing_Account</targetReference>
         </connector>
-        <filterLogic>1 AND 2 AND (3 OR 4 OR 5 or 6)</filterLogic>
+        <filterLogic>1 AND 2 AND (3 OR 4 OR 5)</filterLogic>
         <filters>
             <field>RecordTypeId</field>
             <operator>EqualTo</operator>
@@ -714,32 +632,11 @@ MOD(TODAY() - DATE( 1900, 1, 7 ), 7 ),
                 <stringValue>Onboarding</stringValue>
             </value>
         </filters>
-        <filters>
-            <field>Status__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Prospective</stringValue>
-            </value>
-        </filters>
         <object>Account</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
-    <textTemplates>
-        <name>CCRcasedescription</name>
-        <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>First Job Scheduled: {!$Record.First_Job_Scheduled_Date__c}
-Service Area: {!$Record.Service_Area__c}
-Days Available: {!$Record.Days_available__c}
-Number of jobs a day: {!$Record.Number_of_jobs__c}
-Schedule Notes: {!$Record.Schedule_Notes__c}</text>
-    </textTemplates>
-    <textTemplates>
-        <name>CCRSubject</name>
-        <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>Contractor Change Request Received for: {!$Record.Name}</text>
-    </textTemplates>
     <textTemplates>
         <name>WeeklyCheckInTaskSubject</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

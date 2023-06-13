@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Discovery_Completed_Req</fullName>
+    <active>false</active>
+    <description>Discovery Completed field is required before moving stage to &quot;Validate&quot;</description>
+    <errorConditionFormula>ISCHANGED(StageName)&amp;&amp; ISPICKVAL(StageName, &quot;Validate&quot;) &amp;&amp; Discovery_Completed__c = FALSE</errorConditionFormula>
+    <errorMessage>Please verify that Discovery has been completed before moving this opportunity to &quot;Validate&quot; by checking the &quot;Discover Completed&quot; checkbox</errorMessage>
+</ValidationRule>

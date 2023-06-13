@@ -578,9 +578,9 @@
             <label>Claim Handler Assigned - William Mejia</label>
         </rules>
     </decisions>
-    <description>**Migrated to Flow** Notifies Claim Handler of Claim assignment</description>
-    <interviewLabel>Insurance_Claims_Actions_Process-3_InterviewLabel</interviewLabel>
-    <label>zzz Retired - !Insurance_Claims_Actions_Process</label>
+    <description>Notifies Claim Handler of Claim assignment</description>
+    <interviewLabel>Insurance_Claims_Actions_Process-2_InterviewLabel</interviewLabel>
+    <label>!Insurance_Claims_Actions_Process</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -613,7 +613,7 @@
     </processMetadataValues>
     <processType>Workflow</processType>
     <startElementReference>isChangedDecision2_myRule_1_Claim_Handler_c</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

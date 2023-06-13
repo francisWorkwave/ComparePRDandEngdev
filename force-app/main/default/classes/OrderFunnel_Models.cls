@@ -3,7 +3,10 @@ public with sharing class OrderFunnel_Models {
         public String id;
         public string name;
         public string phone;
+        public string paymentMethod;
+        public string paymentTerms;
         public AddressModel billingAddress;
+        public String externalId; // Added by Fran 05-19-2023
         public List<AdditionalFieldModel> additionalFields {get; set;}
 
         public AccountModel(){
@@ -49,6 +52,8 @@ public with sharing class OrderFunnel_Models {
         public String pricebookId {get;set;}
         public String accessCode {get;set;}
         public String accessNote {get;set;}
+        public String status {get;set;}
+        public String externalId; // Added by Fran 05-19-2023
         public List<AdditionalFieldModel> additionalFields {get; set;}
         public List<MetricModel> metrics {get; set;}
 
@@ -92,8 +97,12 @@ public with sharing class OrderFunnel_Models {
         public String type;
         public String description;
         public String family;
+        public String iconTag;
+        public String color;
+        public String marketingDescription;
         public String merchandisingTags;
         public Boolean clientProduct;
+        public Decimal estimatedEffortMins;
         public List<ServiceTypeModel> serviceTypes;
 
         public ProductSearchResultModel(){
@@ -111,16 +120,47 @@ public with sharing class OrderFunnel_Models {
         public String type;
         public String description;
         public String family;
+        public String iconTag;
+        public String color;
+        public String marketingDescription;
         public String merchandisingTags;
         public String netsuiteItem;
         public String taxCode;
-
+        public String defaultServiceTemplate;
+        public Decimal estimatedEffortMins;
         public List<ServiceTypeModel> serviceTypes;
+
+        // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+        public List<ServiceTemplateModel> serviceTemplates;
+        // End. Fran
+
+        // Added by Fran 05-19-2023 Product2 Api Task - Add productFamily
+        public ProductFamilyModel productFamily;
+        // End. Fran
 
         public Product2Model(){
             ServiceTypes = new List<ServiceTypeModel>();
+            // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+            serviceTemplates = new List<ServiceTemplateModel>();
+            // End. Fran
         }
     }
+
+    // Added by Fran 07-12-2022 Product2 Api Task - Add Service Templates
+    public class ServiceTemplateModel{
+        public String type;
+        public String zone;
+        public String schedule;
+    }
+    // End. Fran
+
+    // Added by Fran 05-19-2023 Product2 Api Task - Add productFamily
+    public class ProductFamilyModel{
+        public String id;
+        public String externalId;
+        public String name;
+    }
+    // End. Fran
 
     public class ServiceTypeModel {
         public String id {get; set;}
@@ -169,6 +209,7 @@ public with sharing class OrderFunnel_Models {
         public String stripeTransactionId {get; set;}
         public AccountModel customer {get; set;}
         public AssetModel asset {get; set;}
+        public String externalId; // Added by Fran 05-19-2023
         public List<BundleModel> bundles {get; set;}
         public List<AdditionalFieldModel> additionalFields {get; set;}
 

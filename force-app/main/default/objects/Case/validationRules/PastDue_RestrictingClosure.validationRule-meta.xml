@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>PastDue_RestrictingClosure</fullName>
-    <active>true</active>
-    <description>Restricting case closure to the specified user.</description>
-    <errorConditionFormula>AND(IsClosed, NOT(CONTAINS($User.Username,&apos;boomi@taskeasy.com&apos;)), RecordType.DeveloperName = &apos;PastDueCase&apos;)</errorConditionFormula>
-    <errorMessage>You are unable to close this case or make modifications to the case after it has been closed.</errorMessage>
-</ValidationRule>

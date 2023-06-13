@@ -73,19 +73,27 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>baseURL</name>
+                    <value>https://prod.taskeasy.com/fulfillment/st-photo-viewer/#</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>fieldApiName</name>
+                    <value>SBQQ__Quote__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>height</name>
                     <value>800</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>PhotoViewerQuote</value>
+                    <name>param</name>
+                    <value>/</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
+                    <name>width</name>
+                    <value>100%</value>
                 </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage</identifier>
+                <componentName>iFrame_Viewer</componentName>
+                <identifier>c_iFrame_Viewer</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-487607a6-1619-457c-b654-16013f757ac5</name>

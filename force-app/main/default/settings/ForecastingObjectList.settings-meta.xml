@@ -270,10 +270,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -282,20 +278,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -330,16 +314,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -408,11 +384,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -462,11 +436,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -747,10 +717,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -759,20 +725,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -807,16 +761,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -885,11 +831,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -939,11 +883,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1228,10 +1168,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -1240,20 +1176,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -1288,16 +1212,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -1367,11 +1283,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -1421,11 +1335,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1706,10 +1616,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -1718,20 +1624,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -1766,16 +1660,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -1844,11 +1730,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -1898,11 +1782,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2187,10 +2067,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -2199,20 +2075,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -2247,16 +2111,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -2326,11 +2182,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -2380,11 +2234,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2665,10 +2515,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -2677,20 +2523,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -2725,16 +2559,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -2803,11 +2629,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -2857,11 +2681,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3146,10 +2966,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -3158,20 +2974,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -3206,16 +3010,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -3285,11 +3081,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -3339,11 +3133,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3624,10 +3414,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -3636,20 +3422,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -3684,16 +3458,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -3762,11 +3528,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -3816,11 +3580,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4105,10 +3865,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -4117,20 +3873,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -4165,16 +3909,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -4244,11 +3980,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -4298,11 +4032,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4583,10 +4313,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -4595,20 +4321,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -4643,16 +4357,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -4721,11 +4427,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -4775,11 +4479,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5064,10 +4764,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -5076,20 +4772,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -5124,16 +4808,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -5203,11 +4879,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -5257,11 +4931,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5542,10 +5212,6 @@
             <label>Budget Confirmed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBL</field>
-            <label>Revenue Opportunity Gross - In Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g00000KOhhC</field>
             <label>Ken&apos;s Radar</label>
         </forecastingObjectListLabelMappings>
@@ -5554,20 +5220,8 @@
             <label>Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBK</field>
-            <label>Revenue Opportunity Gross - Annualized</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N6g000008A5p3</field>
             <label>Frequency</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBN</field>
-            <label>Scope of Work</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBM</field>
-            <label>Revenue Opportunity Net - Annualized</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N4X00000BqLfX</field>
@@ -5602,16 +5256,8 @@
             <label>Owner Last Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N4X00000BWRBJ</field>
-            <label>AFM type</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <label>Fiscal Year</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N6g000007uVJz</field>
@@ -5680,11 +5326,9 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
             <field>00N6g000005dMFV</field>
@@ -5734,11 +5378,7 @@
             <field>00N6g000007uVK5</field>
             <field>00N6g000007uVK6</field>
             <field>00N6g000007uVK7</field>
-            <field>00N4X00000BWRBK</field>
-            <field>00N4X00000BWRBL</field>
-            <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
-            <field>00N4X00000BWRBN</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>

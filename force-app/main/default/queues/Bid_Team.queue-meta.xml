@@ -5,10 +5,12 @@
     <queueMembers>
         <roles>
             <role>Bid_Team</role>
-            <role>Bid_Team_Lead</role>
         </roles>
+        <users>
+            <user>jose.lucero@taskeasy.com</user>
+        </users>
     </queueMembers>
-    <queueRoutingConfig>Single_Assignment</queueRoutingConfig>
+    <queueRoutingConfig>CaseRouting</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

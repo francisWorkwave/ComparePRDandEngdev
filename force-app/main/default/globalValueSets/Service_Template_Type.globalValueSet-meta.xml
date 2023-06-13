@@ -45,6 +45,11 @@
         <default>false</default>
         <label>MSR Premium Refresh</label>
     </customValue>
+    <customValue>
+        <fullName>Snow Triggered</fullName>
+        <default>false</default>
+        <label>Snow Triggered</label>
+    </customValue>
     <masterLabel>Service Template Type</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

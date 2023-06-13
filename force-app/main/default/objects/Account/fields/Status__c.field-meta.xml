@@ -12,24 +12,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Prospective</fullName>
-                <default>false</default>
-                <label>Prospective</label>
-            </value>
-            <value>
                 <fullName>New</fullName>
                 <default>false</default>
                 <label>New</label>
             </value>
             <value>
+                <fullName>Prospective</fullName>
+                <default>false</default>
+                <label>Prospective</label>
+            </value>
+            <value>
                 <fullName>Onboarding</fullName>
                 <default>false</default>
                 <label>Onboarding</label>
-            </value>
-            <value>
-                <fullName>Nesting</fullName>
-                <default>false</default>
-                <label>Nesting</label>
             </value>
             <value>
                 <fullName>Active</fullName>

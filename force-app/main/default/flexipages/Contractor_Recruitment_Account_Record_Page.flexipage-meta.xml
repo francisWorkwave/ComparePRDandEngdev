@@ -303,31 +303,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>160</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>FinancePastDue</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Status_Reason__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Past Due Balance</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>hideUpdateButton</name>
                     <value>false</value>
                 </componentInstanceProperties>
@@ -393,71 +368,19 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>150</value>
+                    <name>flowArguments</name>
+                    <value>[{&quot;label&quot;:&quot;recordId&quot;,&quot;value&quot;:null,&quot;dataType&quot;:&quot;String&quot;,&quot;supportsRecordId&quot;:true,&quot;selected&quot;:false}]</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Account Notes</value>
+                    <name>flowLayout</name>
+                    <value>oneColumn</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>AccountNotes</value>
+                    <name>flowName</name>
+                    <value>Account_Messages</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage2</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 AND 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.RecordType.DeveloperName}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Contractor_Account</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.Account_Notes__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>&apos;&apos;</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>height</name>
-                    <value>102</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Onboarding Status</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>OnboardingStatusAccount</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage3</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.Contractor_Onboarding_Status__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Onboarding 1</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.Contractor_Onboarding_Status__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Onboarding 2</rightValue>
-                    </criteria>
-                </visibilityRule>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

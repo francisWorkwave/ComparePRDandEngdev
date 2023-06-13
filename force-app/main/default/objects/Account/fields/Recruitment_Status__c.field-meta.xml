@@ -12,24 +12,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Contacted</fullName>
-                <default>false</default>
-                <label>Contacted</label>
-            </value>
-            <value>
                 <fullName>Pending Account Validation</fullName>
                 <default>false</default>
                 <label>Pending Account Validation</label>
             </value>
             <value>
-                <fullName>Fully Verified</fullName>
-                <default>false</default>
-                <label>Fully Verified</label>
-            </value>
-            <value>
                 <fullName>First Route Scheduled</fullName>
                 <default>false</default>
                 <label>First Route Scheduled</label>
+            </value>
+            <value>
+                <fullName>Fully Verified</fullName>
+                <default>false</default>
+                <label>Fully Verified</label>
             </value>
         </valueSetDefinition>
     </valueSet>

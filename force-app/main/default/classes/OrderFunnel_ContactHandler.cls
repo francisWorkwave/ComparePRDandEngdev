@@ -1,5 +1,5 @@
 public with sharing class OrderFunnel_ContactHandler extends API_BaseHandler{
-    public override List<Object> handleGet(RestRequest req){
+    /*public override List<Object> handleGet(RestRequest req){
 
         //Parameter extraction
         String contactId = req.requestURI.substring(req.requestURI.lastIndexOf('/')+1);
@@ -20,6 +20,40 @@ public with sharing class OrderFunnel_ContactHandler extends API_BaseHandler{
         setStatusCode(200);
 
         return models;
+    }*/
+
+    public override List<Object> handleGet(RestRequest req){
+
+        //Parameter extraction
+        String accountId = req.params.get('accountId');
+        String externalId = req.params.get('accountExternalId');
+        String includeChildren = req.params.get('includeChildren');
+
+        if (includeChildren == null || includeChildren == '') {
+            includeChildren = 'False';    
+        
+        }else if (includeChildren != 'False' && includeChildren != 'True') {
+            throw new API_Dispatcher.APIException(400, 'includeChildren invalid value');    
+        
+        }else if (accountId == null && externalId == null) {
+            throw new API_Dispatcher.APIException(400, 'No Account identifier');    
+        }
+
+        string filter = 'accountId';
+        if (accountId == null && externalId != null) {
+            accountId = externalId;  
+            filter = 'accountExternalId';      
+        }
+
+        if(OrderFunnel_Utility.isValidId(accountId) == false){
+            throw new API_Dispatcher.APIException(400, 'Account identifier invalid');
+        }
+
+        //Execution Logic
+        List<Contact> contacts = OrderFunnel_ContactUtility.getChildrenContacts(filter, accountId, boolean.ValueOf(includeChildren));
+
+        //return JSON.serialize(contacts);
+        return contacts;
     }
 
     public override List<Object> handlePost(RestRequest req){

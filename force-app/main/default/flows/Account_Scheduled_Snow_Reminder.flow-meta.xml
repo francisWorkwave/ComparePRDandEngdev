@@ -30,8 +30,7 @@
         <label>Send Snow Job Reminder</label>
         <locationX>623</locationX>
         <locationY>486</locationY>
-        <actionName>liveMessageNotification</actionName>
-        <actionType>liveMessageNotification</actionType>
+        <actionName>liveMessageNotificationNotFound</actionName>
         <connector>
             <targetReference>Post_Confirmation_to_Account_Feed</targetReference>
         </connector>
@@ -364,7 +363,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>txtChatterBodySMS</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

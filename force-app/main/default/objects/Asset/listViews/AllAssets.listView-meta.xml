@@ -8,11 +8,9 @@
     <columns>CONTACT.NAME</columns>
     <columns>PRODUCT2.NAME</columns>
     <columns>ASSET.CREATED_DATE</columns>
+    <columns>ASSET.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>ACCOUNT.NAME</field>
-        <operation>equals</operation>
-        <value>Main Street Renewal</value>
-    </filters>
     <label>All Assets</label>
 </ListView>

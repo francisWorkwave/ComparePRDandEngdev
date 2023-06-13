@@ -142,10 +142,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>QC_Primary_Rejection_Reason__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>QC_Rejection_Reason__c</field>
             </layoutItems>
             <layoutItems>

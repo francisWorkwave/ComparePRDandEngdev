@@ -622,7 +622,7 @@
         </rules>
     </decisions>
     <description>Case Routing to bypass Case Assignment rules: New Vertical Team, Finance, Boomi Contractor, Partner Referrals (Home Depot)</description>
-    <interviewLabel>CASE_On_Create_Boomi_New_Vert_Finance_Partner_Referral-7_InterviewLabel</interviewLabel>
+    <interviewLabel>CASE_On_Create_Boomi_New_Vert_Finance_Partner_Referral-6_InterviewLabel</interviewLabel>
     <label>CASE: On Create - Case Routing &lt;&gt; Regional Market Assign</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -768,7 +768,7 @@
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_3_A1</name>
-        <label>Market Support Team Assign</label>
+        <label>CCS Team Assign</label>
         <locationX>300</locationX>
         <locationY>200</locationY>
         <filterLogic>and</filterLogic>
@@ -862,7 +862,7 @@
             <processMetadataValues>
                 <name>rightHandSideLabel</name>
                 <value>
-                    <stringValue>market_support</stringValue>
+                    <stringValue>CCS_Team</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>

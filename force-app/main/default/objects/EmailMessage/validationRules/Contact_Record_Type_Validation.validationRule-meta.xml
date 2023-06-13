@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Record_Type_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Contact_RecordType_Count__c &gt; 1</errorConditionFormula>
+    <errorMessage>Unable to send message to multiple contacts of different types e.g contractor and client.</errorMessage>
+</ValidationRule>
