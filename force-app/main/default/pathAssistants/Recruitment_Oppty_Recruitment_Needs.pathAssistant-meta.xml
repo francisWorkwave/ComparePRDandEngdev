@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Recruitment_Opportunity__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Recruitment Oppty - Recruitment Needs</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>OpenDate__c</fieldNames>
+        <fieldNames>TaskType__c</fieldNames>
+        <fieldNames>RO_Market__c</fieldNames>
+        <fieldNames>Crews_Needed__c</fieldNames>
+        <fieldNames>Crews_Recruited__c</fieldNames>
+        <picklistValueName>New Request</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status__c</fieldNames>
+        <fieldNames>Sub_Status__c</fieldNames>
+        <fieldNames>RO_Market__c</fieldNames>
+        <fieldNames>Crews_Needed__c</fieldNames>
+        <fieldNames>Crews_Recruited__c</fieldNames>
+        <picklistValueName>Recruiting</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Recruitment_Needs</recordTypeName>
+</PathAssistant>

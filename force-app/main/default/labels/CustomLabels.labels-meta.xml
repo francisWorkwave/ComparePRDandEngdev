@@ -32,6 +32,62 @@
         <value>To end the chat now, click &quot;Confirm End Chat&quot; below.</value>
     </labels>
     <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateEnd_04I8L000000003j_7177729</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateEnd_04I8L000000003j_7177729</shortDescription>
+        <value>Confirm End Request</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatButtonClose_04I8L000000003j_5952966</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatButtonClose_04I8L000000003j_5952966</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatEndAgent_04I8L000000003j_7855841</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatEndAgent_04I8L000000003j_7855841</shortDescription>
+        <value>Ended by Agent</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatEndChatbot_04I8L000000003j_2462025</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatEndChatbot_04I8L000000003j_2462025</shortDescription>
+        <value>Conversation Ended</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatEndConnection_04I8L000000003j_3988348</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatEndConnection_04I8L000000003j_3988348</shortDescription>
+        <value>Ended from Lost Connection</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatEnd_04I8L000000003j_2929190</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatEnd_04I8L000000003j_2929190</shortDescription>
+        <value>Ended</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I8L000000003j_2753883</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I8L000000003j_2753883</shortDescription>
+        <value>Ended due to timeout</value>
+    </labels>
+    <labels>
         <fullName>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogBo_04I6g000000YLGP_5795021</fullName>
         <categories>Snap-ins</categories>
         <language>en_US</language>
@@ -46,6 +102,30 @@
         <protected>false</protected>
         <shortDescription>LA_OfflineSupport_CloseConfirmation_ConfirmationDialogTi_04I6g000000YLGP_1086954</shortDescription>
         <value>Thank you for reaching out.</value>
+    </labels>
+    <labels>
+        <fullName>LA_PreChat_Base_LiveChat_04I8L000000003j_2678627</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_PreChat_Base_LiveChat_04I8L000000003j_2678627</shortDescription>
+        <value>Contact Us</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingCancelChatRequest_04I8L000000003j_7654503</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingCancelChatRequest_04I8L000000003j_7654503</shortDescription>
+        <value>Cancel Request</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingMessage_04I8L000000003j_5304593</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingMessage_04I8L000000003j_5304593</shortDescription>
+        <value>Loading...</value>
     </labels>
     <labels>
         <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>

@@ -106,6 +106,21 @@
             <field>Approved_Hours__c</field>
             <table>Time_Card__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Employee_Role__c</field>
+            <table>Time_Card__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Active_Employee__c</field>
+            <table>Time_Card__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner_is_Active__c</field>
+            <table>Time_Card__c</table>
+        </columns>
         <masterLabel>Time Cards</masterLabel>
     </sections>
 </ReportType>

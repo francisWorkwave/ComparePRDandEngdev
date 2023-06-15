@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acc_Finance_Contacts_Req_For_Closed_Won</fullName>
+    <active>true</active>
+    <description>Requires the field &quot;Finance COntacts&quot; be required when the related opportunity is moved to &quot;Closed Won&quot;</description>
+    <errorConditionFormula>AND(
+ISBLANK(Account.Finance_Contacts__c),
+ISPICKVAL(StageName,&apos;Closed Won&apos;),
+$Profile.Name &lt;&gt; &quot;AM Standard User&quot;)</errorConditionFormula>
+    <errorMessage>You must include a value in the related Account field: &quot;Finance Contacts&quot; before moving this opportunity to Closed Won</errorMessage>
+</ValidationRule>

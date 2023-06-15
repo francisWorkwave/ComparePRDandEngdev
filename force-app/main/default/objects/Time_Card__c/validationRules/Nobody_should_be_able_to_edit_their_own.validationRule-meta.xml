@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Nobody_should_be_able_to_edit_their_own</fullName>
-    <active>false</active>
-    <description>Nobody should be able to edit their own time cards where modified by user = Employee__c user</description>
-    <errorConditionFormula>AND(!isNew(), LastModifiedById =  Employee__c)</errorConditionFormula>
-    <errorMessage>You are not able to edit your Time Card</errorMessage>
-</ValidationRule>

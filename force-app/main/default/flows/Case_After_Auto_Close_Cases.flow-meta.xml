@@ -39,6 +39,7 @@
         </connector>
     </assignments>
     <description>Closes cases that originated from email address = mailer-daemon@salesforce.com</description>
+    <environments>Default</environments>
     <interviewLabel>Case - After = Auto Close Cases {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case - After = Auto Close Cases</label>
     <processMetadataValues>

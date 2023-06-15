@@ -22,7 +22,7 @@
     </filters>
     <filters>
         <field>CORE.USERS.ALIAS</field>
-        <operation>contains</operation>
+        <operation>equals</operation>
         <value>bdavi</value>
     </filters>
     <label>All Open Leads</label>

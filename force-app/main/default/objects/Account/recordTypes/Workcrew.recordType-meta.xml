@@ -10,15 +10,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Cub Cadet</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Current Client</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Gary List</fullName>
             <default>false</default>
         </values>
         <values>

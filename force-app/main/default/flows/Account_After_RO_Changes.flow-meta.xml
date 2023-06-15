@@ -166,6 +166,7 @@
         </rules>
     </decisions>
     <description>Auto submits approval process when the status of a contractor account is set to inactive and route optimization was activated less than 14 days ago.</description>
+    <environments>Default</environments>
     <formulas>
         <description>Gets todays date minus 14</description>
         <name>Todayminus14</name>

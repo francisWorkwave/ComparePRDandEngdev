@@ -125,6 +125,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Account Sub - After - Contact Roles {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Account (Sub) - After - Contact Roles</label>
     <loops>

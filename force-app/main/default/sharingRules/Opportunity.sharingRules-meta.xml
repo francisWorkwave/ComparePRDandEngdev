@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Oppoortunity_Managers_can_edit_all_opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allows members of the Opportunity Managers public group read/write access to all open opportunities.</description>
+        <label>Oppoortunity Managers can edit all opportunities</label>
+        <sharedTo>
+            <group>Opportunity_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

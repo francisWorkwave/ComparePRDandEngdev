@@ -37,6 +37,10 @@
         <recordType>Contact.Client_Contact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Task.Sales_Task</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>

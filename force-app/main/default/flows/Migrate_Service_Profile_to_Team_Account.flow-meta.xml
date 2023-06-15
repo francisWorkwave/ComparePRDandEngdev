@@ -45,6 +45,7 @@
             <label>Migrate</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>*Migrate - Service Profile to Team Account {!$Flow.CurrentDateTime}</interviewLabel>
     <label>*Migrate - Service Profile to Team Account</label>
     <processMetadataValues>

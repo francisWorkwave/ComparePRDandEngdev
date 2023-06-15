@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>RequiresWorkCrewRecordTypeOnAccount</fullName>
-    <active>true</active>
-    <description>Region Assignment requires WorkCrew Record Type on Account</description>
-    <errorConditionFormula>Account__r.RecordType.DeveloperName != &apos;Workcrew&apos;</errorConditionFormula>
-    <errorDisplayField>Account__c</errorDisplayField>
-    <errorMessage>A Region Assignment can only be linked to a Contractor Workcrew Account. Please select a Workcrew account as the parent record.</errorMessage>
-</ValidationRule>

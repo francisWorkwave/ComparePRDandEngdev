@@ -120,6 +120,7 @@
             <label>IsInAppAdditional</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Case - Before - Case Assignment {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case - Before - Assignment</label>
     <processMetadataValues>

@@ -27,14 +27,6 @@
         <description>Notify on Opportunity Stage Change</description>
         <protected>false</protected>
         <recipients>
-            <recipient>aaron.lewis@taskeasy.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>adrian.raso@taskeasy.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>matt.cazer@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
@@ -75,7 +67,7 @@
     <fieldUpdates>
         <fullName>Opportunity_Name</fullName>
         <field>Name</field>
-        <formula>Account.Name &amp; &quot; / &quot; &amp;  Market__c &amp; &quot; / &quot; &amp; TEXT( Product__c )</formula>
+        <formula>Account.Name &amp; &quot; - &quot; &amp;  Market__c &amp; &quot; - &quot; &amp; TEXT( Product__c )</formula>
         <name>Opportunity Name</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>

@@ -3,6 +3,9 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Bid Team</name>
     <queueMembers>
+        <publicGroups>
+            <publicGroup>Trainers</publicGroup>
+        </publicGroups>
         <roles>
             <role>Bid_Team</role>
             <role>Bid_Team_Lead</role>

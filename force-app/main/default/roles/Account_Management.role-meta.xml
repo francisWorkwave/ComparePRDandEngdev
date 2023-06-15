@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Account Management</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Director_of_Client_Success</parentRole>
+    <parentRole>Account_Management_Manager</parentRole>
 </Role>

@@ -45,6 +45,10 @@
                 <field>Amount_of_Request__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ContractorSalesTax__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Issue_To__c</field>
             </layoutItems>

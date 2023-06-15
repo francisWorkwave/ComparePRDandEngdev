@@ -450,6 +450,11 @@
             <field>Exclude_From_Restriction_Rules__c</field>
             <table>User</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TEI_User__c</field>
+            <table>User</table>
+        </columns>
         <masterLabel>Users</masterLabel>
     </sections>
     <sections>

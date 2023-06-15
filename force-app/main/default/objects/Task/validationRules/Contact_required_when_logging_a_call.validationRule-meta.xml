@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_required_when_logging_a_call</fullName>
+    <active>false</active>
+    <description>Requires that the &quot;Name&quot; field is not blank when saving a &quot;Log a Call&quot; / &quot;Comment&quot; record</description>
+    <errorConditionFormula>AND(
+ISBLANK( WhoId ), NOT(ISBLANK( Description ))
+)</errorConditionFormula>
+    <errorDisplayField>WhoId</errorDisplayField>
+    <errorMessage>You must select a Contact when logging a call</errorMessage>
+</ValidationRule>

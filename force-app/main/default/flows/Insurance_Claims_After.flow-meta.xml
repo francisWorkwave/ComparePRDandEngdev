@@ -109,6 +109,7 @@
             <label>Claim Handler Assigned</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <description>Whe is new</description>
         <name>isNew</name>

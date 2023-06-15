@@ -614,6 +614,7 @@
             <label>Case owned by Queue</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>CaseContactRole</name>
         <dataType>String</dataType>
