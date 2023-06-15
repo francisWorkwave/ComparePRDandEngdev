@@ -63,6 +63,7 @@
             <label>isRecordNew</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>isNew</name>
         <dataType>Boolean</dataType>
@@ -192,6 +193,7 @@
         <connector>
             <targetReference>Context</targetReference>
         </connector>
+        <filterFormula>{!$Record.RecordType.DeveloperName} == &apos;Urgent_Client_Request&apos;</filterFormula>
         <object>Case</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>restrict_user_field_changes</fullName>
+    <active>true</active>
+    <description>restricts access to modify user profile fields to system admin or boomi profiles only</description>
+    <errorConditionFormula>AND(
+ $Profile.Name  &lt;&gt; &quot;System Administrator&quot;,
+ 
+OR( 
+
+ISCHANGED( FirstName ),
+ISCHANGED( MiddleName ),
+ISCHANGED( LastName ),
+ISCHANGED( Suffix ),
+ISCHANGED( Alias ),
+ISCHANGED( Email ),
+ISCHANGED( Username ),
+ISCHANGED( CommunityNickname ),
+ISCHANGED( Phone ),
+ISCHANGED( Extension ),
+ISCHANGED( Fax ),
+ISCHANGED( MobilePhone ),
+ISCHANGED( Street ),
+ISCHANGED( City ),
+ISCHANGED( State ),
+ISCHANGED( PostalCode ),
+ISCHANGED( Country ),
+ISCHANGED( CompanyName ),
+ISCHANGED( Title ),
+ISCHANGED( Department ),
+ISCHANGED( Division ),
+ISCHANGED( EmployeeNumber ),
+ISCHANGED( StartDay ),
+ISCHANGED( EndDay )
+),
+
+OR(
+
+AND(
+ $Profile.Name  &lt;&gt; &quot;Secondary Administrator&quot;,
+ 
+OR( 
+
+ISCHANGED( FirstName ),
+ISCHANGED( MiddleName ),
+ISCHANGED( LastName ),
+ISCHANGED( Suffix ),
+ISCHANGED( Alias ),
+ISCHANGED( Email ),
+ISCHANGED( Username ),
+ISCHANGED( CommunityNickname ),
+ISCHANGED( Phone ),
+ISCHANGED( Extension ),
+ISCHANGED( Fax ),
+ISCHANGED( MobilePhone ),
+ISCHANGED( Street ),
+ISCHANGED( City ),
+ISCHANGED( State ),
+ISCHANGED( PostalCode ),
+ISCHANGED( Country ),
+ISCHANGED( CompanyName ),
+ISCHANGED( Title ),
+ISCHANGED( Department ),
+ISCHANGED( Division ),
+ISCHANGED( EmployeeNumber ),
+ISCHANGED( StartDay ),
+ISCHANGED( EndDay )
+))))</errorConditionFormula>
+    <errorMessage>Please contact your supervisor if you need to update your personal information</errorMessage>
+</ValidationRule>

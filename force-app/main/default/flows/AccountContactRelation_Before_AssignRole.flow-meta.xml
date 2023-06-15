@@ -85,6 +85,7 @@
             <label>Work Crew Lead</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>AccountContactRelation - Before - Assign Role {!$Flow.CurrentDateTime}</interviewLabel>
     <label>AccountContactRelation - Before - Assign Role</label>
     <processMetadataValues>

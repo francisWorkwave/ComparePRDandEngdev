@@ -49,7 +49,7 @@
         <description>Insurance Claim Assignment Notification - William Mejia</description>
         <protected>false</protected>
         <recipients>
-            <recipient>william.mejia@taskeasy.com</recipient>
+            <recipient>jared.wangsgard@taskeasy.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

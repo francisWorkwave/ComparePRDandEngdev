@@ -1,0 +1,47 @@
+<template>
+    <template if:true={backgroundImgURL}>
+        <img src={backgroundImgURL}/>
+    </template>
+
+    <div if:true={hasFields}>
+        <div class="formContent embeddedServiceSidebarForm">
+            <div class="slds-var-p-around_medium">
+                <template for:each={fields} for:item="field">
+                    <div key={field.name} class="slds-var-p-bottom_small">
+                        <span class="slds-form-element__label slds-no-flex slds-float_left">
+                            <span if:true={field.required}
+                                class="slds-text-color_destructive slds-var-p-right_xxx-small">*</span>
+                            {field.label}
+                        </span>
+                        <div if:true={field.combo}>
+                            <lightning-combobox name={field.name} label={field.label} variant="label-hidden"
+                                value={field.value} options={field.options} required={field.required}>
+                            </lightning-combobox>
+                        </div>
+                        <div if:false={field.combo}>
+                            <lightning-input name={field.name} type={field.type} label={field.label} variant="label-hidden"
+                                class="text-align" value={field.value} required={field.required}>
+                            </lightning-input>
+                        </div>
+                    </div>
+                </template>
+                <!--lightning-input type="checkbox" required label="I agree to the Terms & Conditions" name="input2" ></lightning-input-->
+
+                <span class="slds-form-element__label slds-no-flex slds-float_left"><p> 
+                    <input type="checkbox" required name="input2" onclick={termConditions} ></input> &nbsp;&nbsp;
+                    I agree to TaskEasy's <a href="https://www.taskeasy.com/company/terms" target="_blank">Terms of Use</a> & &nbsp;
+                    <a href="https://www.taskeasy.com/company/privacy" target="_blank">Privacy Policy</a>   
+                    </p>
+                </span>
+            </div>
+        </div>
+
+        <div class="buttonWrapper embeddedServiceSidebarForm">
+            <button type="button" onclick={handleStartChat} disabled={disableButton}
+                class="slds-button slds-button--neutral startButton uiButton--default uiButton embeddedServiceSidebarButton">
+                <span class="label bBody">Submit</span>
+            </button>
+        </div>
+        
+    </div>
+</template>

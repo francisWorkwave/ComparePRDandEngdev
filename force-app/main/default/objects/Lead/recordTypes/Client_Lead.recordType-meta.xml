@@ -263,11 +263,11 @@
     <picklistValues>
         <picklist>LeadSource</picklist>
         <values>
-            <fullName>Cold Call</fullName>
+            <fullName>BDR Program</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Cub Cadet</fullName>
+            <fullName>Cold Call</fullName>
             <default>false</default>
         </values>
         <values>
@@ -275,11 +275,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Gary List</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Home Depot</fullName>
+            <fullName>List Import</fullName>
             <default>false</default>
         </values>
         <values>

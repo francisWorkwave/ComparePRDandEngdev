@@ -45,6 +45,11 @@
                 <operation>notEqual</operation>
                 <value>TEI Site Manager</value>
             </criteriaItems>
+            <criteriaItems>
+                <field>Time_Card__c.Employee_Role__c</field>
+                <operation>notEqual</operation>
+                <value>TEI Site Manager</value>
+            </criteriaItems>
         </entryCriteria>
         <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
         <label>Site Manager HND</label>
@@ -73,6 +78,11 @@
                 <operation>notEqual</operation>
                 <value>TEI Site Manager</value>
             </criteriaItems>
+            <criteriaItems>
+                <field>Time_Card__c.Employee_Role__c</field>
+                <operation>notEqual</operation>
+                <value>TEI Site Manager</value>
+            </criteriaItems>
         </entryCriteria>
         <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
         <label>Site Manager GUA</label>
@@ -98,6 +108,11 @@
             </criteriaItems>
             <criteriaItems>
                 <field>User.UserRole</field>
+                <operation>notEqual</operation>
+                <value>TEI Site Manager</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Time_Card__c.Employee_Role__c</field>
                 <operation>notEqual</operation>
                 <value>TEI Site Manager</value>
             </criteriaItems>

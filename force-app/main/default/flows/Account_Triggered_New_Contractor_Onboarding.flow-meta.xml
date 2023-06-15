@@ -266,6 +266,7 @@
             <label>Status changed?</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>BeginningOrEnd</name>
         <dataType>String</dataType>

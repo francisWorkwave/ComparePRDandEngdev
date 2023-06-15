@@ -314,6 +314,13 @@
             <label>Daily Reminder</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ApprovedAmount</name>
+        <dataType>Currency</dataType>
+        <expression>{!$Record.Amount_of_Request__c} + {!$Record.ContractorSalesTax__c}</expression>
+        <scale>2</scale>
+    </formulas>
     <interviewLabel>Comp Request - After - Submit for Approval and Actions {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Comp Request - After - Submit for Approval / Actions</label>
     <processMetadataValues>
@@ -434,7 +441,7 @@
         <inputAssignments>
             <field>Approved_Amount__c</field>
             <value>
-                <elementReference>$Record.Amount_of_Request__c</elementReference>
+                <elementReference>ApprovedAmount</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>

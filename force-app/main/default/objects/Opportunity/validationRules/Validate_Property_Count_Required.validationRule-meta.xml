@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Property_Count_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(  StageName  , &quot;Validate&quot;) &amp;&amp;   ISBLANK( Total_Property_Count_this_opportunity__c )</errorConditionFormula>
+    <errorMessage>Total Property Count is required</errorMessage>
+</ValidationRule>

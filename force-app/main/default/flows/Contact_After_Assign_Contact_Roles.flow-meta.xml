@@ -117,6 +117,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Contact - After - Assign Contact Roles {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Contact - After - Assign Contact Roles</label>
     <loops>
@@ -186,11 +187,19 @@
         <connector>
             <targetReference>setLoopVariable</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
         <object>Contact</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>AccountContactRelationship</name>
         <dataType>SObject</dataType>

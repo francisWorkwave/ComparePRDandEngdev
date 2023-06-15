@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disco_Property_Count_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Total_Property_Count_this_opportunity__c )  &amp;&amp;   ISPICKVAL( StageName , &quot;educate/disco&quot;)</errorConditionFormula>
+    <errorDisplayField>Total_Property_Count_this_opportunity__c</errorDisplayField>
+    <errorMessage>Total Property Count Required</errorMessage>
+</ValidationRule>

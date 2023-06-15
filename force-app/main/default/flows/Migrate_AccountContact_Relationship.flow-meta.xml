@@ -37,6 +37,7 @@
             <label>Contractor</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>*Migrate - AccountContact Relationship {!$Flow.CurrentDateTime}</interviewLabel>
     <label>*Migrate - AccountContact Relationship</label>
     <processMetadataValues>

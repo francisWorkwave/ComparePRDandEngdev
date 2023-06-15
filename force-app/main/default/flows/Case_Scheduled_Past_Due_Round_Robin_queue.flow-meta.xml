@@ -103,6 +103,7 @@
             <label>Cases Exist</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>AddIterationToPreviousOrder</name>
         <dataType>Number</dataType>

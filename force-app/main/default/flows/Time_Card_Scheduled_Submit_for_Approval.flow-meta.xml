@@ -196,6 +196,7 @@
         </rules>
     </decisions>
     <description>Weekly flow to submit time cards for approval.</description>
+    <environments>Default</environments>
     <interviewLabel>Time Card - Scheduled - Submit for Approval {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Time Card - Scheduled - Submit for Approval</label>
     <processMetadataValues>

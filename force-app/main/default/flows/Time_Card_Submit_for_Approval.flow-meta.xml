@@ -202,7 +202,7 @@
                 <leftValueReference>varRecordId.Employee__r.UserRoleId</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>0a26c7fc-79ad-4b3e-bd9a-8c25aa8bc74a.Id</stringValue>
+                    <elementReference>GetSiteManagerRole.Id</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -319,6 +319,7 @@
             <label>PW - Rejected</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Time Card - Submit for Approval {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Time Card - Submit for Approval</label>
     <processMetadataValues>
@@ -442,7 +443,7 @@
             <targetReference>Time_Card_Status</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>varNextApproverIds</name>
         <dataType>String</dataType>

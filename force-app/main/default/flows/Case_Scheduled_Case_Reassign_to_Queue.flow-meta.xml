@@ -38,6 +38,7 @@
             <label>Bid_Process_Details</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Case - Scheduled - Case Reassign to Queue {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case - Scheduled - Case Reassign to Queue</label>
     <processMetadataValues>

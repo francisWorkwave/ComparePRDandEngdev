@@ -864,15 +864,6 @@
         <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
-        <profile>TE Dev - Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Client_Funds_Adjustment</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
-        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
-        <type>Flexipage</type>
         <profile>TE Development</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -1279,6 +1270,15 @@
         <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Funds_Adjustment</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Funds_Adjustment_Request__c</pageOrSobjectType>
+        <recordType>Funds_Adjustment_Request__c.Client_Adjustment</recordType>
+        <type>Flexipage</type>
+        <profile>TE Dev - Read Only</profile>
     </profileActionOverrides>
     <tabs>standard-MessagingSession</tabs>
     <tabs>standard-MessagingEndUser</tabs>

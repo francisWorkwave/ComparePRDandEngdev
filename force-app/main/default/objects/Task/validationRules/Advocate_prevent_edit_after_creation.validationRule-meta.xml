@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advocate_prevent_edit_after_creation</fullName>
+    <active>true</active>
+    <description>Prevents edit after the creation of a record at the Advocate level</description>
+    <errorConditionFormula>IF(
+AND(
+ISCHANGED( Description ),
+OR(
+$Profile.Name = &apos;TEI Advocate&apos;, 
+$Profile.Name = &apos;BPI Advocate&apos;, 
+$Profile.Name = &apos;SLC Advocate&apos;)
+), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>You cannot edit comments</errorMessage>
+</ValidationRule>

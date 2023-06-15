@@ -106,6 +106,10 @@
                 <behavior>Edit</behavior>
                 <field>Scope_of_Work__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>WorkWave_Rep__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

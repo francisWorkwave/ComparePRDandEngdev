@@ -124,6 +124,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Program_Participation__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>RO_Market__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -283,6 +287,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Account_Geolocation_custom__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PR_Contractor__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>

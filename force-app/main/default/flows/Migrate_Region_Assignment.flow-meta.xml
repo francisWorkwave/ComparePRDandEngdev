@@ -45,6 +45,7 @@
             <label>Migrate</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>*Migrate - Region Assignment {!$Flow.CurrentDateTime}</interviewLabel>
     <label>*Migrate - Region Assignment</label>
     <processMetadataValues>

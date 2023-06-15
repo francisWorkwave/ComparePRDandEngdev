@@ -241,8 +241,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -279,6 +287,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -337,6 +349,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -351,6 +367,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -449,6 +469,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -475,6 +503,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -514,7 +546,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -524,6 +558,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -538,10 +573,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -566,6 +603,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -573,6 +612,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -740,8 +780,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -778,6 +826,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -836,6 +888,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -850,6 +906,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -948,6 +1008,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -974,6 +1042,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1013,7 +1085,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -1023,6 +1097,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -1037,10 +1112,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -1065,6 +1142,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1072,6 +1151,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1243,8 +1323,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -1281,6 +1369,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -1339,6 +1431,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -1353,6 +1449,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -1451,6 +1551,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -1477,6 +1585,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1517,7 +1629,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -1527,6 +1641,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -1541,10 +1656,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -1569,6 +1686,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -1576,6 +1695,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1743,8 +1863,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -1781,6 +1909,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -1839,6 +1971,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -1853,6 +1989,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -1951,6 +2091,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -1977,6 +2125,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2016,7 +2168,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -2026,6 +2180,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -2040,10 +2195,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -2068,6 +2225,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2075,6 +2234,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -2246,8 +2406,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -2284,6 +2452,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -2342,6 +2514,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -2356,6 +2532,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -2454,6 +2634,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -2480,6 +2668,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2520,7 +2712,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -2530,6 +2724,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -2544,10 +2739,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -2572,6 +2769,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -2579,6 +2778,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -2746,8 +2946,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -2784,6 +2992,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -2842,6 +3054,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -2856,6 +3072,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -2954,6 +3174,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -2980,6 +3208,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3019,7 +3251,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -3029,6 +3263,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -3043,10 +3278,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -3071,6 +3308,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3078,6 +3317,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -3249,8 +3489,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -3287,6 +3535,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -3345,6 +3597,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -3359,6 +3615,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -3457,6 +3717,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -3483,6 +3751,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3523,7 +3795,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -3533,6 +3807,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -3547,10 +3822,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -3575,6 +3852,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -3582,6 +3861,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -3749,8 +4029,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -3787,6 +4075,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -3845,6 +4137,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -3859,6 +4155,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -3957,6 +4257,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -3983,6 +4291,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -4022,7 +4334,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -4032,6 +4346,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -4046,10 +4361,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -4074,6 +4391,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4081,6 +4400,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -4252,8 +4572,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -4290,6 +4618,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -4348,6 +4680,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -4362,6 +4698,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -4460,6 +4800,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -4486,6 +4834,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -4526,7 +4878,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -4536,6 +4890,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -4550,10 +4905,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -4578,6 +4935,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -4585,6 +4944,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -4752,8 +5112,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -4790,6 +5158,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -4848,6 +5220,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -4862,6 +5238,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -4960,6 +5340,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -4986,6 +5374,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -5025,7 +5417,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -5035,6 +5429,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -5049,10 +5444,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -5077,6 +5474,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5084,6 +5483,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -5255,8 +5655,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -5293,6 +5701,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -5351,6 +5763,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -5365,6 +5781,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -5463,6 +5883,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -5489,6 +5917,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -5529,7 +5961,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -5539,6 +5973,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -5553,10 +5988,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -5581,6 +6018,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -5588,6 +6027,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -5755,8 +6195,16 @@
             <label>Assigned Account Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGg</field>
+            <label>Booking Value</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g000005dMFV</field>
             <label>Budget Confirmed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C77rd</field>
+            <label>Case Safe ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000IcLsE</field>
@@ -5793,6 +6241,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000007uVK1</field>
             <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000Awdvq</field>
+            <label>Create Related Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5sM</field>
@@ -5851,6 +6303,10 @@
             <label>Market</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGh</field>
+            <label>Monthly Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N6g00000O9rpS</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </opportunityListFieldsLabelMappings>
@@ -5865,6 +6321,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5iB</field>
             <label>MSA Signer Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGd</field>
+            <label>Net Revenue Per Service</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N6g000008A5eT</field>
@@ -5963,6 +6423,14 @@
             <label>Scope of Work</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGe</field>
+            <label>Services Per Month</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000AwiGf</field>
+            <label>Services Per Year</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4X00000BqJZK</field>
             <label>Source Location</label>
         </opportunityListFieldsLabelMappings>
@@ -5989,6 +6457,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N6g00000Tkb3v</field>
             <label>What types of properties need service</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4X00000C78bM</field>
+            <label>WorkWave Rep</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -6028,7 +6500,9 @@
             <field>00N4X00000BWRBJ</field>
             <field>00N6g000007uVJz</field>
             <field>00N6g00000FYUvA</field>
+            <field>00N4X00000AwiGg</field>
             <field>00N6g000005dMFV</field>
+            <field>00N4X00000C77rd</field>
             <field>00N6g00000IcLsE</field>
             <field>00N4X00000BqLfc</field>
             <field>00N6g00000GlmQU</field>
@@ -6038,6 +6512,7 @@
             <field>00N6g00000TpGrD</field>
             <field>00N6g000007uVK0</field>
             <field>00N6g000007uVK1</field>
+            <field>00N4X00000Awdvq</field>
             <field>00N6g000008A5sM</field>
             <field>00N6g000005dMFW</field>
             <field>00N6g00000E7NsB</field>
@@ -6052,10 +6527,12 @@
             <field>00N6g000005dMFY</field>
             <field>00N6g000008A62C</field>
             <field>00N6g00000E7Xjo</field>
+            <field>00N4X00000AwiGh</field>
             <field>00N6g00000O9rpS</field>
             <field>00N6g00000O9rpT</field>
             <field>00N6g000008A5i6</field>
             <field>00N6g000008A5iB</field>
+            <field>00N4X00000AwiGd</field>
             <field>00N6g000008A5eT</field>
             <field>00N6g0000081KOx</field>
             <field>00N6g000007uVK3</field>
@@ -6080,6 +6557,8 @@
             <field>00N4X00000BWRBM</field>
             <field>00N6g000005dMFX</field>
             <field>00N4X00000BWRBN</field>
+            <field>00N4X00000AwiGe</field>
+            <field>00N4X00000AwiGf</field>
             <field>00N4X00000BqJZK</field>
             <field>00N6g00000Hn67W</field>
             <field>00N6g00000EvUHT</field>
@@ -6087,6 +6566,7 @@
             <field>00N4X00000BqMTr</field>
             <field>00N6g00000TGrzI</field>
             <field>00N6g00000Tkb3v</field>
+            <field>00N4X00000C78bM</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>

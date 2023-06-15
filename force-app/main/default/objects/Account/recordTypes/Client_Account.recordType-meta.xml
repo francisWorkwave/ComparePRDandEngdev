@@ -7,6 +7,10 @@
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
+            <fullName>BDR Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Cold Call</fullName>
             <default>false</default>
         </values>
@@ -15,7 +19,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Gary List</fullName>
+            <fullName>List Import</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1513,6 +1517,10 @@
         </values>
         <values>
             <fullName>Archived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
             <default>false</default>
         </values>
         <values>

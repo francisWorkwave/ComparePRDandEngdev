@@ -151,6 +151,7 @@
             <label>Kickoff call date has been set</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>ClientKickOffEndDate</name>
         <dataType>DateTime</dataType>
