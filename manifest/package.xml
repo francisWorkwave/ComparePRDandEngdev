@@ -74,7 +74,8 @@
 		<members>SBQQ__QuoteLineGroup__c</members>
 		<members>SBQQ__QuoteLine__c</members>
 		<members>SBQQ__Quote__c</members>
-		<members>SBQQ__Quote__c</members>
+		<members>Product_Family__c</members>
+		<members>ResidentLease__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
